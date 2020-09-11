@@ -16,37 +16,40 @@
             <!--D.A.M 은 미래를 향해 나아갑니다-->
         </h1>
     </header>
+
         <nav>
-            <fieldset>
-                <legend>이메일</legend>
-                <input type="text" name="email">
+            <div>
+                <label for="email">이메일</label>
+                <input type="text" name="email"id="email">
                 <!-- 추후 자바스크립트로 이메일 정규식 추가 예정-->
                 <input type="button" value="중복확인" name="overlapcheck_email">
-            </fieldset>
-            <fieldset>
-                <legend>아이디</legend>
-                <input type="text" name="ID">
+            </div>
+            <div>
+                <label for="ID">아이디</label>
+                <input type="text" name="ID" id="ID">
                 <input type="button" value="중복확인" name="overlapcheck_ID">
-            </fieldset>
-            <fieldset>
-                <legend>비밀번호</legend>
-                <input type="password"name="pw">
-            </fieldset>
-            <fieldset>
-                <legend>비밀번호확인</legend>
-                <input type="password" name="pwc">
-                <!-- 추후 자바스크립트로 비밀번호와 비밀번호 확인이 같은지 판별하는 것 추가 예정-->
-            </fieldset>
-            <fieldset>
-                <legend>전화번호</legend>
-                <input type="text" name="phnum">
+            </div>
+            <div>
+                <span>
+                    <label for="pw1">비밀번호</label>
+                    <input type="password"name="pw1" id="pw1">
+                </span>
+                <span>
+                    <label for="pw2">비밀번호확인</label>
+                    <input type="password" name="pw2" id="pw2">
+                    <!-- 추후 자바스크립트로 비밀번호와 비밀번호 확인이 같은지 판별하는 것 추가 예정-->
+                </span>
+            </div>
+            <div>
+                <label for="phnum">전화번호</label>
+                <input type="text" name="phnum" id="phnum">
                 <!-- 추후 자바스크립트로 전화번호 정규식 추가 예정-->
-            </fieldset>
-            <fieldset>
-                <legend>계약 내용동의체크박스_1</legend>
-                계약 내용(라이센스)<br>동의함
-                <input type="checkbox" name="agreemnet_1">
-            </fieldset>
+            </div>
+            <div>
+                <div>계약 내용동의체크박스_1</div>
+                <p>계약 내용(라이센스)</p><br>동의함
+                <input type="radio" name="agreemnet_1">
+            </div>
         </nav>
     </body>
 </html>

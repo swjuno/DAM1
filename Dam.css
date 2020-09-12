@@ -10,7 +10,7 @@ title#titlelogo{
     overflow: hidden}
 a#homelogo{
     width: 150px;
-    height: 83px;
+    height: 65px;
     display: inline-block;
     background-image: url(./homelogo.jpg);
 }

@@ -25,29 +25,6 @@ a {
     color: #333;
     text-decoration: none;
 }
-input {
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: initial;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    -webkit-appearance: textfield;
-    background-color: white;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 0px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}
 .inner_login {
     position: absolute;
     left: 50%;
@@ -70,7 +47,6 @@ input {
 body, button, input, select, td, textarea, th {
     font-size: 13px;
     line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
 }
 fieldset, img {
     border: 0;
@@ -86,11 +62,11 @@ fieldset, img {
     position: relative;
     width: 100%;
     margin: 0;
-    padding: 18px 19px 19px;
     box-sizing: border-box;
+    padding: 0px;
 }
 .login_Dam .inp_text+.inp_text {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #dddddd;
 }
 .inp_text input {
     display: block;
@@ -100,8 +76,8 @@ fieldset, img {
     color: #000000;
     border: none;
     outline: 0;
-    -webkit-appearance: none;
     background-color: transparent;
+    padding: 18px;
 }
 .btn_login {
     margin: 20px 0 0;

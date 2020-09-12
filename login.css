@@ -14,10 +14,10 @@ a#homelogo{
     overflow: hidden;
 }
 a#loginlogo{
-    width: 546px;
-    height: 236px;
+    width: 463px;
+    height: 200px;
     display: inline-block;
-    background-image: url(./biglogo.jpg);
+    background-image: url(./biglogo1.jpg);
     text-indent: 101%;
     overflow: hidden;
 }

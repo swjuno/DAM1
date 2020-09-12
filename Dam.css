@@ -9,8 +9,6 @@ title#titlelogo{
     margin: -1px;
     overflow: hidden}
 a#homelogo{
-    width: 198px;
-    height: 48px;
     display: inline-block;
-    border-image: url(./로고.jpg);
+    background-image: url(./로고.jpg);
 }

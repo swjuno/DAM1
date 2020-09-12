@@ -1,6 +1,3 @@
-title#titlelogo{
-
-}
 .blind {/* 스크린 리더에는 안보이는 클래스*/
     position: absolute;
     clip: rect(0 0 0 0);

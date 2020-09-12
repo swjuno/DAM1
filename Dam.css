@@ -13,4 +13,6 @@ a#homelogo{
     height: 100px;
     display: inline-block;
     background-image: url(./homelogo.jpg);
+    text-indent: 101%;
+    overflow: hidden;
 }

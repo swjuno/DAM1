@@ -64,9 +64,11 @@ fieldset, img {
     margin: 0;
     box-sizing: border-box;
     padding: 0px;
+    width: 260px;
 }
 .login_Dam .inp_text+.inp_text {
     border-top: 1px solid #dddddd;
+    margin-right: 0px;
 }
 .inp_text input {
     display: block;
@@ -131,4 +133,7 @@ fieldset, img {
 .login_append .txt_find {
     float: right;
     color: #777777;
+}
+.uu{
+    text-decoration: none
 }

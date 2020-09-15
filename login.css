@@ -110,11 +110,12 @@ fieldset, img {
     width: 18px;
     height: 18px;
     border: 0;
+    background: white;
 }
 .inp_chk .lab_g {
     display: inline-block;
     margin-right: 19px;
-    color: #909090;
+    color: #000000;
     font-size: 13px;
     line-height: 19px;
     vertical-align: top;

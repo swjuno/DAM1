@@ -72,7 +72,7 @@ fieldset, img {
 }
 .inp_text input {
     display: block;
-    width: 100%;
+    width: 260px;
     height: 100%;
     font-size: 13px;
     color: #000000;

@@ -9,7 +9,7 @@ a#homelogo{
     width: 231px;
     height: 100px;
     display: inline-block;
-    background-image: url(./homelogo.jpg);
+    background-image: url(./homelogo.png);
     text-indent: 101%;
     overflow: hidden;
 }
@@ -30,4 +30,13 @@ html,body{
 }
 li {
     text-align: -webkit-match-parent;
+}
+nav li{
+    display: inline-block;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
 }

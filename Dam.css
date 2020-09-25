@@ -40,3 +40,44 @@ nav ul{
     list-style: none;
 
 }
+#login_group {
+    position: fixed;
+    right: 0;
+    top: 40px;
+    margin-right: 45px;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+}
+
+#login {
+    margin-right: -4px;
+}
+
+#login_2 {
+    margin-left: -3px;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style-type: none;
+}
+
+.nav_item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav_item a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.nav_item:hover {
+    background-color: darkgray;
+}

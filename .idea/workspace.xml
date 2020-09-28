@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="ㄴㅇㅁㅇ">
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="ㄴㅇㅁㅇㅁㄴㄹ">
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,21 +82,7 @@
       <workItem from="1600930505114" duration="3034000" />
       <workItem from="1600989415500" duration="2726000" />
       <workItem from="1601025841859" duration="11409000" />
-      <workItem from="1601294919170" duration="8835000" />
-    </task>
-    <task id="LOCAL-00014" summary="패비콘 주소 수정 ver.3">
-      <created>1599841543936</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1599841543936</updated>
-    </task>
-    <task id="LOCAL-00015" summary="홈으로가는 로고&#10;이메일&#10;아이디&#10;비밀번호(확인)&#10;전화번호&#10;라이센스 내용과 체크박스 추가">
-      <created>1599841837383</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1599841837383</updated>
+      <workItem from="1601294919170" duration="9252000" />
     </task>
     <task id="LOCAL-00016" summary="중복확인 버튼 추가">
       <created>1599842341704</created>
@@ -426,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601303571192</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ">
+      <created>1601303789020</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1601303789020</updated>
+    </task>
+    <task id="LOCAL-00064" summary="ㄴㅇㅁㅇㅁㄴㄹ">
+      <created>1601303820654</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1601303820654</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,8 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="안닫힌 태그 /추가" />
-    <MESSAGE value="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가" />
     <MESSAGE value="로고 링크 클래스 블라인드추가" />
     <MESSAGE value="로고 추가" />
     <MESSAGE value="회원가입 로그인창 홈로고아이콘 추가" />
@@ -470,17 +469,19 @@
     <MESSAGE value="왜 적용안되냐 십X" />
     <MESSAGE value="제발 돼라" />
     <MESSAGE value="ㄴㅇㅁㅇ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ㄴㅇㅁㅇ" />
+    <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ" />
+    <MESSAGE value="ㄴㅇㅁㅇㅁㄴㄹ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ㄴㅇㅁㅇㅁㄴㄹ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601303783692">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601303821606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601303783692" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601303821606" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

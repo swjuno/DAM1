@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="제발 돼라" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="ㄴㅇㅁㅇ">
+      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,14 +81,7 @@
       <workItem from="1600930505114" duration="3034000" />
       <workItem from="1600989415500" duration="2726000" />
       <workItem from="1601025841859" duration="11409000" />
-      <workItem from="1601294919170" duration="8530000" />
-    </task>
-    <task id="LOCAL-00013" summary="패비콘 주소 수정 ver.3">
-      <created>1599841492361</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1599841492361</updated>
+      <workItem from="1601294919170" duration="8835000" />
     </task>
     <task id="LOCAL-00014" summary="패비콘 주소 수정 ver.3">
       <created>1599841543936</created>
@@ -424,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601303464475</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="ㄴㅇㅁㅇ">
+      <created>1601303571192</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1601303571192</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +445,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="목록 주요, 세부 div{ div ,&#10;div" />
     <MESSAGE value="안닫힌 태그 /추가" />
     <MESSAGE value="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가" />
     <MESSAGE value="로고 링크 클래스 블라인드추가" />
@@ -468,17 +469,18 @@
     <MESSAGE value="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ" />
     <MESSAGE value="왜 적용안되냐 십X" />
     <MESSAGE value="제발 돼라" />
-    <option name="LAST_COMMIT_MESSAGE" value="제발 돼라" />
+    <MESSAGE value="ㄴㅇㅁㅇ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ㄴㅇㅁㅇ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601303465610">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601303783692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601303465610" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601303783692" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

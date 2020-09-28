@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,14 +82,7 @@
       <workItem from="1600930505114" duration="3034000" />
       <workItem from="1600989415500" duration="2726000" />
       <workItem from="1601025841859" duration="11409000" />
-      <workItem from="1601294919170" duration="7187000" />
-    </task>
-    <task id="LOCAL-00010" summary="패비콘 주소 수정 ver.3">
-      <created>1599841127666</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1599841127666</updated>
+      <workItem from="1601294919170" duration="8057000" />
     </task>
     <task id="LOCAL-00011" summary="패비콘 주소 수정 ver.3">
       <created>1599841300525</created>
@@ -424,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601301903302</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ">
+      <created>1601302519253</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302519253</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,10 +478,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601301904586">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601302520814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601301904586" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601302520814" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

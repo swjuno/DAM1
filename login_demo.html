@@ -1,26 +1,38 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon_icon.jpg"/>
     <link rel="stylesheet" href="./login.css">
     <title>DAM</title>
     <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요" />
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(document).ready(function(){ $("#spreadBtn02").click(function(){ if($("#hiddenList01").is(":visible")){ $("#hiddenList01").slideUp(); }else{ $("#hiddenList01").slideDown(); } }); });
+    </script>
 
 <body>
 <div src="./shapelined-_JBKdviweXI-unsplash.jpg"style="position: absolute;width: 100%;background-image: url(./shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;">
 <header>
     <div style="height: 115px"></div>
-    <div style="margin: 0 auto; width: 465px;">
+    <div style="margin: 0 auto; width: 465px; border-bottom-color: black;">
         <a href="./DAM.html" id="loginlogo">D.A.M</a>
         <!--D.A.M 은 미래를 향해 나아갑니다-->
-    </div>
+    </div >
 </header>
 <main>
 <div>
     <div class="login_Dam">
             <fieldset>
-                <legend class="screen_out">로그인 정보 입력</legend>
+                <button id="spreadBtn02" type="button" class="login_btn" style="display: flex; background-color: #ffffff;outline: none; border-color: #ffffff;">
+                        <img src="favicon_icon-removebg.png"style="width: 24px;height: 24px;"/>
+                        <div style="color: #000000;flex: 1 1;font-size: 16px;">기본아이디로 로그인하기</div>
+                </button>
+                <ul id="hiddenList01" class="example01" style="display: none; padding-left: 0px;
+">
+
+                <li style="list-style: none;">
+                    <legend class="screen_out">로그인 정보 입력</legend>
                 <div class="box_login"style="background: rgba(255,255,255,0.60)">
                     <div class="inp_text" style="width: 295px;">
                         <label for="loginId" class="screen_out">아이디</label>
@@ -31,21 +43,34 @@
                         <input type="password" id="loginPw" name="password" placeholder="Password">
                     </div>
                 </div>
-                <input type="submit" class="btn_login" value="로그인">
-                <div class="login_append">
-                    <!--<div class="inp_chk">  배경추가시 안보임 수정필요
-                        <input type="checkbox" id="keepLogin" class="inp_radio" name="keepLogin" style="color: white">
-                        <label for="keepLogin" class="lab_g">
-                            <span class="img_top ico_check"></span>
-                            <span class="txt_lab">로그인 상태 유지</span>
-                        </label>-->
-                </div>
-                    <span class="txt_find">
+                </li>
+                    <li style="list-style: none;">
+                        <input type="submit" class="btn_login" value="로그인">
+                        <div class="login_append">
+                        </div>
+                    </li>
+                </ul>
+
+
+                <!--<div class="fb-login-button" data-size="large" logindata-button-type="_with" data data-layout="default"-auto-logout-link="false" data-use-continue-as="false" data-width="">Facebook 아이디로 로그인</div>-->
+
+                <button type="button" class="login_btn" style="display: flex; background-color: #4d71a7;outline: none; border-color: #4d71a7;">
+                    <img src="facebook_login_logo.png"/>
+                    <div style="color: #ffffff;flex: 1 1;font-size: 16px;">페이스북으로 로그인하기</div>
+                </button>
+                <button type="button" class="login_btn" style="display: flex; background-color: #60d04c;outline: none; border-color: #60d04c;">
+                    <img src="naver_login_logo.png"/>
+                    <div style="color: #ffffff;flex: 1 1;font-size: 16px;">네이버로 로그인하기</div>
+                </button>
+                <button type="button" class="login_btn" style="display: flex; background-color: #ffffff;outline: none; border-color: #ffffff;">
+                    <img src="google_login_logo.png"/>
+                    <div style="color: #000000;flex: 1 1;font-size: 16px;">구글로 로그인하기</div>
+                </button>
+                <span class="txt_find">
                         <a href="./find_id_pw.html">아이디/비밀번호 찾기</a>
                         <span style="width: 20px;"></span>
                         <a href="restrationpage.html">회원가입</a>
                     </span>
-                <div class="fb-login-button" data-size="medium" logindata-button-type="_with" data data-layout="default"-auto-logout-link="false" data-use-continue-as="false" data-width="">Facebook으로 로그인</div>
             </fieldset>
     </div>
 </div>

@@ -19,12 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="9/25 10:00">
-      <change afterPath="$PROJECT_DIR$/DAM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_icon-removebg.png" afterDir="false" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="커밋">
+      <change afterPath="$PROJECT_DIR$/facebook_login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro_membership.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naver_login.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naver_login_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam_refacor.html" beforeDir="false" afterPath="$PROJECT_DIR$/dam_refacor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intro_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restrationpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/restrationpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,20 +92,7 @@
       <workItem from="1600930505114" duration="3034000" />
       <workItem from="1600989415500" duration="2726000" />
       <workItem from="1601025841859" duration="11409000" />
-    </task>
-    <task id="LOCAL-00007" summary="패비콘 주소 수정 ver.2">
-      <created>1599840653730</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1599840653730</updated>
-    </task>
-    <task id="LOCAL-00008" summary="패비콘 주소 수정 ver.3">
-      <created>1599840845472</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1599840845472</updated>
+      <workItem from="1601294919170" duration="6673000" />
     </task>
     <task id="LOCAL-00009" summary="패비콘 주소 수정 ver.3">
       <created>1599840889986</created>
@@ -429,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601039066677</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="커밋">
+      <created>1601295155680</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1601295155680</updated>
+    </task>
+    <task id="LOCAL-00057" summary="커밋">
+      <created>1601295205632</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1601295205632</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="실수(mistake)처리" />
     <MESSAGE value="radio버튼 동의 비동의 만듬" />
     <MESSAGE value="홈 화면 ul li 재구성" />
     <MESSAGE value="목록 세부사항 태그 a 추가" />
@@ -473,17 +480,18 @@
     <MESSAGE value="영진이메인nav 브랜치합치는과정1" />
     <MESSAGE value="홈로고 사이즈 조정 nav합침" />
     <MESSAGE value="9/25 10:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/25 10:00" />
+    <MESSAGE value="커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="커밋" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601039067561">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601295225138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601039067561" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601295225138" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -492,9 +500,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599838876893" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600010917808">
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601299235921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600010917808" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601299235921" />
   </component>
 </project>

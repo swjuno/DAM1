@@ -138,3 +138,12 @@ fieldset, img {
 .uu{
     text-decoration: none
 }
+.login_btn{
+    width: 100%;
+    height: 48px;
+    border: 1px solid;
+    padding: 12px;
+    margin:12px;
+    font-weight:400;
+    margin-left: 0px;
+}

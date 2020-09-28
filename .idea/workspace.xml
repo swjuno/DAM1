@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
-    </list>
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="제발 돼라" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,21 +79,7 @@
       <workItem from="1600930505114" duration="3034000" />
       <workItem from="1600989415500" duration="2726000" />
       <workItem from="1601025841859" duration="11409000" />
-      <workItem from="1601294919170" duration="8057000" />
-    </task>
-    <task id="LOCAL-00011" summary="패비콘 주소 수정 ver.3">
-      <created>1599841300525</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1599841300525</updated>
-    </task>
-    <task id="LOCAL-00012" summary="패비콘 주소 수정 ver.3">
-      <created>1599841452892</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1599841452892</updated>
+      <workItem from="1601294919170" duration="8530000" />
     </task>
     <task id="LOCAL-00013" summary="패비콘 주소 수정 ver.3">
       <created>1599841492361</created>
@@ -427,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601302519253</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="왜 적용안되냐 십X">
+      <created>1601303051239</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1601303051239</updated>
+    </task>
+    <task id="LOCAL-00061" summary="제발 돼라">
+      <created>1601303464475</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1601303464475</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,8 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="홈 화면 ul li 재구성" />
-    <MESSAGE value="목록 세부사항 태그 a 추가" />
     <MESSAGE value="목록 주요, 세부 div{ div ,&#10;div" />
     <MESSAGE value="안닫힌 태그 /추가" />
     <MESSAGE value="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가" />
@@ -471,17 +466,19 @@
     <MESSAGE value="9/25 10:00" />
     <MESSAGE value="커밋" />
     <MESSAGE value="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ" />
+    <MESSAGE value="왜 적용안되냐 십X" />
+    <MESSAGE value="제발 돼라" />
+    <option name="LAST_COMMIT_MESSAGE" value="제발 돼라" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601302520814">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601303465610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601302520814" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601303465610" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

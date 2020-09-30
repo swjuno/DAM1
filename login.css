@@ -143,9 +143,8 @@ fieldset, img {
     height: 48px;
     border: 1px solid;
     padding: 12px;
-    margin-bottom:12px;
-    margin-right: 12px;
-    margin-top: 12px;
+    margin: 12px;
     font-weight:400;
     margin-left: 0px;
+    cursor: pointer;
 }

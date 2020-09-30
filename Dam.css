@@ -51,7 +51,7 @@ nav ul{
     padding: 5px;
 }
 
-#login {
+#login_1 {
     margin-right: -4px;
 }
 
@@ -80,5 +80,32 @@ nav ul{
     color: white;
 }
 .nav_item:hover {
-    background-color: darkgray;
+    background-color: rgb(55, 68, 255);
+}
+.login:hover, .login_set:hover {
+    background-color: #1d4ccf;
+}
+
+.login:active, .login_set:active {
+    box-shadow: 0 3px #dfdf;
+    transform: translateY(4px);
+}
+.login, .login_set {
+    background-color: black;
+    display: inline-block;
+    height: 32px;
+    width: 120px;
+    padding: 1px 15px;
+    margin: 1px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px #dfdfdf;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
 }

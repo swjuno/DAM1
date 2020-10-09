@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="login">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAM.js" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam_refacor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restrationpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/restrationpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thomas-renaud-_i2uAmskZcQ-unsplash.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,14 +90,10 @@
       <workItem from="1600989415500" duration="2726000" />
       <workItem from="1601025841859" duration="11409000" />
       <workItem from="1601294919170" duration="12299000" />
-      <workItem from="1601446836699" duration="3990000" />
-    </task>
-    <task id="LOCAL-00018" summary="홈화면에서 로그인 빼고 다른 페이지로 분리">
-      <created>1599843143995</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1599843143995</updated>
+      <workItem from="1601446836699" duration="4221000" />
+      <workItem from="1602177240732" duration="608000" />
+      <workItem from="1602191816768" duration="6808000" />
+      <workItem from="1602221001583" duration="2299000" />
     </task>
     <task id="LOCAL-00019" summary="리팩토링&#10;라벨링&#10;div span 회원가입 로그인창 구별">
       <created>1599844565602</created>
@@ -429,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601447640455</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="login">
+      <created>1601451021116</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1601451021116</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,10 +489,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601447641965">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602221310985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601447641965" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602221310985" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602193593154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601451022077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601451022077" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

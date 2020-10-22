@@ -19,15 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="login">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="nav hover">
+      <change afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam_refacor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restrationpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/restrationpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thomas-renaud-_i2uAmskZcQ-unsplash.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -94,13 +92,10 @@
       <workItem from="1602177240732" duration="608000" />
       <workItem from="1602191816768" duration="6808000" />
       <workItem from="1602221001583" duration="2299000" />
-    </task>
-    <task id="LOCAL-00019" summary="리팩토링&#10;라벨링&#10;div span 회원가입 로그인창 구별">
-      <created>1599844565602</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1599844565602</updated>
+      <workItem from="1602223517383" duration="63000" />
+      <workItem from="1602250548579" duration="3836000" />
+      <workItem from="1602437081140" duration="3000" />
+      <workItem from="1603401450514" duration="354000" />
     </task>
     <task id="LOCAL-00020" summary="실수(mistake)처리">
       <created>1599844947299</created>
@@ -438,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601451021116</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="nav hover">
+      <created>1602223556347</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1602223556347</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="회원가입 로그인창 홈로고아이콘 추가" />
     <MESSAGE value="로그인 화면 css 적용 완료" />
     <MESSAGE value="로그인페이지 로고 축소 및 수정" />
     <MESSAGE value="로그인페이지 로고 축소 및 수정&#10;biglogo1 git add" />
@@ -482,7 +483,8 @@
     <MESSAGE value="ㄴㅇㅁㅇㅁㄴㄹ" />
     <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄻㄻㅇ" />
     <MESSAGE value="login" />
-    <option name="LAST_COMMIT_MESSAGE" value="login" />
+    <MESSAGE value="nav hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav hover" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -497,10 +499,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601451022077">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602223563615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601451022077" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602223563615" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

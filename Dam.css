@@ -155,4 +155,9 @@ nav ul{
 .dropdown-content a:hover{
     background-color: #596ebd
 }
-
+.maincontainer {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 1180px;
+}

@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="wqqr">
+      <change afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAMcreatorsintro.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAMcreatorsintro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hMyCtmS0IXctROUBo8Ica41waO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -91,21 +102,7 @@
       <workItem from="1602250548579" duration="3836000" />
       <workItem from="1602437081140" duration="3000" />
       <workItem from="1603401450514" duration="1288000" />
-      <workItem from="1603544790727" duration="1838000" />
-    </task>
-    <task id="LOCAL-00023" summary="목록 세부사항 태그 a 추가">
-      <created>1599846455178</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1599846455178</updated>
-    </task>
-    <task id="LOCAL-00024" summary="목록 주요, 세부 div{ div ,&#10;div">
-      <created>1599846562034</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1599846562034</updated>
+      <workItem from="1603544790727" duration="5942000" />
     </task>
     <task id="LOCAL-00025" summary="안닫힌 태그 /추가">
       <created>1599847216351</created>
@@ -436,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603402136922</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="commit">
+      <created>1603548932063</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1603548932063</updated>
+    </task>
+    <task id="LOCAL-00073" summary="commit">
+      <created>1603549038673</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1603549038673</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +466,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="로그인 id pw인풋창 paddin 설정&#10;여백 선택해도 텍스트로 이동" />
     <MESSAGE value="로그인 회원가입 버튼 위로 이동&#10;아이디찾기 비번찾기 페이지 추가" />
     <MESSAGE value="로그인화면 바탕 추가" />
     <MESSAGE value="배경 추가시 로그인 유지 체크박스 안보임현상 발생&#10;주석처리" />
@@ -480,7 +490,8 @@
     <MESSAGE value="facebookloginbuttton" />
     <MESSAGE value="asdqwrqwr" />
     <MESSAGE value="wqqr" />
-    <option name="LAST_COMMIT_MESSAGE" value="wqqr" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -507,9 +518,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599838876893" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601299235921">
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603552571011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601299235921" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603552571011" />
   </component>
 </project>

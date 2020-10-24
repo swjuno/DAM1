@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="nav hover">
-      <change afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="wqqr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restrationpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/restrationpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,28 +90,8 @@
       <workItem from="1602223517383" duration="63000" />
       <workItem from="1602250548579" duration="3836000" />
       <workItem from="1602437081140" duration="3000" />
-      <workItem from="1603401450514" duration="354000" />
-    </task>
-    <task id="LOCAL-00020" summary="실수(mistake)처리">
-      <created>1599844947299</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1599844947299</updated>
-    </task>
-    <task id="LOCAL-00021" summary="radio버튼 동의 비동의 만듬">
-      <created>1599845165820</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1599845165820</updated>
-    </task>
-    <task id="LOCAL-00022" summary="홈 화면 ul li 재구성">
-      <created>1599846289454</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1599846289454</updated>
+      <workItem from="1603401450514" duration="1288000" />
+      <workItem from="1603544790727" duration="1838000" />
     </task>
     <task id="LOCAL-00023" summary="목록 세부사항 태그 a 추가">
       <created>1599846455178</created>
@@ -440,7 +415,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602223556347</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="facebookloginbuttton">
+      <created>1603401866370</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1603401866370</updated>
+    </task>
+    <task id="LOCAL-00070" summary="asdqwrqwr">
+      <created>1603401969005</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1603401969005</updated>
+    </task>
+    <task id="LOCAL-00071" summary="wqqr">
+      <created>1603402136922</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1603402136922</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,9 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="로그인 화면 css 적용 완료" />
-    <MESSAGE value="로그인페이지 로고 축소 및 수정" />
-    <MESSAGE value="로그인페이지 로고 축소 및 수정&#10;biglogo1 git add" />
     <MESSAGE value="로그인 id pw인풋창 paddin 설정&#10;여백 선택해도 텍스트로 이동" />
     <MESSAGE value="로그인 회원가입 버튼 위로 이동&#10;아이디찾기 비번찾기 페이지 추가" />
     <MESSAGE value="로그인화면 바탕 추가" />
@@ -484,7 +477,10 @@
     <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄻㄻㅇ" />
     <MESSAGE value="login" />
     <MESSAGE value="nav hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav hover" />
+    <MESSAGE value="facebookloginbuttton" />
+    <MESSAGE value="asdqwrqwr" />
+    <MESSAGE value="wqqr" />
+    <option name="LAST_COMMIT_MESSAGE" value="wqqr" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -499,10 +495,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602223563615">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603402138940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602223563615" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603402138940" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

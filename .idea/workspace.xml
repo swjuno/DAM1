@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="wqqr">
-      <change afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="bogi chuga">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAMcreatorsintro.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAMcreatorsintro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,14 +98,7 @@
       <workItem from="1602250548579" duration="3836000" />
       <workItem from="1602437081140" duration="3000" />
       <workItem from="1603401450514" duration="1288000" />
-      <workItem from="1603544790727" duration="5942000" />
-    </task>
-    <task id="LOCAL-00025" summary="안닫힌 태그 /추가">
-      <created>1599847216351</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1599847216351</updated>
+      <workItem from="1603544790727" duration="6594000" />
     </task>
     <task id="LOCAL-00026" summary="안닫힌 태그 /추가">
       <created>1599886430821</created>
@@ -447,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603549038673</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="bogi chuga">
+      <created>1603553269157</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1603553269157</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +462,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="로그인 회원가입 버튼 위로 이동&#10;아이디찾기 비번찾기 페이지 추가" />
     <MESSAGE value="로그인화면 바탕 추가" />
     <MESSAGE value="배경 추가시 로그인 유지 체크박스 안보임현상 발생&#10;주석처리" />
     <MESSAGE value="로그인 테셀레이션 추가" />
@@ -491,7 +486,8 @@
     <MESSAGE value="asdqwrqwr" />
     <MESSAGE value="wqqr" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="bogi chuga" />
+    <option name="LAST_COMMIT_MESSAGE" value="bogi chuga" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -506,10 +502,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603402138940">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603553270896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603402138940" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603553270896" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

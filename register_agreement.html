@@ -64,7 +64,7 @@
                         </span>
                         <span>
                             만 14세 이상입니다 (필수)
-                            <a href="" class=""value="보기"style=""onclick="showPopupsel(privacy.html,privacy)">보기</a>
+                            <a href="" class=""value="보 기"style=""onclick="showPopup('./privacy.html','privacy');">보기</a>
                         </span>
                     </div>
                 </fieldset>
@@ -84,9 +84,9 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v8.0&appId=335417594215675&autoLogAppEvents=1" nonce="NJWHVwCc"></script>
     <script language="JavaScript">
-        function showPopupsel(url,name)
+        function showPopup(url,name)
         {
-        window.open(url, name, "width=400, height=300, left=100, top=50");
+        window.open(toString(url), toString(name), "width=400, height=300, left=100, top=50");
         }
     </script>
 </div>

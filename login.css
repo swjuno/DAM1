@@ -148,3 +148,28 @@ fieldset, img {
     margin-left: 0px;
     cursor: pointer;
 }
+.basicbtn {
+    background-color: black;
+    display: inline-block;
+    height: 32px;
+    width: 120px;
+    padding: 1px 15px;
+    margin: 1px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 2px #b3b1b1;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.basicbtn:hover{
+    background-color: #1d4ccf;
+}
+.basicbtn:active{
+    transform: translateY(3px);
+}

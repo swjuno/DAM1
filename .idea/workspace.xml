@@ -19,8 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="bogi chuga1">
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="bogi 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAM.js" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restrationpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/restrationpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,28 +107,7 @@
       <workItem from="1602437081140" duration="3000" />
       <workItem from="1603401450514" duration="1288000" />
       <workItem from="1603544790727" duration="7222000" />
-      <workItem from="1603608350060" duration="325000" />
-    </task>
-    <task id="LOCAL-00030" summary="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가">
-      <created>1599888689683</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1599888689683</updated>
-    </task>
-    <task id="LOCAL-00031" summary="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가">
-      <created>1599888719886</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1599888719886</updated>
-    </task>
-    <task id="LOCAL-00032" summary="로고 링크 클래스 블라인드추가">
-      <created>1599888804785</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1599888804785</updated>
+      <workItem from="1603608350060" duration="6246000" />
     </task>
     <task id="LOCAL-00033" summary="로고 링크 클래스 블라인드추가">
       <created>1599889283663</created>
@@ -443,7 +431,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603608616199</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="bogi 3">
+      <created>1603608684762</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1603608684762</updated>
+    </task>
+    <task id="LOCAL-00080" summary="bogi 4">
+      <created>1603608745855</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1603608745855</updated>
+    </task>
+    <task id="LOCAL-00081" summary="bogi 4">
+      <created>1603609457704</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1603609457704</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="로그인 테셀레이션 추가" />
-    <MESSAGE value="로그인 인풋 범위 px로 설정" />
     <MESSAGE value="파이어베이스 인증코드" />
     <MESSAGE value="파이어베이스 인증코드삭제" />
     <MESSAGE value="페이스북 로그인버튼 추가" />
@@ -487,7 +494,9 @@
     <MESSAGE value="bogi chuga" />
     <MESSAGE value="bogi chuga1" />
     <MESSAGE value="asa" />
-    <option name="LAST_COMMIT_MESSAGE" value="asa" />
+    <MESSAGE value="bogi 3" />
+    <MESSAGE value="bogi 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="bogi 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -502,10 +511,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603553913878">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603609461467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603553913878" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603609461467" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

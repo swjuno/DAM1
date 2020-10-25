@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="회원가입 완성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +101,7 @@
       <workItem from="1603544790727" duration="7222000" />
       <workItem from="1603608350060" duration="11766000" />
       <workItem from="1603631163013" duration="3485000" />
-      <workItem from="1603634687116" duration="384000" />
-    </task>
-    <task id="LOCAL-00037" summary="로고 추가">
-      <created>1599889903842</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1599889903842</updated>
+      <workItem from="1603634687116" duration="1661000" />
     </task>
     <task id="LOCAL-00038" summary="로고 추가">
       <created>1599889982618</created>
@@ -445,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603634481138</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="asd">
+      <created>1603635086232</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1603635086232</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +465,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="영진이메인nav 브랜치합치는과정1" />
     <MESSAGE value="홈로고 사이즈 조정 nav합침" />
     <MESSAGE value="9/25 10:00" />
     <MESSAGE value="커밋" />
@@ -489,7 +489,8 @@
     <MESSAGE value="registration agreement page 정렬" />
     <MESSAGE value="fix something" />
     <MESSAGE value="회원가입 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원가입 완성" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -504,10 +505,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603634482234">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603635087317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603634482234" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603635087317" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

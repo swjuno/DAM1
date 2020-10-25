@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="bogi chuga1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,27 +98,7 @@
       <workItem from="1602437081140" duration="3000" />
       <workItem from="1603401450514" duration="1288000" />
       <workItem from="1603544790727" duration="7222000" />
-    </task>
-    <task id="LOCAL-00027" summary="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가">
-      <created>1599887979982</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1599887979982</updated>
-    </task>
-    <task id="LOCAL-00028" summary="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가">
-      <created>1599888600093</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1599888600093</updated>
-    </task>
-    <task id="LOCAL-00029" summary="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가">
-      <created>1599888664065</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1599888664065</updated>
+      <workItem from="1603608350060" duration="325000" />
     </task>
     <task id="LOCAL-00030" summary="로고 링크 클래스 블라인드추가&#10;로고 이미지 추가">
       <created>1599888689683</created>
@@ -442,7 +422,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603553912624</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="asa">
+      <created>1603608411947</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1603608411947</updated>
+    </task>
+    <task id="LOCAL-00077" summary="asa">
+      <created>1603608472592</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1603608472592</updated>
+    </task>
+    <task id="LOCAL-00078" summary="asa">
+      <created>1603608616199</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1603608616199</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +462,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배경 추가시 로그인 유지 체크박스 안보임현상 발생&#10;주석처리" />
     <MESSAGE value="로그인 테셀레이션 추가" />
     <MESSAGE value="로그인 인풋 범위 px로 설정" />
     <MESSAGE value="파이어베이스 인증코드" />
@@ -486,7 +486,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="bogi chuga" />
     <MESSAGE value="bogi chuga1" />
-    <option name="LAST_COMMIT_MESSAGE" value="bogi chuga1" />
+    <MESSAGE value="asa" />
+    <option name="LAST_COMMIT_MESSAGE" value="asa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">

@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="fix something">
+      <change afterPath="$PROJECT_DIR$/register_phonenumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/register_agreement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restrationpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/restrationpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,14 +104,8 @@
       <workItem from="1602437081140" duration="3000" />
       <workItem from="1603401450514" duration="1288000" />
       <workItem from="1603544790727" duration="7222000" />
-      <workItem from="1603608350060" duration="6703000" />
-    </task>
-    <task id="LOCAL-00035" summary="로고 링크 클래스 블라인드추가">
-      <created>1599889441400</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1599889441400</updated>
+      <workItem from="1603608350060" duration="11766000" />
+      <workItem from="1603631163013" duration="3220000" />
     </task>
     <task id="LOCAL-00036" summary="로고 링크 클래스 블라인드추가">
       <created>1599889672265</created>
@@ -444,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603616199640</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="fix something">
+      <created>1603616220436</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1603616220436</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,21 +509,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603616200663">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603616221330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603616200663" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603616221330" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599893206030" />
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599838876893">
+    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603630904363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599838876893" />
+    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603630904363" />
     <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603552571011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603552571011" />
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603632656693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603632656693" />
   </component>
 </project>

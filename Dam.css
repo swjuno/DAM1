@@ -58,12 +58,10 @@ nav ul{
     cursor: pointer;
     position: relative;
     top: 18px;
-}
-
-.dropbtn a {
     text-align: right;
     text-decoration: none;
     color: white;
+    padding: 15px;
 }
 .login:hover, .login_set:hover {
     background-color: #1d4ccf;
@@ -161,3 +159,23 @@ nav ul{
     padding: 30px 20px;
     width: 1180px;
 }
+.textcenter {
+    text-align: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.fadein3s {
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+

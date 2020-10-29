@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon_icon-removebg.png"/>
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>DAM</title>
+    <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요" />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <div src="/images/shapelined-_JBKdviweXI-unsplash.jpg"style="position: absolute;width: 100%;top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;">
+        <header>
+            <div style="height: 115px"></div>
+            <div style="margin: 0 auto; width: 465px; border-bottom-color: black;">
+                <a href="/html/DAM.html" id="loginlogo">DAM</a>
+                <!--D.A.M 은 미래를 향해 나아갑니다-->
+            </div >
+        </header>
+        <main>
+            <div class="maincontainer">
+                <div class="login_Dam">
+                    <fieldset>
+                        <div style="padding: 30px;position: relative;width: 300px;">
+                            <span>
+                                <input type="checkbox"class="checkbox"/>
+                            </span>
+                            <span style="font-size: 17px;">
+                                모두동의
+                            </span>
+                        </div>
+                        <div style="padding: 30px;position: relative;width: 300px;">
+                            <span>
+                                <input type="checkbox"class="checkbox"/>
+                            </span>
+                            <span style="font-size: 17px;">
+                                만 14세 이상입니다 (필수)
+                            </span>
+                            <span style="font-size: 15px;">
+                            <a href="" class=""value="보 기"style=""onclick="showPopup('/html/privacy.html','privacy');">보기</a>
+                            </span>
+                        </div>
+                        <div style="padding: 30px;position: relative;width: 300px;">
+                            <span>
+                                <input type="checkbox"class="checkbox"/>
+                            </span>
+                            <span style="font-size: 17px;">
+                                개인정보 수집 동의(필수)
+                            </span>
+                            <span style="margin-left: 7px;font-size: 15px;">
+                            <a href="" class=""value="보 기"style=""onclick="showPopup('/html/privacy.html','privacy');">보기</a>
+                            </span>
+                        </div>
+                        <div style="padding: 30px;position: relative;width: 300px;">
+                            <span>
+                                <input type="checkbox"class="checkbox"/>
+                            </span>
+                            <span style="font-size: 17px;">
+                                알림 수신 동의(선택)
+                            </span>
+                            <span style="margin-left: 41px;font-size: 15px;">
+                            <a href="" class=""value="보 기"style=""onclick="showPopup('/html/privacy.html','privacy');">보기</a>
+                            </span>
+                        </div>
+                    </fieldset>
+                </div>
+                <div style="position: relative;">
+                    <input type="button" class="basicbtn"value="다음" style="position: absolute;top:30px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"onclick="location.href='/'"/>
+                </div>
+            </div>
+        </main>
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v8.0&appId=335417594215675&autoLogAppEvents=1" nonce="NJWHVwCc"></script>
+        <script language="JavaScript"> //팝업창 명령어
+            function showPopup(url,name)
+            {
+            window.open(toString(url), toString(name), "width=800, height=500, left=100, top=50");
+            }
+        </script>
+    </div>
+</body>
+</html>

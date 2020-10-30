@@ -1,0 +1,16 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.person-wrapper {
+    border-color: #0f000083;
+    border-radius: 25px;
+    font-size: 24px;
+    font-family: 'Noto Sans KR';
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 20%;
+    display: inline;
+}

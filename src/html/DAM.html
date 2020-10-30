@@ -10,6 +10,9 @@
     <style>
     * { font-family: 'Noto Sans KR'; }
     </style>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>var exports = {};</script>
+    <script src="/js/script.js"></script>
 </head>
 <body>
     <div>
@@ -41,9 +44,9 @@
                     <a class="dropbtn">사이트 안내</a>
                 </span>
                 <div class="dropdown-content">
-                    <a href="/html/DAMcreatorsintro.html">운영진</a>
-                    <a href="#">기획의도</a>
-                    <a href="#">운영계획</a>
+                    <button class="button_menu" id="btn_owners">운영진</button>
+                    <button class="button_menu" id="btn_intention">기획 의도</button>
+                    <button class="button_menu" id="btn_plan">운영 계획</button>
                 </div>
             </div>
             <div class="dropdown">
@@ -51,10 +54,8 @@
                     <a class="dropbtn">멤버십 안내</a>
                 </span>
                 <div class="dropdown-content">
-                    <a href="#">소개</a>
-                    <!--    <div style="position: absolute;width: 50%;top: 81px;right: 0px">-->
-                    <!--    <div style="background-color: black;position: absolute;top: 81px;width: 100%;right: 0px;height: 51px;left: 0px;"></div>-->
-                    <a href="#">혜택</a>
+                    <button class="button_menu" id="btn_membership_intro">소개</button>
+                    <button class="button_menu" id="btn_membership_benefit">혜택</button>
                 </div>
             </div>
             <div class="dropdown">
@@ -62,8 +63,8 @@
                     <a class="dropbtn">투자안내</a>
                 </span>
                 <div class="dropdown-content">
-                    <a href="#">투자 내역</a>
-                    <a href="#">주식 목록</a>
+                    <button class="button_menu" id="btn_inv_log">투자 내역</button>
+                    <button class="button_menu" id="btn_inv_list">주식 목록</button>
                 </div>
             </div>
             <div class="dropdown">
@@ -71,7 +72,7 @@
                     <a class="dropbtn">공지사항</a>
                 </span>
                 <div class="dropdown-content">
-                    <a href="#">공지사항</a>
+                    <button class="button_menu" id="btn_announcement">공지사항</button>
                 </div>
             </div>
             <div class="dropdown">
@@ -79,8 +80,8 @@
                     <a class="dropbtn">게시판</a>
                 </span>
                 <div class="dropdown-content">
-                    <a href="#">자유게시판</a>
-                    <a href="#">투자 게시판</a>
+                    <button class="button_menu" id="btn_board_free">자유 게시판</button>
+                    <button class="button_menu" id="btn_board_stock">투자 게시판</button>
                 </div>
             </div>
             <div class="dropdown">
@@ -88,17 +89,17 @@
                     <a class="dropbtn">고객센터</a>
                 </span>
                 <div class="dropdown-content">
-                    <a href="#">1:1문의</a>
-                    <a href="#">내 문의 내역</a>
+                    <button class="button_menu" id="btn_qna_direct">1:1 문의</button>
+                    <button class="button_menu" id="btn_qna_log">내 문의 내역</button>
                 </div>
             </div>
         </nav>
-        <main>
+        <main id="main-container">
             <div style="margin: 30px auto;position: relative;top: -30px;">
                 <div style="background-image: url(/images/background.png);background-size: cover;height: 920px;"> <!--첫번째 사진-->
                     <div style="width: 50%;height: 100%;background-color: rgba(0,0,0,0.4);float: right;">
                         <div style="margin-left: 50%;position: relative;left: -300px;margin-top: 50%;top: -200px;">
-                            <h1 style="color: white;font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';font-size: 65px;width: 600px;text-align: center;display: table;margin-left: auto;margin-right: auto;display: inline-block;"class="fadein3s">
+                            <h1 style="color: white;font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';font-size: 50px;width: 600px;text-align: center;display: table;margin-left: auto;margin-right: auto;display: inline-block;"class="fadein3s">
                                 믿고 투자하는
                                 <p>
                                     <div style="margin-top: 10; font-family: 'Noto Sans KR', sans-serif;font-size: 28px;text-decoration: none; color: black;font-weight: normal; ">
@@ -156,7 +157,7 @@
                     <li class="ft_it"> Email adress : dreamassetmanagement.dam@gmail.com </li>
 
                 </ul>
-                <button onclick="alerttest('테스트')">alert JS 테스트</button>
+                <button onclick="alert('테스트')">alert JS 테스트</button>
 
             </footer>
         </div>

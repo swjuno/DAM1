@@ -1,0 +1,308 @@
+Index: Dam.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.blind {/* 스크린 리더에는 안보이는 클래스*/\r\n    position: absolute;\r\n    clip: rect(0 0 0 0);\r\n    width: 1px;\r\n    height: 1px;\r\n    margin: -1px;\r\n    overflow: hidden}\r\na#homelogo{\r\n    width: 116px;\r\n    height: 50px;\r\n    margin-bottom: 23px;\r\n    display: inline-block;\r\n    background-image: url(./mainlogo_DAM_resized.png);\r\n    text-indent: 101%;\r\n    overflow: hidden;\r\n}\r\n.uu{\r\n    text-decoration: none\r\n}\r\n.btn_black {\r\n    margin: 20px 0 0;\r\n    width: 100%;\r\n    height: 48px;\r\n    border-radius: 3px;\r\n    font-size: 16px;\r\n    color: #ffffff;\r\n    background-color: #000000;\r\n}\r\nhtml,body{\r\n    margin:0px;\r\n}\r\nli {\r\n    text-align: -webkit-match-parent;\r\n}\r\nnav li{\r\n    display: inline-block;\r\n}\r\nnav ul{\r\n    margin: 0px;\r\n    padding: 0px;\r\n    list-style: none;\r\n\r\n}\r\n.nav_container {\r\n    display: flex;\r\n    flex-direction: row;\r\n    width: 100%;\r\n    height: 61px;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    background-color: black;\r\n    list-style-type: none;\r\n    color: white;\r\n}\r\n\r\n.dropbtn {\r\n    padding: 15px;\r\n    cursor: pointer;\r\n    position: relative;\r\n    top: 18px;\r\n    text-align: right;\r\n    text-decoration: none;\r\n    color: white;\r\n    padding: 15px;\r\n}\r\n.login:hover, .login_set:hover {\r\n    background-color: #1d4ccf;\r\n}\r\n\r\n.login:active, .login_set:active {\r\n    box-shadow: 0 3px #dfdf;\r\n    transform: translateY(4px);\r\n}\r\n.login, .login_set {\r\n    background-color: black;\r\n    display: inline-block;\r\n    height: 32px;\r\n    width: 120px;\r\n    padding: 1px 15px;\r\n    margin: 1px;\r\n    border: none;\r\n    outline: none;\r\n    border-radius: 20px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n    box-shadow: 0 4px #dfdfdf;\r\n    color: white;\r\n    font-size: 15px;\r\n    font-weight: bolder;\r\n    margin-top: 20px;\r\n}\r\n.navinner_container {\r\n    width: 100%;\r\n    margin: 0;\r\n    padding: 0;\r\n    background-color: #656565;\r\n    list-style-type: none;\r\n}\r\n.navinner_container:hover li{\r\n    background-color: #4d71a7;\r\n}\r\n\r\n.navinner_item {\r\n    padding-bottom: 5px;\r\n    padding-top: 5px;\r\n    cursor: pointer;\r\n    width: 150px;\r\n}\r\n\r\n.navinner_item a {\r\n    text-align: right;\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.dropdown {\r\n    position: relative;\r\n    display: inline-block;\r\n    height: 100%;\r\n\r\n}\r\n.dropdown-content {\r\n    display: none;\r\n    position: relative;\r\n    background-color: #a5a4a4;\r\n    min-width: 160px;\r\n    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\r\n    z-index: 1;\r\n    top: 39px;\r\n\r\n}\r\n.dropdown-content a {\r\n    color: #ffffff;\r\n    padding: 12px 16px;\r\n    text-decoration: none;\r\n    display: block;\r\n    padding: 10px;\r\n    padding-bottom: 15px;\r\n    padding-top: 15px;\r\n}\r\n.div ~ span {\r\n    height: 100%;\r\n    margin: auto;\r\n}\r\n.dropdown:hover{\r\n    background-color: #314590\r\n}\r\n.dropdown:hover .dropdown-content {\r\n    display: block;\r\n}\r\n\r\n.dropdown-content a:hover{\r\n    background-color: #596ebd\r\n}\r\n.maincontainer {\r\n    position: relative;\r\n    margin: 0 auto;\r\n    padding: 30px 20px;\r\n    width: 1180px;\r\n}\r\n.textcenter {\r\n    text-align: center;\r\n    display: table;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    display: inline-block;\r\n}\r\n.fadein3s {\r\n    animation: fadeIn 3s;\r\n}\r\n@keyframes fadeIn {\r\n    from {\r\n        opacity: 0;\r\n    }\r\n    to {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Dam.css	(revision dbfc0da19108ce312f44761b35d62378380bb5ad)
++++ Dam.css	(date 1603802498575)
+@@ -54,17 +54,20 @@
+ }
+ 
+ .dropbtn {
+-    padding: 15px;
++    padding-top: 15px;
++    padding-bottom: 15px;
++    padding-left: 60px;
++    padding-right: 60px;
+     cursor: pointer;
+     position: relative;
+     top: 18px;
+     text-align: right;
+     text-decoration: none;
+     color: white;
+-    padding: 15px;
++
+ }
+ .login:hover, .login_set:hover {
+-    background-color: #1d4ccf;
++    background-color: #1d1d1d;
+ }
+ 
+ .login:active, .login_set:active {
+@@ -84,7 +87,7 @@
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+-    box-shadow: 0 4px #dfdfdf;
++    box-shadow: 0 4px 7px #000000;
+     color: white;
+     font-size: 15px;
+     font-weight: bolder;
+@@ -177,5 +180,21 @@
+         opacity: 1;
+     }
+ }
++@keyframes fadeOut {
++    from{
++        background-color: rgba(0,0,0,1);
++    }
++    to{
++        background-color: rgba(0,0,0,0);
++    }
++}
++@keyframes fadeouut {
++    from {
++        opacity: 1;
++    }
++    to {
++        opacity: 0;
++    }
++}
+ 
+ 
+Index: DAM.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"ko\" xmlns:background-image=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n    <meta charset=\"UTF-8\" />\r\n    <title id=\"titlelogo\">DAM</title>\r\n    <meta name=\"description\" content=\"D.A.M과 함께 당신의 꿈을 이루세요\">\r\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"./favicon_icon-removebg.png\"/>\r\n    <link rel=\"stylesheet\" href=\"./Dam.css\">\r\n    <meta name=\"viewport\" content=\"width=device-width,inital-scale=1.0,minimum-scale=1.0\">\r\n</head>\r\n<body>\r\n<div>\r\n<header>\r\n    <div style=\"height: 30px;float: right;\">\r\n        <button class=\"login\" onclick=\"location.href='login_demo.html' \">로그인</button>\r\n        <button class=\"login_set\" onclick=\"location.href='register_agreement.html' \">회원가입</button>\r\n    </div>\r\n\r\n    <div>\r\n    <h1 style=\"margin: 5px;\">\r\n        <a href=\"./DAM.html\" id=\"homelogo\" style=\"position: relative;right: -20px;top: 20px\">D.A.M</a><span class=\"blind\">DAM 홈</span>\r\n        <a href=\"DAM.html\" style=\"position: relative;right: -30px;top: -20px;font-size: 22px;text-decoration: none; color: black;font-weight: normal; \">DREAM ASSET MANAGEMENT</a>\r\n\r\n        <!--D.A.M 은 미래를 향해 나아갑니다-->\r\n    </h1>\r\n    </div>\r\n\r\n\r\n</header>\r\n    <nav>\r\n        <!--    <div style=\"position: absolute; width: 100%\">-->\r\n        <div class=\"nav_container\"style=\"height: 60px;\">\r\n            <div class=\"dropdown\">\r\n            <span>\r\n                <a class=\"dropbtn\">사이트 안내</a>\r\n            </span>\r\n                <div class=\"dropdown-content\">\r\n                    <a href=\"DAMcreatorsintro.html\">운영진</a>\r\n                    <a href=\"#\">기획의도</a>\r\n                    <a href=\"#\">운영계획</a>\r\n                </div>\r\n            </div>\r\n            <div class=\"dropdown\">\r\n            <span>\r\n                <a class=\"dropbtn\">멤버십 안내</a>\r\n            </span>\r\n                <div class=\"dropdown-content\">\r\n                    <a href=\"#\">소개</a>\r\n                    <!--    <div style=\"position: absolute;width: 50%;top: 81px;right: 0px\">-->\r\n                    <!--    <div style=\"background-color: black;position: absolute;top: 81px;width: 100%;right: 0px;height: 51px;left: 0px;\"></div>-->\r\n                    <a href=\"#\">혜택</a>\r\n                </div>\r\n            </div>\r\n                <div class=\"dropdown\">\r\n                    <span>\r\n                        <a class=\"dropbtn\">투자안내</a>\r\n                    </span>\r\n                    <div class=\"dropdown-content\">\r\n                        <a href=\"#\">투자 내역</a>\r\n                        <a href=\"#\">주식 목록</a>\r\n                    </div>\r\n                </div>\r\n        <div class=\"dropdown\">\r\n            <span>\r\n                <a class=\"dropbtn\">공지사항</a>\r\n            </span>\r\n            <div class=\"dropdown-content\">\r\n                <a href=\"#\">공지사항</a>\r\n            </div>\r\n        </div>\r\n        <div class=\"dropdown\">\r\n            <span>\r\n                <a class=\"dropbtn\">게시판</a>\r\n            </span>\r\n            <div class=\"dropdown-content\">\r\n                <a href=\"#\">자유게시판</a>\r\n                <a href=\"#\">투자 게시판</a>\r\n            </div>\r\n        </div>\r\n        <div class=\"dropdown\">\r\n            <span>\r\n                <a class=\"dropbtn\">고객센터</a>\r\n            </span>\r\n            <div class=\"dropdown-content\">\r\n                <a href=\"#\">1:1문의</a>\r\n                <a href=\"#\">내 문의 내역</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<!--    </div>-->\r\n<!--    <div>-->\r\n\r\n</nav>\r\n<main>\r\n    <div style=\"margin: 30px auto;position: relative;top: -30px;\">\r\n        <div style=\"background-image: url(./damback_1.webp);background-size: cover;height: 920px;\"> <!--첫번째 사진-->\r\n            <div style=\"width: 50%;height: 100%;float: left;\">\r\n\r\n            </div>\r\n            <div style=\"width: 50%;height: 100%;background-color: rgba(0,0,0,0.4);float: right;\">\r\n                <div style=\"margin-left: 50%;position: relative;left: -300px;margin-top: 50%;top: -200px;\">\r\n                    <h1 style=\"color: white;font-size: 80px;width: 600px;text-align: center;display: table;margin-left: auto;margin-right: auto;display: inline-block;\"class=\"fadein3s\">\r\n                        믿고 투자하는<br>D.A.M\r\n                    </h1>\r\n                </div>\r\n\r\n            </div>\r\n\r\n    </div>\r\n        <div style=\"height: 200px;width: 100%;background-color: black\">\r\n            <span>\r\n                <h1 style=\"position:absolute;font-size: 60px;color: white;height: 100%;margin-top: 0px;margin-bottom: 0px;padding: 60px;margin-left: 50%;left: -450px;\"class=\"textcenter\">\r\n                    어떤 말이든 써야지 느낌있지\r\n                </h1>\r\n            </span>\r\n        </div>\r\n        <div style=\"height: 500px;width: 50%;float: right;background-color: rgba(0,0,0,0.83);\">\r\n            <p style=\"color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;\">\r\n                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 하느님이 보우하사 우리나라 만세\r\n                남산 우헤 저 소나무 철갑을 두른 듯\r\n                바람이슬 불변함은 우리 기상일세\r\n                무궁화 삼천리 화려강산\r\n                대한사람 대한으로 길이 보전하세\r\n            </p>\r\n        </div>\r\n        <div style=\"height: 500px;width:50%;float: left;background-image: url(./damback_1.webp);\">\r\n\r\n        </div>\r\n        <div style=\"height: 500px;width: 50%;float: right;background-image: url(./damback_1.webp);\">\r\n\r\n        </div>\r\n        <div style=\"height: 500px;width:50%;float: left;background-color: rgba(0,0,0,0.83);\">\r\n            <p style=\"color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;\">\r\n                가을 하늘 공활한데 높고 구름 없이\r\n                밝은 달은 우리 가슴 일편단심일세\r\n                무궁화 삼천리 화려 강산\r\n                대한 사람 대한으로 길이 보전하세\r\n                이 기상과 이 맘으로 충성을 다하여\r\n                괴로우나 즐거우나 나라 사랑하세\r\n                무궁화 삼천리 화려 강산\r\n                대한 사람 대한으로 길이 보전하세\r\n            </p>\r\n        </div>\r\n    </div>\r\n\r\n</main>\r\n    <footer>\r\n        <ul class=\"ft_ct\">\r\n\r\n            <li class=\"ft_it\"> Copyright 2020. Dream Asset Management. All rights reserved. </li>\r\n            <li class=\"ft_it\"> Email adress : dreamassetmanagement.dam@gmail.com </li>\r\n\r\n        </ul>\r\n        <button onclick=\"alerttest('테스트')\">alert JS 테스트</button>\r\n\r\n    </footer>\r\n</div>\r\n<script>\r\n    window.fbAsyncInit = function() {\r\n        FB.init({\r\n            appId      : 'DreamAssetManagement',\r\n            cookie     : true,\r\n            xfbml      : true,\r\n            version    : 'v8.0'\r\n        });\r\n\r\n        FB.AppEvents.logPageView();\r\n\r\n    };\r\n\r\n    (function(d, s, id){\r\n        var js, fjs = d.getElementsByTagName(s)[0];\r\n        if (d.getElementById(id)) {return;}\r\n        js = d.createElement(s); js.id = id;\r\n        js.src = \"https://connect.facebook.net/en_US/sdk.js\";\r\n        fjs.parentNode.insertBefore(js, fjs);\r\n    }(document, 'script', 'facebook-jssdk'));\r\n</script>\r\n<script src=\"DAM.js\"></script>\r\n</body>\r\n</html>\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- DAM.html	(revision dbfc0da19108ce312f44761b35d62378380bb5ad)
++++ DAM.html	(date 1603802715772)
+@@ -9,20 +9,29 @@
+     <meta name="viewport" content="width=device-width,inital-scale=1.0,minimum-scale=1.0">
+ </head>
+ <body>
++
+ <div>
+ <header>
+-    <div style="height: 30px;float: right;">
+-        <button class="login" onclick="location.href='login_demo.html' ">로그인</button>
+-        <button class="login_set" onclick="location.href='register_agreement.html' ">회원가입</button>
+-    </div>
++
++    <div style="background-image: url('./damback_1.webp');height: 300px;">
++        <div style="height: 100%;width: 100%;background-color: rgba(255,255,255,0.3)">
++            <a href="DAM.html"><img src="biglogo1-removebg-preview.png"style="left: -231px;margin-left: 50%;position: relative;top: 50px;background-size: cover;"></a>
++
++        </div>
++<!--    </div>-->
++<!--    <div style="height: 30px;float: right;">-->
++<!--        <button class="login" onclick="location.href='login_demo.html' ">로그인</button>-->
++<!--        <button class="login_set" onclick="location.href='register_agreement.html' ">회원가입</button>-->
++<!--    </div>-->
+ 
+-    <div>
+-    <h1 style="margin: 5px;">
+-        <a href="./DAM.html" id="homelogo" style="position: relative;right: -20px;top: 20px">D.A.M</a><span class="blind">DAM 홈</span>
+-        <a href="DAM.html" style="position: relative;right: -30px;top: -20px;font-size: 22px;text-decoration: none; color: black;font-weight: normal; ">DREAM ASSET MANAGEMENT</a>
++<!--    <div>-->
++<!--    <h1 style="margin: 5px;">-->
++<!--        <a href="./DAM.html" id="homelogo" style="position: relative;right: -20px;top: 20px">D.A.M</a><span class="blind">DAM 홈</span>-->
++<!--        <a href="DAM.html" style="position: relative;right: -30px;top: -20px;font-size: 22px;text-decoration: none; color: black;font-weight: normal; ">DREAM ASSET MANAGEMENT</a>-->
+ 
+-        <!--D.A.M 은 미래를 향해 나아갑니다-->
+-    </h1>
++<!--        &lt;!&ndash;D.A.M 은 미래를 향해 나아갑니다&ndash;&gt;-->
++<!--    </h1>-->
++<!--    </div>-->
+     </div>
+ 
+ 
+@@ -92,6 +101,7 @@
+ 
+ </nav>
+ <main>
++
+     <div style="margin: 30px auto;position: relative;top: -30px;">
+         <div style="background-image: url(./damback_1.webp);background-size: cover;height: 920px;"> <!--첫번째 사진-->
+             <div style="width: 50%;height: 100%;float: left;">
+@@ -109,7 +119,7 @@
+     </div>
+         <div style="height: 200px;width: 100%;background-color: black">
+             <span>
+-                <h1 style="position:absolute;font-size: 60px;color: white;height: 100%;margin-top: 0px;margin-bottom: 0px;padding: 60px;margin-left: 50%;left: -450px;"class="textcenter">
++                <h1 style="z-index:1;position:absolute;font-size: 60px;color: white;height: 100px;margin-top: 0px;margin-bottom: 0px;padding-top: 50px;margin-left: 50%;left: -450px;"class="textcenter">
+                     어떤 말이든 써야지 느낌있지
+                 </h1>
+             </span>
+@@ -123,10 +133,10 @@
+                 대한사람 대한으로 길이 보전하세
+             </p>
+         </div>
+-        <div style="height: 500px;width:50%;float: left;background-image: url(./damback_1.webp);">
++        <div style="z-index:1;height: 500px;width:50%;float: left;background-image: url(./damback_1.webp);">
+ 
+         </div>
+-        <div style="height: 500px;width: 50%;float: right;background-image: url(./damback_1.webp);">
++        <div style="z-index:1;height: 500px;width: 50%;float: right;background-image: url(./damback_1.webp);">
+ 
+         </div>
+         <div style="height: 500px;width:50%;float: left;background-color: rgba(0,0,0,0.83);">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"223f79f7-94be-4c0a-af4a-f35b72aaa38f\" name=\"Default Changelist\" comment=\"회원가입 완성\">\r\n      <change afterPath=\"$PROJECT_DIR$/damback_1.webp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/DAM.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DAM.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Dam.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Dam.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"JsFlowSettings\">\r\n    <service-enabled>true</service-enabled>\r\n    <exe-path />\r\n    <other-services-enabled>true</other-services-enabled>\r\n    <auto-save>true</auto-save>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1hMyCtmS0IXctROUBo8Ica41waO\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\wnsgh\\WebstormProjects\\DAM1\\DAM-demo-version\" />\r\n      <recent name=\"C:\\Users\\wnsgh\\WebstormProjects\\DAM1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"223f79f7-94be-4c0a-af4a-f35b72aaa38f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599835131501</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599835131501</updated>\r\n      <workItem from=\"1599835132552\" duration=\"11752000\" />\r\n      <workItem from=\"1599884444784\" duration=\"30187000\" />\r\n      <workItem from=\"1600052113265\" duration=\"605000\" />\r\n      <workItem from=\"1600088812105\" duration=\"3529000\" />\r\n      <workItem from=\"1600135545775\" duration=\"5811000\" />\r\n      <workItem from=\"1600348517044\" duration=\"2655000\" />\r\n      <workItem from=\"1600354474202\" duration=\"2186000\" />\r\n      <workItem from=\"1600434920248\" duration=\"2235000\" />\r\n      <workItem from=\"1600695471839\" duration=\"3395000\" />\r\n      <workItem from=\"1600930505114\" duration=\"3034000\" />\r\n      <workItem from=\"1600989415500\" duration=\"2726000\" />\r\n      <workItem from=\"1601025841859\" duration=\"11409000\" />\r\n      <workItem from=\"1601294919170\" duration=\"12299000\" />\r\n      <workItem from=\"1601446836699\" duration=\"4221000\" />\r\n      <workItem from=\"1602177240732\" duration=\"608000\" />\r\n      <workItem from=\"1602191816768\" duration=\"6808000\" />\r\n      <workItem from=\"1602221001583\" duration=\"2299000\" />\r\n      <workItem from=\"1602223517383\" duration=\"63000\" />\r\n      <workItem from=\"1602250548579\" duration=\"3836000\" />\r\n      <workItem from=\"1602437081140\" duration=\"3000\" />\r\n      <workItem from=\"1603401450514\" duration=\"1288000\" />\r\n      <workItem from=\"1603544790727\" duration=\"7222000\" />\r\n      <workItem from=\"1603608350060\" duration=\"11766000\" />\r\n      <workItem from=\"1603631163013\" duration=\"3485000\" />\r\n      <workItem from=\"1603634687116\" duration=\"2267000\" />\r\n      <workItem from=\"1603690542884\" duration=\"10041000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00039\" summary=\"회원가입 로그인창 홈로고아이콘 추가\">\r\n      <created>1599890164336</created>\r\n      <option name=\"number\" value=\"00039\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599890164336</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00040\" summary=\"로그인 화면 css 적용 완료\">\r\n      <created>1599895135442</created>\r\n      <option name=\"number\" value=\"00040\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599895135442</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00041\" summary=\"로그인페이지 로고 축소 및 수정\">\r\n      <created>1599939535420</created>\r\n      <option name=\"number\" value=\"00041\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599939535420</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00042\" summary=\"로그인페이지 로고 축소 및 수정&#10;biglogo1 git add\">\r\n      <created>1599939699183</created>\r\n      <option name=\"number\" value=\"00042\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599939699183</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00043\" summary=\"로그인 id pw인풋창 paddin 설정&#10;여백 선택해도 텍스트로 이동`\">\r\n      <created>1599941745608</created>\r\n      <option name=\"number\" value=\"00043\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599941745608</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00044\" summary=\"로그인 회원가입 버튼 위로 이동&#10;아이디찾기 비번찾기 페이지 추가\">\r\n      <created>1600091184580</created>\r\n      <option name=\"number\" value=\"00044\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600091184580</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00045\" summary=\"로그인화면 바탕 추가\">\r\n      <created>1600138871361</created>\r\n      <option name=\"number\" value=\"00045\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00045\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600138871361</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00046\" summary=\"로그인화면 바탕 추가\">\r\n      <created>1600138949736</created>\r\n      <option name=\"number\" value=\"00046\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00046\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600138949736</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00047\" summary=\"배경 추가시 로그인 유지 체크박스 안보임현상 발생&#10;주석처리\">\r\n      <created>1600139786299</created>\r\n      <option name=\"number\" value=\"00047\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00047\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600139786299</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00048\" summary=\"로그인 테셀레이션 추가\">\r\n      <created>1600178604317</created>\r\n      <option name=\"number\" value=\"00048\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600178604317</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00049\" summary=\"로그인 인풋 범위 px로 설정\">\r\n      <created>1600699115736</created>\r\n      <option name=\"number\" value=\"00049\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600699115736</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00050\" summary=\"파이어베이스 인증코드\">\r\n      <created>1600931598817</created>\r\n      <option name=\"number\" value=\"00050\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600931598817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00051\" summary=\"파이어베이스 인증코드삭제\">\r\n      <created>1600989610604</created>\r\n      <option name=\"number\" value=\"00051\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600989610605</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00052\" summary=\"페이스북 로그인버튼 추가\">\r\n      <created>1600991112743</created>\r\n      <option name=\"number\" value=\"00052\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600991112743</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00053\" summary=\"영진이메인nav 브랜치합치는과정1\">\r\n      <created>1601026779812</created>\r\n      <option name=\"number\" value=\"00053\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601026779812</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00054\" summary=\"홈로고 사이즈 조정 nav합침\">\r\n      <created>1601034834651</created>\r\n      <option name=\"number\" value=\"00054\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601034834651</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00055\" summary=\"9/25 10:00\">\r\n      <created>1601039066677</created>\r\n      <option name=\"number\" value=\"00055\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00055\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601039066677</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00056\" summary=\"커밋\">\r\n      <created>1601295155680</created>\r\n      <option name=\"number\" value=\"00056\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601295155680</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00057\" summary=\"커밋\">\r\n      <created>1601295205632</created>\r\n      <option name=\"number\" value=\"00057\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601295205632</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00058\" summary=\"로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ\">\r\n      <created>1601301903301</created>\r\n      <option name=\"number\" value=\"00058\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601301903302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00059\" summary=\"로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ\">\r\n      <created>1601302519253</created>\r\n      <option name=\"number\" value=\"00059\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601302519253</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00060\" summary=\"왜 적용안되냐 십X\">\r\n      <created>1601303051239</created>\r\n      <option name=\"number\" value=\"00060\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601303051239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00061\" summary=\"제발 돼라\">\r\n      <created>1601303464475</created>\r\n      <option name=\"number\" value=\"00061\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601303464475</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00062\" summary=\"ㄴㅇㅁㅇ\">\r\n      <created>1601303571192</created>\r\n      <option name=\"number\" value=\"00062\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601303571192</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00063\" summary=\"ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ\">\r\n      <created>1601303789020</created>\r\n      <option name=\"number\" value=\"00063\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601303789020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00064\" summary=\"ㄴㅇㅁㅇㅁㄴㄹ\">\r\n      <created>1601303820654</created>\r\n      <option name=\"number\" value=\"00064\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601303820654</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00065\" summary=\"ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄻㄻㅇ\">\r\n      <created>1601304321264</created>\r\n      <option name=\"number\" value=\"00065\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601304321265</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00066\" summary=\"login\">\r\n      <created>1601447640454</created>\r\n      <option name=\"number\" value=\"00066\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601447640455</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00067\" summary=\"login\">\r\n      <created>1601451021116</created>\r\n      <option name=\"number\" value=\"00067\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1601451021116</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00068\" summary=\"nav hover\">\r\n      <created>1602223556347</created>\r\n      <option name=\"number\" value=\"00068\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1602223556347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00069\" summary=\"facebookloginbuttton\">\r\n      <created>1603401866370</created>\r\n      <option name=\"number\" value=\"00069\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603401866370</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00070\" summary=\"asdqwrqwr\">\r\n      <created>1603401969005</created>\r\n      <option name=\"number\" value=\"00070\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603401969005</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00071\" summary=\"wqqr\">\r\n      <created>1603402136922</created>\r\n      <option name=\"number\" value=\"00071\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603402136922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00072\" summary=\"commit\">\r\n      <created>1603548932063</created>\r\n      <option name=\"number\" value=\"00072\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00072\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603548932063</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00073\" summary=\"commit\">\r\n      <created>1603549038673</created>\r\n      <option name=\"number\" value=\"00073\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00073\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603549038673</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00074\" summary=\"bogi chuga\">\r\n      <created>1603553269157</created>\r\n      <option name=\"number\" value=\"00074\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00074\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603553269157</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00075\" summary=\"bogi chuga1\">\r\n      <created>1603553912624</created>\r\n      <option name=\"number\" value=\"00075\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00075\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603553912624</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00076\" summary=\"asa\">\r\n      <created>1603608411947</created>\r\n      <option name=\"number\" value=\"00076\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00076\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603608411947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00077\" summary=\"asa\">\r\n      <created>1603608472592</created>\r\n      <option name=\"number\" value=\"00077\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00077\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603608472592</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00078\" summary=\"asa\">\r\n      <created>1603608616199</created>\r\n      <option name=\"number\" value=\"00078\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00078\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603608616199</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00079\" summary=\"bogi 3\">\r\n      <created>1603608684762</created>\r\n      <option name=\"number\" value=\"00079\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00079\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603608684762</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00080\" summary=\"bogi 4\">\r\n      <created>1603608745855</created>\r\n      <option name=\"number\" value=\"00080\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00080\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603608745855</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00081\" summary=\"bogi 4\">\r\n      <created>1603609457704</created>\r\n      <option name=\"number\" value=\"00081\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00081\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603609457704</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00082\" summary=\"registration agreement page 정렬\">\r\n      <created>1603615993621</created>\r\n      <option name=\"number\" value=\"00082\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00082\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603615993621</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00083\" summary=\"fix something\">\r\n      <created>1603616199640</created>\r\n      <option name=\"number\" value=\"00083\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00083\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603616199640</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00084\" summary=\"fix something\">\r\n      <created>1603616220436</created>\r\n      <option name=\"number\" value=\"00084\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00084\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603616220436</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00085\" summary=\"회원가입 완성\">\r\n      <created>1603634481138</created>\r\n      <option name=\"number\" value=\"00085\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00085\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603634481138</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00086\" summary=\"asd\">\r\n      <created>1603635086232</created>\r\n      <option name=\"number\" value=\"00086\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00086\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603635086232</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00087\" summary=\"asd\">\r\n      <created>1603644860966</created>\r\n      <option name=\"number\" value=\"00087\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00087\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1603644860966</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"88\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"홈로고 사이즈 조정 nav합침\" />\r\n    <MESSAGE value=\"9/25 10:00\" />\r\n    <MESSAGE value=\"커밋\" />\r\n    <MESSAGE value=\"로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ\" />\r\n    <MESSAGE value=\"왜 적용안되냐 십X\" />\r\n    <MESSAGE value=\"제발 돼라\" />\r\n    <MESSAGE value=\"ㄴㅇㅁㅇ\" />\r\n    <MESSAGE value=\"ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ\" />\r\n    <MESSAGE value=\"ㄴㅇㅁㅇㅁㄴㄹ\" />\r\n    <MESSAGE value=\"ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄻㄻㅇ\" />\r\n    <MESSAGE value=\"login\" />\r\n    <MESSAGE value=\"nav hover\" />\r\n    <MESSAGE value=\"facebookloginbuttton\" />\r\n    <MESSAGE value=\"asdqwrqwr\" />\r\n    <MESSAGE value=\"wqqr\" />\r\n    <MESSAGE value=\"commit\" />\r\n    <MESSAGE value=\"bogi chuga\" />\r\n    <MESSAGE value=\"bogi chuga1\" />\r\n    <MESSAGE value=\"asa\" />\r\n    <MESSAGE value=\"bogi 3\" />\r\n    <MESSAGE value=\"bogi 4\" />\r\n    <MESSAGE value=\"registration agreement page 정렬\" />\r\n    <MESSAGE value=\"fix something\" />\r\n    <MESSAGE value=\"회원가입 완성\" />\r\n    <MESSAGE value=\"asd\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"asd\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"828\" y=\"178\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1600000059823\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"828\" y=\"178\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600000059822\" />\r\n    <state x=\"690\" y=\"266\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1602221310985\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"690\" y=\"266\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1602221310985\" />\r\n    <state x=\"461\" y=\"164\" key=\"SettingsEditor\" timestamp=\"1602193593154\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"461\" y=\"164\" key=\"SettingsEditor/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1602193593154\" />\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1603644862061\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1603644862061\" />\r\n    <state x=\"530\" y=\"130\" key=\"com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser\" timestamp=\"1599893206030\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"530\" y=\"130\" key=\"com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599893206030\" />\r\n    <state x=\"775\" y=\"433\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1603630904363\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"775\" y=\"433\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1603630904363\" />\r\n    <state x=\"1103\" y=\"225\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1603552571011\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"1103\" y=\"225\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1603552571011\" />\r\n    <state x=\"682\" y=\"431\" key=\"vcs.readOnlyHandler.ReadOnlyStatusDialog\" timestamp=\"1603632656693\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"682\" y=\"431\" key=\"vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1603632656693\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision dbfc0da19108ce312f44761b35d62378380bb5ad)
++++ .idea/workspace.xml	(date 1603803874050)
+@@ -20,7 +20,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="회원가입 완성">
+-      <change afterPath="$PROJECT_DIR$/damback_1.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/DAMhome.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
+@@ -34,8 +34,8 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="JavaScript File" />
+-        <option value="CSS File" />
+         <option value="HTML File" />
++        <option value="CSS File" />
+       </list>
+     </option>
+   </component>
+@@ -61,6 +61,12 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+@@ -104,14 +110,10 @@
+       <workItem from="1603608350060" duration="11766000" />
+       <workItem from="1603631163013" duration="3485000" />
+       <workItem from="1603634687116" duration="2267000" />
+-      <workItem from="1603690542884" duration="10041000" />
+-    </task>
+-    <task id="LOCAL-00039" summary="회원가입 로그인창 홈로고아이콘 추가">
+-      <created>1599890164336</created>
+-      <option name="number" value="00039" />
+-      <option name="presentableId" value="LOCAL-00039" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1599890164336</updated>
++      <workItem from="1603690542884" duration="12221000" />
++      <workItem from="1603725708476" duration="5381000" />
++      <workItem from="1603779252124" duration="1559000" />
++      <workItem from="1603785970724" duration="4153000" />
+     </task>
+     <task id="LOCAL-00040" summary="로그인 화면 css 적용 완료">
+       <created>1599895135442</created>
+@@ -449,7 +451,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1603644860966</updated>
+     </task>
+-    <option name="localTasksCounter" value="88" />
++    <task id="LOCAL-00088" summary="회원가입 완성">
++      <created>1603716761985</created>
++      <option name="number" value="00088" />
++      <option name="presentableId" value="LOCAL-00088" />
++      <option name="project" value="LOCAL" />
++      <updated>1603716761986</updated>
++    </task>
++    <option name="localTasksCounter" value="89" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -491,9 +500,9 @@
+     <MESSAGE value="bogi 4" />
+     <MESSAGE value="registration agreement page 정렬" />
+     <MESSAGE value="fix something" />
+-    <MESSAGE value="회원가입 완성" />
+     <MESSAGE value="asd" />
+-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
++    <MESSAGE value="회원가입 완성" />
++    <option name="LAST_COMMIT_MESSAGE" value="회원가입 완성" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
+@@ -508,10 +517,10 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603644862061">
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603716765421">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603644862061" />
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603716765421" />
+     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+Index: DAMhome.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- DAMhome.html	(date 1603802669546)
++++ DAMhome.html	(date 1603802669546)
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml">
++<head>
++    <meta charset="UTF-8" />
++    <title id="titlelogo">DAM</title>
++    <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요">
++    <link rel="shortcut icon" type="image/x-icon" href="./favicon_icon-removebg.png"/>
++    <link rel="stylesheet" href="./Dam.css">
++    <meta name="viewport" content="width=device-width,inital-scale=1.0,minimum-scale=1.0">
++</head>
++<body style="height: 100%">
++    <main style="height: 100%">
++            <div style="background-image: url(./damback_1.webp);background-size: cover;height: 920px"> <!--첫번째 사진-->
++                <div style="height: 230px;width: 100%;background-color: rgba(0,0,0,0)">
++                    <a href="DAM.html">
++                    <img src="biglogo1-removebg-preview.png"style="left: -231px;margin-left: 50%;position: relative;margin-top: 340px;width: 500px;">
++                    </a>
++                </div>
++            </div>
++    </main>
++<!--    <footer>-->
++<!--        <ul class="ft_ct">-->
++
++<!--            <li class="ft_it"> Copyright 2020. Dream Asset Management. All rights reserved. </li>-->
++<!--            <li class="ft_it"> Email adress : dreamassetmanagement.dam@gmail.com </li>-->
++
++<!--        </ul>-->
++<!--        <button onclick="alerttest('테스트')">alert JS 테스트</button>-->
++
++<!--    </footer>-->
++
++<script>
++    window.fbAsyncInit = function() {
++        FB.init({
++            appId      : 'DreamAssetManagement',
++            cookie     : true,
++            xfbml      : true,
++            version    : 'v8.0'
++        });
++
++        FB.AppEvents.logPageView();
++
++    };
++
++    (function(d, s, id){
++        var js, fjs = d.getElementsByTagName(s)[0];
++        if (d.getElementById(id)) {return;}
++        js = d.createElement(s); js.id = id;
++        js.src = "https://connect.facebook.net/en_US/sdk.js";
++        fjs.parentNode.insertBefore(js, fjs);
++    }(document, 'script', 'facebook-jssdk'));
++</script>
++<script src="DAM.js"></script>
++</body>
++</html>
+\ No newline at end of file

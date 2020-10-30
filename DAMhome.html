@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title id="titlelogo">DAM</title>
+    <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon_icon-removebg.png"/>
+    <link rel="stylesheet" href="./Dam.css">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0,minimum-scale=1.0">
+</head>
+<body style="height: 100%">
+    <main style="height: 100%">
+            <div style="background-image: url(./damback_1.webp);background-size: cover;height: 920px"> <!--첫번째 사진-->
+                <div style="height: 230px;width: 100%;background-color: rgba(0,0,0,0)">
+                    <a href="DAM.html">
+                    <img src="biglogo1-removebg-preview.png"style="left: -231px;margin-left: 50%;position: relative;margin-top: 340px;width: 500px;">
+                    </a>
+                </div>
+            </div>
+    </main>
+<!--    <footer>-->
+<!--        <ul class="ft_ct">-->
+
+<!--            <li class="ft_it"> Copyright 2020. Dream Asset Management. All rights reserved. </li>-->
+<!--            <li class="ft_it"> Email adress : dreamassetmanagement.dam@gmail.com </li>-->
+
+<!--        </ul>-->
+<!--        <button onclick="alerttest('테스트')">alert JS 테스트</button>-->
+
+<!--    </footer>-->
+
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : 'DreamAssetManagement',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v8.0'
+        });
+
+        FB.AppEvents.logPageView();
+
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="DAM.js"></script>
+</body>
+</html>

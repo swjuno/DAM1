@@ -54,17 +54,20 @@ nav ul{
 }
 
 .dropbtn {
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
     cursor: pointer;
     position: relative;
     top: 18px;
     text-align: right;
     text-decoration: none;
     color: white;
-    padding: 15px;
+
 }
 .login:hover, .login_set:hover {
-    background-color: #1d4ccf;
+    background-color: #1d1d1d;
 }
 
 .login:active, .login_set:active {
@@ -84,7 +87,7 @@ nav ul{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 0 4px #dfdfdf;
+    box-shadow: 0 4px 7px #000000;
     color: white;
     font-size: 15px;
     font-weight: bolder;
@@ -175,6 +178,22 @@ nav ul{
     }
     to {
         opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from{
+        background-color: rgba(0,0,0,1);
+    }
+    to{
+        background-color: rgba(0,0,0,0);
+    }
+}
+@keyframes fadeouut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
     }
 }
 

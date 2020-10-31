@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAMhome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logintitle_fb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +69,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -121,14 +126,8 @@
       <workItem from="1603779252124" duration="1559000" />
       <workItem from="1603785970724" duration="4153000" />
       <workItem from="1604070644258" duration="1865000" />
-      <workItem from="1604161104650" duration="613000" />
-    </task>
-    <task id="LOCAL-00041" summary="로그인페이지 로고 축소 및 수정">
-      <created>1599939535420</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1599939535420</updated>
+      <workItem from="1604161104650" duration="1765000" />
+      <workItem from="1604164114448" duration="306000" />
     </task>
     <task id="LOCAL-00042" summary="로그인페이지 로고 축소 및 수정&#10;biglogo1 git add">
       <created>1599939699183</created>
@@ -466,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604073121560</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="수정">
+      <created>1604162044077</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1604162044077</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,14 +535,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604073160432" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1604163075822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604163075822" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602193593154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603716765421">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604162048815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603716765421" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604162048815" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -545,6 +555,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604071059780" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604163075824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604163075824" />
     <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603552571011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

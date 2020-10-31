@@ -14,7 +14,7 @@ a#homelogo{
     height: 50px;
     margin-bottom: 23px;
     display: inline-block;
-    background-image: url(/images/mainlogo_DAM_resized.png);
+    background-image: url(src/images/mainlogo_DAM_resized.png);
     text-indent: 101%;
     overflow: hidden;
 }

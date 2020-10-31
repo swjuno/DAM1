@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logintitle_fb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +122,7 @@
       <workItem from="1603785970724" duration="4153000" />
       <workItem from="1604070644258" duration="1865000" />
       <workItem from="1604161104650" duration="1765000" />
-      <workItem from="1604164114448" duration="306000" />
-    </task>
-    <task id="LOCAL-00042" summary="로그인페이지 로고 축소 및 수정&#10;biglogo1 git add">
-      <created>1599939699183</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1599939699183</updated>
+      <workItem from="1604164114448" duration="620000" />
     </task>
     <task id="LOCAL-00043" summary="로그인 id pw인풋창 paddin 설정&#10;여백 선택해도 텍스트로 이동`">
       <created>1599941745608</created>
@@ -472,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604162044077</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="수정">
+      <created>1604164420493</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1604164420493</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

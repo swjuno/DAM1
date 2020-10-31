@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-    </list>
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,14 +120,7 @@
       <workItem from="1603785970724" duration="4153000" />
       <workItem from="1604070644258" duration="1865000" />
       <workItem from="1604161104650" duration="1765000" />
-      <workItem from="1604164114448" duration="620000" />
-    </task>
-    <task id="LOCAL-00043" summary="로그인 id pw인풋창 paddin 설정&#10;여백 선택해도 텍스트로 이동`">
-      <created>1599941745608</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1599941745608</updated>
+      <workItem from="1604164114448" duration="1109000" />
     </task>
     <task id="LOCAL-00044" summary="로그인 회원가입 버튼 위로 이동&#10;아이디찾기 비번찾기 페이지 추가">
       <created>1600091184580</created>
@@ -467,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604164420493</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="수정">
+      <created>1604165199831</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1604165199832</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

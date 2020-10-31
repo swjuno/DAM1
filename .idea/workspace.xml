@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="회원가입 완성">
-      <change afterPath="$PROJECT_DIR$/DAMhome.html" afterDir="false" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAMhome.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\wnsgh\WebstormProjects\DAM1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -121,14 +120,8 @@
       <workItem from="1603725708476" duration="5381000" />
       <workItem from="1603779252124" duration="1559000" />
       <workItem from="1603785970724" duration="4153000" />
-      <workItem from="1604070644258" duration="1041000" />
-    </task>
-    <task id="LOCAL-00040" summary="로그인 화면 css 적용 완료">
-      <created>1599895135442</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1599895135442</updated>
+      <workItem from="1604070644258" duration="1865000" />
+      <workItem from="1604161104650" duration="613000" />
     </task>
     <task id="LOCAL-00041" summary="로그인페이지 로고 축소 및 수정">
       <created>1599939535420</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603716761986</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="수정">
+      <created>1604073121560</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1604073121560</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="홈로고 사이즈 조정 nav합침" />
     <MESSAGE value="9/25 10:00" />
     <MESSAGE value="커밋" />
     <MESSAGE value="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ" />
@@ -510,7 +509,8 @@
     <MESSAGE value="fix something" />
     <MESSAGE value="asd" />
     <MESSAGE value="회원가입 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원가입 완성" />
+    <MESSAGE value="수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -525,6 +525,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604070755022" />
+    <state x="598" y="280" key="MultipleFileMergeDialog" timestamp="1604073160432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604073160432" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602193593154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

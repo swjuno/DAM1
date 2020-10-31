@@ -43,7 +43,6 @@ nav ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
-
 }
 .nav_container {
     display: flex;
@@ -95,6 +94,22 @@ nav ul{
     font-weight: bolder;
     transition: 0.3s;
 }
+
+/* 드롭다운 메뉴... */
+.button_menu {
+    height: 48px;
+    width: 100%;
+    border-color: #FF000000;
+    border-style: solid;
+    background: none;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+.button_menu:hover{
+    background-color: #596ebd
+}
 .navinner_container {
     width: 150px;
     margin: 0;
@@ -102,25 +117,16 @@ nav ul{
     background-color: #656565;
     list-style-type: none;
 }
-.navinner_container:hover li{
+.navinner_container:hover li .dropdown-content{
     background-color: #4d71a7;
+    display: block;
 }
-
 .navinner_item {
-    padding-bottom: 5px;
-    padding-top: 5px;
     cursor: pointer;
     width: 150px;
     transition:1s;
     transition-timing-function:ease-in-out;
 }
-
-.navinner_item a {
-    text-align: right;
-    text-decoration: none;
-    color: white;
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -134,30 +140,21 @@ nav ul{
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    top: 39px;
+    top: 36px;
 }
-.dropdown-content a {
-    color: #ffffff;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-.div ~ span {
-    height: 100%;
-    margin: auto;
-}
+
 .dropdown:hover{
     background-color: #314590
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* ...드롭다운 메뉴 */
 
-.dropdown-content a:hover{
-    background-color: #596ebd
+.div ~ span {
+    height: 100%;
+    margin: auto;
 }
 .maincontainer {
     position: relative;

@@ -19,7 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
+      <change afterPath="$PROJECT_DIR$/src/html/register_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/findID.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/findPW.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/find_id_pw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/loginpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_agreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_phonenumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_phonenumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/biglogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/biglogo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/favicon_icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/homelogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,7 +93,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="C:\Users\wnsgh\WebstormProjects\DAM1\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\DAM1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -120,14 +141,9 @@
       <workItem from="1603785970724" duration="4153000" />
       <workItem from="1604070644258" duration="1865000" />
       <workItem from="1604161104650" duration="1765000" />
-      <workItem from="1604164114448" duration="1109000" />
-    </task>
-    <task id="LOCAL-00044" summary="로그인 회원가입 버튼 위로 이동&#10;아이디찾기 비번찾기 페이지 추가">
-      <created>1600091184580</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1600091184580</updated>
+      <workItem from="1604164114448" duration="1695000" />
+      <workItem from="1604165843915" duration="120000" />
+      <workItem from="1604231579251" duration="15904000" />
     </task>
     <task id="LOCAL-00045" summary="로그인화면 바탕 추가">
       <created>1600138871361</created>
@@ -465,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604165199832</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="수정">
+      <created>1604165248550</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1604165248550</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,18 +539,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600000059822" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604071041492">
+    <state x="638" y="357" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604165714927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604071041492" />
+    <state x="638" y="357" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604165714927" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604070755022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604070755022" />
-    <state x="598" y="280" key="MultipleFileMergeDialog" timestamp="1604073160432">
+    <state x="598" y="280" key="MultipleFileMergeDialog" timestamp="1604165212202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604073160432" />
+    <state x="598" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604165212202" />
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1604163075822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -536,10 +559,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604162048815">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604165257577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604162048815" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604165257577" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -552,10 +575,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604163075824" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603552571011">
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604248079839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603552571011" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604248079839" />
     <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603632656693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

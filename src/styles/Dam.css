@@ -2,25 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 /*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);*/
 
-.blind {/* 스크린 리더에는 안보이는 클래스*/
+.blind { /* 스크린 리더에는 안보이는 클래스*/
     position: absolute;
     clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
-    overflow: hidden}
-a#homelogo{
+    overflow: hidden
+}
+
+a#homelogo {
     width: 116px;
     height: 50px;
     margin-bottom: 23px;
     display: inline-block;
-    background-image: url(src/images/mainlogo_DAM_resized.png);
+    background-image: url(/images/mainlogo_DAM_resized.png);
     text-indent: 101%;
     overflow: hidden;
 }
-.uu{
+
+.uu {
     text-decoration: none
 }
+
 .btn_black {
     margin: 20px 0 0;
     width: 100%;
@@ -30,20 +34,25 @@ a#homelogo{
     color: #ffffff;
     background-color: #000000;
 }
-html,body{
-    margin:0px;
+
+html, body {
+    margin: 0px;
 }
+
 li {
     text-align: -webkit-match-parent;
 }
-nav li{
+
+nav li {
     display: inline-block;
 }
-nav ul{
+
+nav ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
+
 .nav_container {
     display: flex;
     flex-direction: row;
@@ -66,6 +75,7 @@ nav ul{
     color: white;
     padding: 15px;
 }
+
 .button:hover {
     opacity: 0.5;
 }
@@ -74,6 +84,7 @@ nav ul{
     box-shadow: 0 3px #dfdf;
     transform: translateY(4px);
 }
+
 .button {
     background-color: black;
     display: inline-block;
@@ -107,9 +118,11 @@ nav ul{
     padding-left: 10px;
     color: #FFFFFF;
 }
-.button_menu:hover{
+
+.button_menu:hover {
     background-color: #596ebd
 }
+
 .navinner_container {
     width: 150px;
     margin: 0;
@@ -117,51 +130,58 @@ nav ul{
     background-color: #656565;
     list-style-type: none;
 }
-.navinner_container:hover li .dropdown-content{
+
+.navinner_container:hover li .dropdown-content {
     background-color: #4d71a7;
     display: block;
 }
+
 .navinner_item {
     cursor: pointer;
     width: 150px;
-    transition:1s;
-    transition-timing-function:ease-in-out;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
     height: 100%;
     width: 150px;
 }
+
 .dropdown-content {
     display: none;
     position: relative;
     background-color: #a5a4a4;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     top: 36px;
 }
 
-.dropdown:hover{
+.dropdown:hover {
     background-color: #314590
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 /* ...드롭다운 메뉴 */
 
 .div ~ span {
     height: 100%;
     margin: auto;
 }
+
 .maincontainer {
     position: relative;
     margin: 0 auto;
     padding: 30px 20px;
     width: 1180px;
 }
+
 .textcenter {
     text-align: center;
     display: table;
@@ -170,15 +190,17 @@ nav ul{
     display: inline-block;
 }
 
-@media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+@media (max-width: 600px) {
+    /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
     #main {
-        display: block;    
+        display: block;
     }
 
-    #main #contents {  
-        margin-bottom: 10px; 
+    #main #contents {
+        margin-bottom: 10px;
         margin-right: 0px;
     }
+
     #main #sidebar {
         min-height: 0;
     }
@@ -188,6 +210,7 @@ nav ul{
 .fadein3s {
     animation: fadeIn 2s;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;

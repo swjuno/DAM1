@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon_icon-removebg.png"/>
-    <title>Title</title>
-</head>
-<body onload="window.resizeTo(600,400)">
-<p>
-    제1조 (목적)
+제1조 (목적)
     본 계약은 회사가 고객의 투자일임재산을 운용함에 있어서 고객과 회사간 권리의무관계
     및 기타 필요한 사항을 명확히 하는데 그 목적이 있다.
     제 2 조 (투자대상)
@@ -218,8 +209,3 @@
     고객과 회사는 본 계약서의 모든 조항을 확인하고 서로 본 계약을 성실히 이행할 것을
     약속함과 동시에 이를 증명하기 위하여 계약서 2부를 작성하고 서로 기명날인 또는 서
     명한 후 각각 1부씩 보관한다.
-</p>
-<input type="button" value="닫 기" onclick="self.close();"/>
-
-</body>
-</html>

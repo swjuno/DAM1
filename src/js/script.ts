@@ -7,7 +7,7 @@ jQuery(function() {
     });
 
     $("#btn_owners").on('click', function() {
-        switchContent('/html/DAMcreatorsintro.html')
+        switchContent('/html/DAM.html')
     });
 });
 

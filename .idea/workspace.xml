@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정" />
+    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
+      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,13 +125,7 @@
       <workItem from="1604164114448" duration="1695000" />
       <workItem from="1604165843915" duration="120000" />
       <workItem from="1604231579251" duration="16422000" />
-    </task>
-    <task id="LOCAL-00047" summary="배경 추가시 로그인 유지 체크박스 안보임현상 발생&#10;주석처리">
-      <created>1600139786299</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1600139786299</updated>
+      <workItem from="1604331059859" duration="313000" />
     </task>
     <task id="LOCAL-00048" summary="로그인 테셀레이션 추가">
       <created>1600178604317</created>
@@ -467,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604249491015</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="웹호스팅되게 src안 파일들 DAM으로 복붙">
+      <created>1604331126598</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331126598</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="커밋" />
     <MESSAGE value="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ" />
     <MESSAGE value="왜 적용안되냐 십X" />
     <MESSAGE value="제발 돼라" />
@@ -511,7 +513,8 @@
     <MESSAGE value="회원가입 완성" />
     <MESSAGE value="수정" />
     <MESSAGE value="sujung" />
-    <option name="LAST_COMMIT_MESSAGE" value="sujung" />
+    <MESSAGE value="웹호스팅되게 src안 파일들 DAM으로 복붙" />
+    <option name="LAST_COMMIT_MESSAGE" value="웹호스팅되게 src안 파일들 DAM으로 복붙" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -538,10 +541,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604249195682">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604331128637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604249195682" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604331128637" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

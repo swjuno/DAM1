@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon_icon-removebg.png"/>
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>DAM</title>
+    <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요" />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<body>
+<div src="./shapelined-_JBKdviweXI-unsplash.jpg"style="position: absolute;width: 100%;background-image: url(/images/shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;">
+    <header>
+        <div style="height: 90px"></div>
+        <div style="margin: 0 auto; width: 465px; border-bottom-color: black;">
+            <a href="./DAM.html" id="loginlogo">DAM</a>
+            <!--D.A.M 은 미래를 향해 나아갑니다-->
+        </div >
+    </header>
+    <main>
+
+        <div style="position: absolute;width: 296px;margin-left: 50%;left: -148px;margin-top: 60px;">
+            <div style="padding-bottom: 20px;position: absolute;top: -40px;margin-left: 50%;left: -117px">
+            <span style="font-size: 20px;text-align: center;display: table; margin-left: auto; margin-right: auto; display: inline-block;">
+                휴대폰 번호를 입력하세요
+            </span>
+                <span style="font-size: 15px;text-align: center;display: table; margin-left: auto; margin-right: auto; display: inline-block;color: #333333;position: relative;left: -17px">
+                본인인증을 위해 SMS 인증번호를 전송합니다
+            </span>
+            </div>
+            <div class="box_login"style="background: rgba(255,255,255,0.60);position: absolute;top: 50px;">
+                <div class="inp_text" style="border: 1px;">
+                    <label for="loginnum" class="screen_out">전화번호</label>
+                    <input type="text" id="loginnum" name="loginnum" placeholder="010-xxxx-xxxx">  <!-- 전화번호 정규식 JS 추가 필요-->
+                </div>
+            </div>
+            <div style="position: relative;top: 50px;">
+                <input type="button" class="basicbtn"value="다음" style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"onclick="location.href='./DAM.html'"/>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v8.0&appId=335417594215675&autoLogAppEvents=1" nonce="NJWHVwCc"></script>
+    <script language="JavaScript"> //팝업창 명령어
+    function showPopup(url,name)
+    {
+        window.open(toString(url), toString(name), "width=800, height=500, left=100, top=50");
+    }
+    </script>
+</div>
+</body>
+</html>

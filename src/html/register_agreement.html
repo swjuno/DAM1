@@ -21,11 +21,11 @@
         <div class="maincontainer">
             <div class="login_Dam">
                 <fieldset class="checkbox_group">
-                    <div style="margin: 20px;">
+                    <div style="margin: 40px;">
                         <input type="checkbox" id="check_all">
                         <label for="check_all">전체 동의</label>
                     </div>
-                    <div style="margin: 20px;">
+                    <div style="margin: 40px;">
                         <input type="checkbox" id="check_1" class="normal">
                         <label for="check_1">개인정보 처리방침 동의</label>
                         <a href="#layer2" class="btn-example"onclick="changehtml('/txt/privacy.txt')">보기</a>
@@ -47,12 +47,12 @@
                             </div>
                         </div>
                     </div>
-                    <div style="margin: 20px;">
+                    <div style="margin: 40px;">
                         <input type="checkbox" id="check_2" class="normal">
                         <label for="check_2">서비스 이용약관 동의</label>
                         <a href="#layer2" class="btn-example"onclick="changehtml('/txt/privacy.txt')">보기</a>
                     </div>
-                    <div style="margin: 20px;">
+                    <div style="margin-top: 40px;margin-left: 40px;">
                         <input type="checkbox" id="check_3" class="normal">
                         <label for="check_3">마케팅 수신 동의</label>
                         <a href="#layer2" class="btn-example"onclick="changehtml('/txt/privacy.txt')">보기</a>
@@ -61,8 +61,8 @@
                 </fieldset>
             </div>
             <div style="position: relative;">
-                <input type="button" class="basicbtn" value="다음"
-                       style="position: absolute;top:30px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"
+                <input type="button" class="basicbtn" value="다음"id="next_button"
+                       style="background-color: gray;position: absolute;top:30px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"
                        onclick="location.href='/html/register_email.html'"/>
             </div>
         </div>
@@ -148,6 +148,38 @@
 
         }
     </script>
+    <script>
+        $(".checkbox_group").on("click", "#check_all", function () {
+            var checked = $(this).is(":checked");
+
+            if (checked) {
+                $('#next_button').css('background-color','black');
+            } else {
+                $('#next_button').css('background-color','gray');
+            }
+        });
+    </script>
+    <script>
+        $(".checkbox_group").on("click", ".normal", function () {
+            var checked1 = $('#check_1').is(":checked")
+            var checked2 = $('#check_2').is(":checked")
+            if (checked1 && checked2) {
+                $('#next_button').css('background-color','black');
+            }
+            else if(!checked1 || !checked2){
+                $('#next_button').css('background-color','gray');
+            }
+        });
+    </script>
+    <script>
+        $("#next_button").on("click",function (){
+            $(this).click(function (e){
+                e.preventDefault();
+            })
+            alert("필수항목을 체크해주세요");
+        })
+    </script>
+
 </div>
 </body>
 </html>

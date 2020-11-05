@@ -10,7 +10,7 @@
 
 <body>
 <div src="./shapelined-_JBKdviweXI-unsplash.jpg"
-     style="position: absolute;width: 100%;background-image: url(/images/shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;">
+     style="position: absolute;width: 100%;background-image: url(/images/shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;z-index: -2;">
     <header>
         <div style="height: 90px"></div>
         <div style="margin: 0 auto; width: 465px; border-bottom-color: black;">
@@ -33,11 +33,19 @@
                     <label for="loginnum" class="screen_out">이메일</label>
                     <input type="text" id="loginnum" name="loginnum" placeholder="e-mail">  <!-- 이메일 정규식 JS 추가 필요-->
                 </div>
+                <div class="inp_text" style="border: 1px;">
+                    <label for="email" class="screen_out">이메일인증</label>
+                    <input type="text" id="email" name="email" placeholder="">
+                </div>
             </div>
-            <div style="position: relative;top: 50px;">
-                <input type="button" class="basicbtn" value="다음"
-                       style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"
-                       onclick="location.href='/html/register_phonenumber.html'"/>
+            <div style="position: relative;top: 80px;z-index: -1;">
+                <input type="button" class="basicbtn" value="다음"id="next_button"
+                       style="position: relative;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"
+                       onclick="location.href='/html/register_password.html'"/>
+            </div>
+            <div>
+                <input type="button" class="basicbtn" value="보내기"id="sendsms"
+                       style="position: absolute;top:170px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"/>
             </div>
         </div>
     </main>
@@ -51,6 +59,20 @@
     function showPopup(url, name) {
         window.open(toString(url), toString(name), "width=800, height=500, left=100, top=50");
     }
+    function isEmail(asValue) {
+
+        var regExp = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
+
+        return regExp.test(asValue); // 형식에 맞는 경우 true 리턴
+
+    }
+     //인증칸 나타내기
+        $('#sendsms').on("click", function (){
+            $(this).hide();
+            $('#next_button').show();
+            $('#email').show();
+
+        })
     </script>
 </div>
 </body>

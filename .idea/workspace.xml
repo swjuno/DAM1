@@ -20,7 +20,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/boostrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/boostrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/free_board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/register_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/MySQL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/boostrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_agreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_phonenumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_phonenumber.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -64,7 +118,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,6 +136,21 @@
       <recent name="C:\Users\wnsgh\WebstormProjects\DAM1\DAM-demo-version" />
       <recent name="C:\Users\wnsgh\WebstormProjects\DAM1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DAM1\styles" />
+      <recent name="C:\DAM1\src\js" />
+      <recent name="C:\DAM1\src\html" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MySQL.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/MySQL.js" working-dir="$PROJECT_DIR$/src/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.MySQL.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,21 +194,13 @@
       <workItem from="1604164114448" duration="1695000" />
       <workItem from="1604165843915" duration="120000" />
       <workItem from="1604231579251" duration="16422000" />
-      <workItem from="1604331059859" duration="313000" />
-    </task>
-    <task id="LOCAL-00048" summary="로그인 테셀레이션 추가">
-      <created>1600178604317</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1600178604317</updated>
-    </task>
-    <task id="LOCAL-00049" summary="로그인 인풋 범위 px로 설정">
-      <created>1600699115736</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1600699115736</updated>
+      <workItem from="1604331059859" duration="1534000" />
+      <workItem from="1604411433722" duration="2987000" />
+      <workItem from="1604426195252" duration="2677000" />
+      <workItem from="1604471450897" duration="3208000" />
+      <workItem from="1604547269278" duration="2541000" />
+      <workItem from="1604557545086" duration="4764000" />
+      <workItem from="1604569898884" duration="887000" />
     </task>
     <task id="LOCAL-00050" summary="파이어베이스 인증코드">
       <created>1600931598817</created>
@@ -470,7 +531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604331126598</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="웹호스팅되게 src안 파일들 DAM으로 복붙">
+      <created>1604331494211</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331494211</updated>
+    </task>
+    <task id="LOCAL-00098" summary="웹호스팅되게 src안 파일들 DAM으로 복붙">
+      <created>1604331768874</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1604331768874</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,6 +604,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604070755022" />
+    <state width="938" height="278" key="GridCell.Tab.0.bottom" timestamp="1604562311182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
+    <state width="938" height="278" key="GridCell.Tab.0.center" timestamp="1604562311182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
+    <state width="938" height="278" key="GridCell.Tab.0.left" timestamp="1604562311182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
+    <state width="938" height="278" key="GridCell.Tab.0.right" timestamp="1604562311182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
     <state x="598" y="280" key="MultipleFileMergeDialog" timestamp="1604165212202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -541,10 +632,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604331128637">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604331770327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604331128637" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604331770327" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -553,14 +644,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604071059780" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1604163075824">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604548962240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604163075824" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604248079839">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604548962240" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604559380306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604248079839" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604559380306" />
     <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603632656693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

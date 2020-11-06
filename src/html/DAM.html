@@ -13,6 +13,25 @@
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>var exports = {};</script>
     <script src="/js/script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBYA-tzlgF8vGhmzdoNMTUHOvgSE_-7rus",
+            authDomain: "dam-application-b2b65.firebaseapp.com",
+            databaseURL: "https://dam-application-b2b65.firebaseio.com",
+            projectId: "dam-application-b2b65",
+            storageBucket: "dam-application-b2b65.appspot.com",
+            messagingSenderId: "670681084026",
+            appId: "1:670681084026:web:785642c820ecd727b70bc3",
+            measurementId: "G-QSTPY2T9HJ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </head>
 <body>
     <div>
@@ -22,7 +41,7 @@
                     <a href="/html/DAM.html" id="homelogo" style="position: relative;right: -20px;top: 20px">
                         D.A.M
                     </a>
-                    <a href="/html/DAM.html" style="position: relative; margin-left: 30px; top: -20px;font-family: 'Noto Sans KR', sans-serif;font-size: 22px;text-decoration: none; color: black;font-weight: normal; ">
+                    <a href="/html/DAM.html" id="top-logo-text">
                         DREAM ASSET MANAGEMENT
                     </a>
                     <div style="max-height: 100%;float: right;">
@@ -39,116 +58,124 @@
         </header>
         <nav>
             <div class="nav_container"style="height: 60px;">
-                <div class="dropdown">
-                <span>
-                    <a class="dropbtn">사이트 안내</a>
-                </span>
-                <div class="dropdown-content">
-                    <button class="button_menu" id="btn_owners">운영진</button>
-                    <button class="button_menu" id="btn_intention">기획 의도</button>
-                    <button class="button_menu" id="btn_plan">운영 계획</button>
-                </div>
-            </div>
-            <div class="dropdown">
-                <span>
-                    <a class="dropbtn">멤버십 안내</a>
-                </span>
-                <div class="dropdown-content">
-                    <button class="button_menu" id="btn_membership_intro">소개</button>
-                    <button class="button_menu" id="btn_membership_benefit">혜택</button>
-                </div>
-            </div>
-            <div class="dropdown">
-                <span>
-                    <a class="dropbtn">투자안내</a>
-                </span>
-                <div class="dropdown-content">
-                    <button class="button_menu" id="btn_inv_log">투자 내역</button>
-                    <button class="button_menu" id="btn_inv_list">주식 목록</button>
-                </div>
-            </div>
-            <div class="dropdown">
-                <span>
-                    <a class="dropbtn">공지사항</a>
-                </span>
-                <div class="dropdown-content">
-                    <button class="button_menu" id="btn_announcement">공지사항</button>
-                </div>
-            </div>
-            <div class="dropdown">
-                <span>
-                    <a class="dropbtn">게시판</a>
-                </span>
-                <div class="dropdown-content">
-                    <button class="button_menu" id="btn_board_free">자유 게시판</button>
-                    <button class="button_menu" id="btn_board_stock">투자 게시판</button>
-                </div>
-            </div>
-            <div class="dropdown">
-                <span>
-                    <a class="dropbtn">고객센터</a>
-                </span>
-                <div class="dropdown-content">
-                    <button class="button_menu" id="btn_qna_direct">1:1 문의</button>
-                    <button class="button_menu" id="btn_qna_log">내 문의 내역</button>
-                </div>
+                <ul id="nav">
+                    <li class="menu">
+                        <a>사이트 안내</a>
+                        <div class="line">
+                            <span class="line_left"></span>
+                            <span class="line_right"></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="button_menu" id="btn_owners">운영진</button>
+                            <button class="button_menu" id="btn_intention">기획 의도</button>
+                            <button class="button_menu" id="btn_plan">운영 계획</button>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a>멤버십 안내</a>
+                        <div class="line">
+                            <span class="line_left"></span>
+                            <span class="line_right"></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="button_menu" id="btn_membership_intro">소개</button>
+                            <button class="button_menu" id="btn_membership_benefit">혜택</button>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="dropbtn">투자안내</a>
+                        <div class="line">
+                            <span class="line_left"></span>
+                            <span class="line_right"></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="button_menu" id="btn_inv_log">투자 내역</button>
+                            <button class="button_menu" id="btn_inv_list">주식 목록</button>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="dropbtn">공지사항</a>
+                        <div class="line">
+                            <span class="line_left"></span>
+                            <span class="line_right"></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="button_menu" id="btn_announcement">공지사항</button>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="dropbtn">게시판</a>
+                        <div class="line">
+                            <span class="line_left"></span>
+                            <span class="line_right"></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="button_menu" id="btn_board_free">자유 게시판</button>
+                            <button class="button_menu" id="btn_board_stock">투자 게시판</button>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a class="dropbtn">고객 센터</a>
+                        <div class="line">
+                            <span class="line_left"></span>
+                            <span class="line_right"></span>
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="button_menu" id="btn_qna_direct">1:1 문의</button>
+                            <button class="button_menu" id="btn_qna_log">내 문의 내역</button>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </nav>
         <main id="main-container">
-            <div style="margin: 30px auto;position: relative;top: -30px;">
-                <div style="background-image: url(/images/background.png);background-size: cover;height: 920px;"> <!--첫번째 사진-->
-                    <div style="width: 50%;height: 100%;background-color: rgba(0,0,0,0.4);float: right;">
-                        <div style="margin-left: 50%;position: relative;left: -300px;margin-top: 50%;top: -200px;">
-                            <h1 style="color: white;font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';font-size: 50px;width: 600px;text-align: center;display: table;margin-left: auto;margin-right: auto;display: inline-block;"class="fadein3s">
-                                믿고 투자하는
-                                <p>
-                                    <div style="margin-top: 10; font-family: 'Noto Sans KR', sans-serif;font-size: 28px;text-decoration: none; color: black;font-weight: normal; ">
-                                        <img src="/images/biglogo1-removebg-preview.png" style="height: 20%; width: 40%;"><br>
-                                        DREAM ASSET MANAGEMENT
-                                    </div>
-                                </p>
-                            </h1>
-                        </div>
-
-                    </div>
-
-            </div>
-                <div style="height: 200px;width: 100%;background-color: black">
-                    <span>
-                        <h1 style="position:absolute;font-size: 60px;color: white;height: 100%;margin-top: 0px;margin-bottom: 0px;padding: 60px;margin-left: 50%;left: -450px;"class="textcenter">
-                            어떤 말이든 써야지 느낌있지
-                        </h1>
-                    </span>
-                </div>
-                <div style="height: 500px;width: 50%;float: right;background-color: rgba(0,0,0,0.83);">
-                    <p style="color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;">
-                        동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 하느님이 보우하사 우리나라 만세
-                        남산 우헤 저 소나무 철갑을 두른 듯
-                        바람이슬 불변함은 우리 기상일세
-                        무궁화 삼천리 화려강산
-                        대한사람 대한으로 길이 보전하세
-                    </p>
-                </div>
-                <div style="height: 500px;width:50%;float: left;background-image: url(/images/background.png);">
-
-                </div>
-                <div style="height: 500px;width: 50%;float: right;background-image: url(/images/background.png);">
-
-                </div>
-                <div style="height: 500px;width:50%;float: left;background-color: rgba(0,0,0,0.83);">
-                    <p style="color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;">
-                        가을 하늘 공활한데 높고 구름 없이
-                        밝은 달은 우리 가슴 일편단심일세
-                        무궁화 삼천리 화려 강산
-                        대한 사람 대한으로 길이 보전하세
-                        이 기상과 이 맘으로 충성을 다하여
-                        괴로우나 즐거우나 나라 사랑하세
-                        무궁화 삼천리 화려 강산
-                        대한 사람 대한으로 길이 보전하세
-                    </p>
+            <div style="margin: 30px auto;position: relative;top: -30px;background-image: url(/images/background.png);background-size: cover;height: 920px;">
+                <div id="intro-background" >
+                    <h1 id="intro-text" class="fadein3s">
+                        믿고 투자하는
+                        <p>
+                            <div style="margin-top: 10; font-family: 'Noto Sans KR', sans-serif;font-size: 28px;text-decoration: none; color: black;font-weight: normal; ">
+                                <img src="/images/biglogo1-removebg-preview.png" style="height: 20%; width: 40%;"><br>
+                                DREAM ASSET MANAGEMENT
+                            </div>
+                        </p>
+                    </h1>
                 </div>
             </div>
+            <div style="height: 200px;width: 100%;background-color: black">
+                <span>
+                    <h1 style="position:absolute;font-size: 60px;color: white;height: 100%;margin-top: 0px;margin-bottom: 0px;padding: 60px;margin-left: 50%;left: -450px;"class="textcenter">
+                        어떤 말이든 써야지 느낌있지
+                    </h1>
+                </span>
+            </div>
+            <div style="height: 500px;width: 50%;float: right;background-color: rgba(0,0,0,0.83);">
+                <p style="color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;">
+                    동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 하느님이 보우하사 우리나라 만세
+                    남산 우헤 저 소나무 철갑을 두른 듯
+                    바람이슬 불변함은 우리 기상일세
+                    무궁화 삼천리 화려강산
+                    대한사람 대한으로 길이 보전하세
+                </p>
+            </div>
+            <div style="height: 500px;width:50%;float: left;background-image: url(/images/background.png);">
 
+            </div>
+            <div style="height: 500px;width: 50%;float: right;background-image: url(/images/background.png);">
+
+            </div>
+            <div style="height: 500px;width:50%;float: left;background-color: rgba(0,0,0,0.83);">
+                <p style="color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;">
+                    가을 하늘 공활한데 높고 구름 없이
+                    밝은 달은 우리 가슴 일편단심일세
+                    무궁화 삼천리 화려 강산
+                    대한 사람 대한으로 길이 보전하세
+                    이 기상과 이 맘으로 충성을 다하여
+                    괴로우나 즐거우나 나라 사랑하세
+                    무궁화 삼천리 화려 강산
+                    대한 사람 대한으로 길이 보전하세
+                </p>
+            </div>
         </main>
             <footer>
                 <ul class="ft_ct">

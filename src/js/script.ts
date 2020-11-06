@@ -7,7 +7,10 @@ jQuery(function() {
     });
 
     $("#btn_owners").on('click', function() {
-        switchContent('/html/DAMcreatorsintro.html')
+        switchContent('DAMcreatorsintro.html')
+    });
+    $("#btn_board_free").on('click', function() {
+        switchContent('free_board.html')
     });
 });
 

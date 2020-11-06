@@ -6,17 +6,20 @@ jQuery(function () {
         console.log('hover');
     });
     $("#btn_owners").on('click', function () {
-        switchContent('/html/DAMcreatorsintro.html');
+        switchContent('DAMcreatorsintro.html');
+    });
+    $("#btn_board_free").on('click', function () {
+        switchContent('free_board.html');
     });
 });
-function switchContent(htmlPath) {
-    if (htmlPath == currentPath)
+function switchContent(filename) {
+    if (filename == currentPath)
         return;
     var container = $('#main-container');
     var duration = 200;
-    currentPath = htmlPath;
+    currentPath = filename;
     container.fadeOut(duration, function () {
-        container.load(htmlPath, function () {
+        container.load('/html/' + filename, function () {
             container.fadeIn(duration);
         });
     });

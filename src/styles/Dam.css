@@ -21,51 +21,52 @@ a#homelogo{
 .uu{
     text-decoration: none
 }
-.btn_black {
-    margin: 20px 0 0;
-    width: 100%;
-    height: 48px;
-    border-radius: 3px;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000000;
+
+#top-logo-text {
+    position: relative;
+    margin-left: 30px;
+    top: -20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
 }
+
+#intro-background {
+    width: 50%;
+    height: 100%;
+    background-color: #00000066;
+    float: right;
+}
+
+#intro-text {
+    color: white;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    display: inline-block;
+}
+
 html,body{
     margin:0px;
 }
-li {
-    text-align: -webkit-match-parent;
-}
+
 nav li{
     display: inline-block;
 }
+
 nav ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
-.nav_container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 61px;
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    list-style-type: none;
-    color: white;
-}
 
-.dropbtn {
-    padding: 15px;
-    cursor: pointer;
-    position: relative;
-    top: 18px;
-    text-align: right;
-    text-decoration: none;
-    color: white;
-    padding: 15px;
-}
 .button:hover {
     opacity: 0.5;
 }
@@ -97,58 +98,79 @@ nav ul{
 
 /* 드롭다운 메뉴... */
 .button_menu {
-    height: 48px;
+    height: 50px;
     width: 100%;
     border-color: #FF000000;
     border-style: solid;
     background: none;
     text-align: left;
     font-size: 16px;
-    padding-left: 10px;
     color: #FFFFFF;
 }
-.button_menu:hover{
-    background-color: #596ebd
-}
-.navinner_container {
-    width: 150px;
-    margin: 0;
-    padding: 0;
-    background-color: #656565;
-    list-style-type: none;
-}
-.navinner_container:hover li .dropdown-content{
+.button_menu:hover {
     background-color: #4d71a7;
+    transition: all .15s ease-in-out;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    list-style-type: none;
+    color: white;
+}
+
+.menu {
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    vertical-align: top;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.menu:hover{
+    background-color: #596ebd;
+    transition: all .15s ease-in-out;
+}
+
+.menu:hover .dropdown-content{
     display: block;
+    visibility: visible;
+    background-color: #a5a4a4;
+    transition: all .2s ease-in-out;
+}
+
+.dropdown-content:hover {
+    background-color: #4d71a7;
+    transition: all .2s ease-in-out;
+}
+
+.dropdown-content {
+    width: 130px;
+    margin-top: 18px;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    visibility: hidden;
+    background-color: #FFFFFF00;
+    cursor: pointer;
+    z-index: 1;
 }
 .navinner_item {
     cursor: pointer;
-    width: 150px;
-    transition:1s;
-    transition-timing-function:ease-in-out;
+    width: 140px;
 }
 .dropdown {
     position: relative;
     display: inline-block;
     height: 100%;
-    width: 150px;
-}
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #a5a4a4;
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    top: 36px;
-}
-
-.dropdown:hover{
-    background-color: #314590
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+    width: 130px;
 }
 /* ...드롭다운 메뉴 */
 
@@ -170,24 +192,37 @@ nav ul{
     display: inline-block;
 }
 
-@media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
-    #main {
-        display: block;    
+@media (max-width:750px){
+    #intro-background {
+        width: 100%;
+        height: 50%;
+        background-color: #00000066;
+        float: right;
     }
 
-    #main #contents {  
-        margin-bottom: 10px; 
-        margin-right: 0px;
-    }
-    #main #sidebar {
-        min-height: 0;
+    #intro-text {
+        color: white;
+        font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+        display: inline-block;
     }
 
+    #top-logo-text {
+        visibility: hidden;
+        display: none;
+    }
 }
 
 .fadein3s {
     animation: fadeIn 2s;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;

@@ -10,7 +10,7 @@
 
 <body>
 <div src="./shapelined-_JBKdviweXI-unsplash.jpg"
-     style="position: absolute;width: 100%;background-image: url(/images/shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;">
+     style="position: absolute;width: 100%;background-image: url(/images/shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;z-index: -2;">
     <header>
         <div style="height: 90px"></div>
         <div style="margin: 0 auto; width: 465px; border-bottom-color: black;">
@@ -19,38 +19,62 @@
         </div>
     </header>
     <main>
-
         <div style="position: absolute;width: 296px;margin-left: 50%;left: -148px;margin-top: 60px;">
             <div style="padding-bottom: 20px;position: absolute;top: -40px;margin-left: 50%;left: -117px">
             <span style="position:relative;font-size: 20px;text-align: center;display: table; margin-left: auto; margin-right: auto; display: inline-block;left: 25px;">
                 계정으로 사용할 <br>이메일를 입력하세요
             </span>
 
-            </span>
+                </span>
             </div>
-            <div class="box_login" style="background: rgba(255,255,255,0.60);position: absolute;top: 50px;">
-                <div class="inp_text" style="border: 1px;">
-                    <label for="loginnum" class="screen_out">이메일</label>
-                    <input type="text" id="loginnum" name="loginnum" placeholder="e-mail">  <!-- 이메일 정규식 JS 추가 필요-->
+            <form action="">
+                <div class="box_login" style="background: rgba(255,255,255,0.60);position: absolute;top: 50px;">
+                    <div class="inp_text" style="border: 1px;">
+                        <label for="loginemail" class="screen_out">이메일</label>
+                        <input type="email" id="loginemail" name="loginnum" placeholder="e-mail">
+                        <!-- 이메일 정규식 JS 추가 필요-->
+                    </div>
                 </div>
-            </div>
-            <div style="position: relative;top: 50px;">
-                <input type="button" class="basicbtn" value="다음"
-                       style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;"
-                       onclick="location.href='/html/register_phonenumber.html'"/>
-            </div>
+                <button type="submit" class="basicbtn" id="next_button"
+                        style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;background-color: gray;margin-top: 60px;">
+                    보내기
+                </button>
+            </form>
         </div>
     </main>
 
 
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-            src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v8.0&appId=335417594215675&autoLogAppEvents=1"
-            nonce="NJWHVwCc"></script>
-    <script language="JavaScript"> //팝업창 명령어
-    function showPopup(url, name) {
-        window.open(toString(url), toString(name), "width=800, height=500, left=100, top=50");
-    }
+    <script>
+        function isEmail(asValue) {
+
+            var regExp = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
+
+            return regExp.test(asValue); // 형식에 맞는 경우 true 리턴
+
+        }
+
+        //인증칸 나타내기
+        $('#sendsms').on("click", function () {
+            $(this).hide();
+            $('#next_button').show();
+            $('#email').show();
+
+        })
+        $('#next_button').on('click', function () {
+            var value = $('#loginemail').val();
+            if (isEmail(value) == true) {
+                event.preventDefault();
+                location.replace('/html/register_email_confirm.html');
+            }
+        });
+        $('#loginemail').on('change keyup paste', function () {
+            var value = $('#loginemail').val();
+            if (isEmail(value) == true) {
+                $('#next_button').css('background-color', 'black');
+            } else if (isEmail(value) == false) {
+                $('#next_button').css('background-color', 'gray');
+            }
+        });
     </script>
 </div>
 </body>

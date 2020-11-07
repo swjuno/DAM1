@@ -5,6 +5,7 @@ var path = require('path');
 var app = express();
 var srcPath = __dirname + "/../";
 var htmlPath = path.join(srcPath, 'html');
+app.use('/', require('./route'));
 app.use(express.static(srcPath));
 //app.use(express.static(htmlPath));
 app.get('/', function (req, res) {

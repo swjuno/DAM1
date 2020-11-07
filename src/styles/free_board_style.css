@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 table{
     border-collapse: collapse;
-
 }
 
 caption{
@@ -20,13 +18,11 @@ a{
 
 .board_list_wrap{
     padding: 50px;
-
 }
 
 .board_list{
     width: 100%;
     border-top:1px solid navy;
-
 }
 
 .board_list tr{
@@ -40,10 +36,8 @@ a{
 }
 .board_list td{
     text-align: center;
-
 }
 .board_list .tit{
-
    text-align: left;
 }
 .board_list .tit:hover {
@@ -54,8 +48,6 @@ a{
     margin-top: 20px;
     font-size:20px;
     text-align: center;
-
-
 }
 .board_list_wrap.paging a {
     display: inline-block;
@@ -65,17 +57,15 @@ a{
     border-radius: 2px;
 }
 .board_list_wrap.paging a :first-child{
-    marin-left:0;
+    margin-left:0;
 }
 .board_list_wrap.paging a.bt{
     border:1px solid #eee;
     background: #eee;
-
 }
 .board_list_wrap.paging a.num{
     border: 1px solid #000;
     font-weight: 600;
-
 }
 .board_list_wrap.paging a.num.on{
     text-decoration:underline ;

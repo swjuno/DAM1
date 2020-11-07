@@ -19,35 +19,38 @@
         </div>
     </header>
     <main>
+
         <div style="position: absolute;width: 296px;margin-left: 50%;left: -148px;margin-top: 60px;">
             <div style="padding-bottom: 20px;position: absolute;top: -40px;margin-left: 50%;left: -117px">
             <span style="position:relative;font-size: 20px;text-align: center;display: table; margin-left: auto; margin-right: auto; display: inline-block;left: 25px;">
-                계정으로 사용할 <br>이메일를 입력하세요
+                이메일로온 인증코드를 <br>
+                입력하세요
             </span>
 
                 </span>
             </div>
-            <form action="">
-                <div class="box_login" style="background: rgba(255,255,255,0.60);position: absolute;top: 50px;">
-                    <div class="inp_text" style="border: 1px;">
-                        <label for="loginemail" class="screen_out">이메일</label>
-                        <input type="email" id="loginemail" name="loginnum" placeholder="e-mail">
-                        <!-- 이메일 정규식 JS 추가 필요-->
-                    </div>
+
+            <div class="box_login" style="background: rgba(255,255,255,0.60);position: absolute;top: 50px;">
+                <div class="inp_text" style="border: 1px;">
+                    <label for="loginemail_confirm" class="screen_out">이메일</label>
+                    <input type="text" id="loginemail_confirm" name="loginnum" placeholder="숫자4자리 이상">
+                    <!-- 이메일 정규식 JS 추가 필요-->
                 </div>
-                <button type="submit" class="basicbtn" id="next_button"
-                        style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;background-color: gray;margin-top: 60px;">
-                    보내기
-                </button>
-            </form>
+            </div>
+            <button class="basicbtn" id="next_button"
+                    style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;background-color: gray;margin-top: 60px;">
+                확인
+            </button>
+
+
         </div>
     </main>
 
 
     <script>
-        function isEmail(asValue) {
+        function isEmail_confirm(asValue) {
 
-            var regExp = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
+            var regExp = /^\d{4}$/g;
 
             return regExp.test(asValue); // 형식에 맞는 경우 true 리턴
 
@@ -61,17 +64,17 @@
 
         })
         $('#next_button').on('click', function () {
-            var value = $('#loginemail').val();
-            if (isEmail(value) == true) {
+            var value = $('#loginemail_confirm').val();
+            if (isEmail_confirm(value) == true) {
                 event.preventDefault();
-                location.replace('/html/register_email_confirm.html');
+                location.replace("/html/register_password.html");
             }
         });
-        $('#loginemail').on('change keyup paste', function () {
-            var value = $('#loginemail').val();
-            if (isEmail(value) == true) {
+        $('#loginemail_confirm').on('change keyup paste', function () {
+            var value = $('#loginemail_confirm').val();
+            if (isEmail_confirm(value) == true) {
                 $('#next_button').css('background-color', 'black');
-            } else if (isEmail(value) == false) {
+            } else if (isEmail_confirm(value) == false) {
                 $('#next_button').css('background-color', 'gray');
             }
         });

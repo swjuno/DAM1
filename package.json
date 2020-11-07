@@ -1,7 +1,7 @@
 {
   "name": "dam",
   "version": "1.0.0",
-  "description": "",
+  "description": "dam",
   "main": "server.ts",
   "scripts": {
     "prestart": "tsc",

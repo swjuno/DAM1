@@ -20,61 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change afterPath="$PROJECT_DIR$/html/board.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/boostrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/boostrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/board.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/free_board.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/register_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/MySQL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/boostrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/boostrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/register_email_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-31__12_11__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-31_오전_12_11_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_agreement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/register_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/register_phonenumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_phonenumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/MySQL.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +75,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -201,6 +158,9 @@
       <workItem from="1604547269278" duration="2541000" />
       <workItem from="1604557545086" duration="4764000" />
       <workItem from="1604569898884" duration="887000" />
+      <workItem from="1604658592646" duration="6901000" />
+      <workItem from="1604751893023" duration="1079000" />
+      <workItem from="1604762226413" duration="9557000" />
     </task>
     <task id="LOCAL-00050" summary="파이어베이스 인증코드">
       <created>1600931598817</created>
@@ -600,10 +560,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="638" y="357" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604165714927" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604070755022">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604753724110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604070755022" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604753724110" />
     <state width="938" height="278" key="GridCell.Tab.0.bottom" timestamp="1604562311182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -20,18 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change afterPath="$PROJECT_DIR$/src/html/register_email_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-31__12_11__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-31_오전_12_11_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/mem_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/login_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/login_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_agreement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_phonenumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_phonenumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/MySQL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/biglogo1-removebg-preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/biglogo1-removebg-preview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mainlogo_DAM_resized.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mainlogo_DAM_resized.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,14 +154,8 @@
       <workItem from="1604569898884" duration="887000" />
       <workItem from="1604658592646" duration="6901000" />
       <workItem from="1604751893023" duration="1079000" />
-      <workItem from="1604762226413" duration="10086000" />
-    </task>
-    <task id="LOCAL-00051" summary="파이어베이스 인증코드삭제">
-      <created>1600989610604</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1600989610605</updated>
+      <workItem from="1604762226413" duration="10158000" />
+      <workItem from="1604812191077" duration="8268000" />
     </task>
     <task id="LOCAL-00052" summary="페이스북 로그인버튼 추가">
       <created>1600991112743</created>
@@ -505,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604774608490</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="회원가입 부분 수정">
+      <created>1604774654586</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1604774654586</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,10 +587,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604331770327">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604774656755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604331770327" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604774656755" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

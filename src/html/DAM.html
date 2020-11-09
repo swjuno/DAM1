@@ -26,11 +26,14 @@
                         DREAM ASSET MANAGEMENT
                     </a>
                     <div style="max-height: 100%;float: right;">
-                        <button class="button" onclick="$.ajax({type:'POST',url:'/auth/ui'});">
+                        <button class="button" id="btn-login" onclick="location.href='/html/login_demo.html'">
                             로그인
                         </button>
-                        <button class="button" onclick="location.href='/html/register_agreement.html' ">
+                        <button class="button" id="btn-register" onclick="location.href='/html/register_agreement.html' ">
                             회원가입
+                        </button>
+                        <button class="button" id="btn-logout" onclick="$.ajax({type:'POST',url:'/auth/logout'})">
+                            로그아웃
                         </button>
                     </div>
                 <!--D.A.M 은 미래를 향해 나아갑니다-->
@@ -38,6 +41,7 @@
             </div>
         </header>
         <nav>
+
             <div class="nav_container"style="height: 60px;">
                 <ul id="nav">
                     <li class="menu">

@@ -1,4 +1,5 @@
 import * as express from "express"
+//import * as cookieParser from 'cookie-parser';
 
 const path = require('path');
 const app = express();
@@ -6,7 +7,8 @@ const app = express();
 let srcPath = `${__dirname}/../`;
 let htmlPath = path.join(srcPath, 'html');
 
-app.use('/',require('./route'))
+//app.use(cookieParser());
+app.use('/',require('./route'));
 app.use(express.static(srcPath));
 //app.use(express.static(htmlPath));
 

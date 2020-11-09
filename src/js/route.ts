@@ -1,6 +1,5 @@
 import * as express from 'express';
 import * as firebase from "firebase/app";
-import * as firebaseui from 'firebaseui';
 import "firebase/auth";
 import "firebase/firestore";
 
@@ -14,21 +13,24 @@ const firebaseConfig = { // Firebase 설정
     appId: "1:670681084026:web:785642c820ecd727b70bc3",
     measurementId: "G-QSTPY2T9HJ"
 };
+
 const fb = firebase.default;
 fb.initializeApp(firebaseConfig); // Firebase 시작
-const ui = new firebaseui.auth.AuthUI(fb.auth());
 const db = fb.firestore();
 const router = express.Router();
 
-router.post('/auth/ui', (req, res) => {
-    ui.start('main-container', {
-        signInOptions: [
-          fb.auth.EmailAuthProvider.PROVIDER_ID,
-          fb.auth.GoogleAuthProvider.PROVIDER_ID,
-          fb.auth.FacebookAuthProvider.PROVIDER_ID,
-          fb.auth.GithubAuthProvider.PROVIDER_ID
-        ],
-      });
+router.post('/savecookie/:idToken', (req, res) => {
+    res.cookie('idToken',(req.params.idToken as string),{
+        maxAge: 60*60*24*50,
+    });
+});
+
+router.post('/checkcookie/:idToken', (req, res) => {
+    let isCookied = false;
+    if(req.cookies['idToken']) {
+        isCookied = true;
+    }
+    res.json({response:isCookied});
 });
 
 router.post('/free_board/:index', (req, res) => { // 자유게시판 글 목록 요청 처리

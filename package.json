@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/swjuno/DAM1#readme",
   "dependencies": {
+    "@types/cookie-parser": "^1.4.2",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "firebase": "^8.0.1",

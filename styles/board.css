@@ -1,0 +1,9 @@
+.board_head{
+    border-bottom-color: #909090;
+    border-top-color: #909090;
+    border-bottom: 2px;
+    border-top: 2px;
+}
+.table {
+    border-collapse: collapse !important;
+}

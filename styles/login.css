@@ -15,9 +15,9 @@ a#homelogo{
 }
 a#loginlogo{
     width: 463px;
-    height: 200px;
+    height: 300px;
     display: inline-block;
-    background-image: url(/images/biglogo1-removebg-preview.png);
+    background: url('/images/white_logo.png') center center / 90% no-repeat;
     text-indent: 101%;
     overflow: hidden;
 }
@@ -277,4 +277,7 @@ a.btn-layerClose:hover {
 .change_html{
     overflow: auto;
     height: 300px;
+}
+.register_logo{
+
 }

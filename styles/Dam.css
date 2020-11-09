@@ -11,14 +11,17 @@
     overflow: hidden
 }
 
-a#homelogo {
-    width: 116px;
-    height: 50px;
+a.dropbtn {
+    cursor: default;
+}
+
+button.button_menu {
+    cursor: pointer;
+}
+
+img#homelogo {
     margin-bottom: 23px;
     display: inline-block;
-    background-image: url(/images/mainlogo_DAM_resized.png);
-    text-indent: 101%;
-    overflow: hidden;
 }
 
 .uu {
@@ -100,6 +103,35 @@ nav ul {
     cursor: pointer;
     box-shadow: 0 4px #dfdfdf;
     color: white;
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.homebutton:hover {
+    opacity: 0.5;
+}
+
+.homebutton:active {
+    box-shadow: 0 3px #dfdf;
+    transform: translateY(4px);
+}
+
+.homebutton {
+    background-color: white;
+    display: inline-block;
+    height: 32px;
+    width: 120px;
+    padding: 1px 15px;
+    margin: 1px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px #dfdfdf;
+    color: black;
     font-size: 15px;
     font-family: 'Noto Sans KR';
     font-weight: bolder;
@@ -217,5 +249,50 @@ nav ul {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes logodown {
+    0% {
+        left: -189px;
+        margin-left: 50%;
+        height: 300px;
+        width: 350px;
+    }
+    100% {
+        left: 0px;
+        margin-left: 0%;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@keyframes divdown {
+    0% {
+        height: 300px;
+    }
+    100% {
+        height: 100px;
+    }
+
+}
+
+.homespan {
+    position: relative;
+    color: white;
+    top: -30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: normal;
+    opacity: 0%;
+}
+@keyframes fadeout {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
     }
 }

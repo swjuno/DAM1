@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/white_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/white_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +151,7 @@
       <workItem from="1604751893023" duration="1079000" />
       <workItem from="1604762226413" duration="10158000" />
       <workItem from="1604812191077" duration="9615000" />
-      <workItem from="1604914663176" duration="5008000" />
-    </task>
-    <task id="LOCAL-00054" summary="홈로고 사이즈 조정 nav합침">
-      <created>1601034834651</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1601034834651</updated>
+      <workItem from="1604914663176" duration="5947000" />
     </task>
     <task id="LOCAL-00055" summary="9/25 10:00">
       <created>1601039066677</created>
@@ -500,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604841259682</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="수정">
+      <created>1604923532109</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1604923532109</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,12 +535,12 @@
     <MESSAGE value="fix something" />
     <MESSAGE value="asd" />
     <MESSAGE value="회원가입 완성" />
-    <MESSAGE value="수정" />
     <MESSAGE value="sujung" />
     <MESSAGE value="웹호스팅되게 src안 파일들 DAM으로 복붙" />
     <MESSAGE value="회원가입 부분 수정" />
     <MESSAGE value="로고 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="로고 수정" />
+    <MESSAGE value="수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -587,10 +583,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604774656755">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604923560048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604774656755" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604923560048" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

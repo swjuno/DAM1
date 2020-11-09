@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon_icon-removebg.png"/>
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>DAM</title>
+    <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<body>
+<div src="./shapelined-_JBKdviweXI-unsplash.jpg"
+     style="position: absolute;width: 100%;background-image: url(/images/shapelined-_JBKdviweXI-unsplash.jpg);top: 0px;left: 0px;right: 0px;bottom: 0px;min-height: 570px;background-size: cover;background-position: center center;z-index: -2;">
+    <header>
+        <div style="height: 90px"></div>
+        <div style="margin: 0 auto; width: 465px; border-bottom-color: black;">
+            <a href="./DAM.html" id="loginlogo">DAM</a>
+            <!--D.A.M 은 미래를 향해 나아갑니다-->
+        </div>
+    </header>
+    <main>
+
+        <div style="position: absolute;width: 296px;margin-left: 50%;left: -148px;margin-top: 60px;">
+            <div style="padding-bottom: 20px;position: absolute;top: -40px;margin-left: 50%;left: -117px">
+            <span style="position:relative;font-size: 20px;text-align: center;display: table; margin-left: auto; margin-right: auto; display: inline-block;left: 25px;">
+                이메일로온 인증코드를 <br>
+                입력하세요
+            </span>
+
+                </span>
+            </div>
+
+            <div class="box_login" style="background: rgba(255,255,255,0.60);position: absolute;top: 50px;">
+                <div class="inp_text" style="border: 1px;">
+                    <label for="loginemail_confirm" class="screen_out">이메일</label>
+                    <input type="text" id="loginemail_confirm" name="loginnum" placeholder="숫자4자리 이상">
+                    <!-- 이메일 정규식 JS 추가 필요-->
+                </div>
+            </div>
+            <button class="basicbtn" id="next_button"
+                    style="position: absolute;top:90px;left: 50%;margin-left: -150px;width: 300px;height: 40px;background-color: gray;margin-top: 60px;">
+                확인
+            </button>
+
+
+        </div>
+    </main>
+
+
+    <script>
+        function isEmail_confirm(asValue) {
+
+            var regExp = /^\d{4}$/g;
+
+            return regExp.test(asValue); // 형식에 맞는 경우 true 리턴
+
+        }
+
+        //인증칸 나타내기
+        $('#sendsms').on("click", function () {
+            $(this).hide();
+            $('#next_button').show();
+            $('#email').show();
+
+        })
+        $('#next_button').on('click', function () {
+            var value = $('#loginemail_confirm').val();
+            if (isEmail_confirm(value) == true) {
+                event.preventDefault();
+                location.replace("/html/register_password.html");
+            }
+        });
+        $('#loginemail_confirm').on('change keyup paste', function () {
+            var value = $('#loginemail_confirm').val();
+            if (isEmail_confirm(value) == true) {
+                $('#next_button').css('background-color', 'black');
+            } else if (isEmail_confirm(value) == false) {
+                $('#next_button').css('background-color', 'gray');
+            }
+        });
+    </script>
+</div>
+</body>
+</html>

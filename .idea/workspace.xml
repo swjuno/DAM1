@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change afterPath="$PROJECT_DIR$/src/html/mem_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/biglogo1-removebg-preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/biglogo1-removebg-preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mainlogo_DAM_resized.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mainlogo_DAM_resized.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/white_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/white_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,21 +154,8 @@
       <workItem from="1604658592646" duration="6901000" />
       <workItem from="1604751893023" duration="1079000" />
       <workItem from="1604762226413" duration="10158000" />
-      <workItem from="1604812191077" duration="8268000" />
-    </task>
-    <task id="LOCAL-00052" summary="페이스북 로그인버튼 추가">
-      <created>1600991112743</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1600991112743</updated>
-    </task>
-    <task id="LOCAL-00053" summary="영진이메인nav 브랜치합치는과정1">
-      <created>1601026779812</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1601026779812</updated>
+      <workItem from="1604812191077" duration="9615000" />
+      <workItem from="1604914663176" duration="5008000" />
     </task>
     <task id="LOCAL-00054" summary="홈로고 사이즈 조정 nav합침">
       <created>1601034834651</created>
@@ -500,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604774654586</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="로고 수정">
+      <created>1604841254833</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1604841254833</updated>
+    </task>
+    <task id="LOCAL-00102" summary="로고 수정">
+      <created>1604841259682</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1604841259682</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +519,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="왜 적용안되냐 십X" />
     <MESSAGE value="제발 돼라" />
     <MESSAGE value="ㄴㅇㅁㅇ" />
     <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ" />
@@ -544,7 +543,8 @@
     <MESSAGE value="sujung" />
     <MESSAGE value="웹호스팅되게 src안 파일들 DAM으로 복붙" />
     <MESSAGE value="회원가입 부분 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원가입 부분 수정" />
+    <MESSAGE value="로고 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="로고 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -603,10 +603,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604548962240" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604559380306">
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604918392497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604559380306" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604918392497" />
     <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603632656693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

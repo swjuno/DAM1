@@ -22,30 +22,34 @@
 
     <div style="background-color: black;height: 300px;margin: 0px;" id="logodiv">
         <img src="/images/black_logo.png"
-             style="position: relative;left: -189px;margin-left: 50%;height: 300px;width: 350px;" id="logo">
+             style="position: relative;left: -189px;margin-left: 50%;height: 300px;width: 350px;cursor: pointer;" id="logo">
+        <a href="/html/DAM.html" style="text-decoration: none;">
+        <span id="homespan_1" class="homespan" style="margin-left: 30px;">
+            DREAM ASSET MANAGEMENT
+        </span>
+        </a>
+        <div style="float: right;position: absolute;right: 10px;top: 30px;opacity: 0%;"id="loginbox">
+            <button class="homebutton" onclick="location.href='/html/login_demo.html' ">
+                로그인
+            </button>
+            <button class="homebutton" onclick="location.href='/html/register_agreement.html' ">
+                회원가입
+            </button>
+            <img src="/images/profile.png"style="border-radius:70%;border: 1px double black;position: relative;top: 10px;cursor: pointer;"id="profile">
+            <button class="homebutton" id="logout_btn">
+                로그아웃
+            </button>
+        </div>
+
     </div>
-    <!--                <img src="/images/biglogo1-removebg-preview.png" id="homelogo" style="position: relative;right: -20px;top: 20px;height: 50px;"/>-->
-    <!--                <a href="/html/DAM.html"-->
-    <!--                   style="position: relative; margin-left: 30px; top: -20px;font-family: 'Noto Sans KR', sans-serif;font-size: 22px;text-decoration: none; color: black;font-weight: normal; ">-->
-    <!--                    DREAM ASSET MANAGEMENT-->
-    <!--                </a>-->
-    <!--                <div style="max-height: 100%;float: right;">-->
-    <!--                    <button class="button" onclick="location.href='/html/login_demo.html' ">-->
-    <!--                        로그인-->
-    <!--                    </button>-->
-    <!--                    <button class="button" onclick="location.href='/html/register_agreement.html' ">-->
-    <!--                        회원가입-->
-    <!--                    </button>-->
-    <!--                    <img src="/images/profile.png"style="border-radius:70%;border: 1px double black;position: relative;top: 10px;cursor: pointer;"id="profile">-->
-    <!--                    <button class="button" id="logout_btn">-->
-    <!--                        로그아웃-->
-    <!--                    </button>-->
+
 
 
     <!--D.A.M 은 미래를 향해 나아갑니다-->
 
 </header>
 <nav>
+
     <div class="nav_container" style="height: 60px;">
         <div class="dropdown">
                 <span>
@@ -103,6 +107,7 @@
                 <button class="button_menu" id="btn_qna_log">내 문의 내역</button>
             </div>
         </div>
+
     </div>
 </nav>
 <main id=" r">
@@ -176,7 +181,6 @@
 </footer>
 </div>
 <script>
-    var Flagscroll = true
     window.fbAsyncInit = function () {
         FB.init({
             appId: 'DreamAssetManagement',
@@ -202,25 +206,42 @@
     $('#profile').on('click', function () {
         location.href = '/html/mem_profile.html';
     });
+
+    function makelogosmaller() {
+        $('#logo').css("animation", "logodown 2s");
+        $('#logodiv').css("animation", "divdown 2s");
+        $('#logodiv').css("height", "100px");
+        $('#logo').css("width", "100px");
+        $('#logo').css("height", "100px");
+        $('#logo').css("margin-left", "0%");
+        $('#logo').css("left", "0px");//DREAM ASSET MANAGEMENT
+        $("#homespan_1").css("animation", "fadeout 1s");
+        $("#homespan_1").css("opacity", "100%");
+        $("#loginbox").css("animation", "fadeout 2s");
+        $("#loginbox").css("animation-delay", "2s");
+
+    }
+
     $('.html').on("mousewheel", function (e) {
         const wheel = e.originalEvent.wheelDelta;
-        if (wheel < 0) {
-            if (Flagscroll) {
-                $('#html').scrolltop();
-                Flagscroll = false;
-            }
+        if (wheel != 0) {
+            makelogosmaller();
+            setTimeout( function(){
+                $('#loginbox').css('opacity','1');
+            },2000);
 
         }
-        if (wheel != 0) {
-            $('#logo').css("animation", "logodown 2s");
-            $('#logodiv').css("animation", "divdown 2s");
-            $('#logodiv').css("height", "100px");
-            $('#logo').css("width", "100px");
-            $('#logo').css("height", "100px");
-            $('#logo').css("margin-left", "0%");
-            $('#logo').css("left", "0px");
-        }
     });
+    $('.html').click(function () {
+        makelogosmaller();
+        setTimeout( function(){
+            $('#loginbox').css('opacity','1');
+        },2000);
+
+    });
+    $('#logo').on("click",function (){
+        location.href= '/html/DAM.html';
+    })
 </script>
 
 

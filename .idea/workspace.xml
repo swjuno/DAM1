@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
+      <change afterPath="$PROJECT_DIR$/src/html/notice_board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/notice_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/mem_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/mem_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_agreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/register_email_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +86,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wnsgh\WebstormProjects\DAM1\DAM-demo-version" />
-      <recent name="C:\Users\wnsgh\WebstormProjects\DAM1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\DAM1\styles" />
       <recent name="C:\DAM1\src\js" />
       <recent name="C:\DAM1\src\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wnsgh\WebstormProjects\DAM1\DAM-demo-version" />
+      <recent name="C:\Users\wnsgh\WebstormProjects\DAM1" />
     </key>
   </component>
   <component name="RunManager">
@@ -151,14 +159,12 @@
       <workItem from="1604751893023" duration="1079000" />
       <workItem from="1604762226413" duration="10158000" />
       <workItem from="1604812191077" duration="9615000" />
-      <workItem from="1604914663176" duration="6463000" />
-    </task>
-    <task id="LOCAL-00057" summary="커밋">
-      <created>1601295205632</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1601295205632</updated>
+      <workItem from="1604914663176" duration="7454000" />
+      <workItem from="1605015998910" duration="2466000" />
+      <workItem from="1605276499301" duration="1209000" />
+      <workItem from="1605880154709" duration="3277000" />
+      <workItem from="1605959700352" duration="15832000" />
+      <workItem from="1606023087331" duration="18098000" />
     </task>
     <task id="LOCAL-00058" summary="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ">
       <created>1601301903301</created>
@@ -496,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604928967155</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="수정">
+      <created>1604936377129</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1604936377129</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,14 +596,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604928968156">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604936378085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604928968156" />
-    <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599893206030">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604936378085" />
+    <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606062020390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599893206030" />
+    <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606062020390" />
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604071059780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

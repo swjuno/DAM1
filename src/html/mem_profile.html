@@ -1,11 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml" class="html">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8"/>
+    <title id="titlelogo">DAM</title>
+    <meta name="description" content="D.A.M과 함께 당신의 꿈을 이루세요">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon_icon-removebg.png"/>
+    <link rel="stylesheet" href="/styles/Dam.css">
+    <style>
+        * {
+            font-family: 'Noto Sans KR';
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>var exports = {};</script>
+    <script src="/js/script.js"></script>
 </head>
 <body>
-프로필
+
+<header>
+    <div style="background-color: black;height: 100px;margin: 0px;" id="logodiv">
+        <img src="/images/black_logo.png"
+             style="position: relative;height: 100px;width: 100px;cursor: pointer;" id="logo">
+        <a href="/html/DAM.html" style="text-decoration: none;">
+        <span id="homespan_1" class="homespan" style="margin-left: 30px;opacity: 100%">
+            DREAM ASSET MANAGEMENT
+        </span>
+        </a>
+        <div style="float: right;position: absolute;right: 10px;top: 30px;" id="loginbox">
+            <button class="homebutton" onclick="location.href='/html/login_demo.html' ">
+                로그인
+            </button>
+            <button class="homebutton" onclick="location.href='/html/register_agreement.html' ">
+                회원가입
+            </button>
+            <img src="/images/profile.png"
+                 style="border-radius:70%;border: 1px double black;position: relative;top: 10px;cursor: pointer;"
+                 id="profile" onclick="location.href='/html/mem_profile.html'">
+            <button class="homebutton" id="logout_btn">
+                로그아웃
+            </button>
+        </div>
+
+    </div>
+
+</header>
+<nav>
+
+    <div class="nav_container" style="height: 60px;">
+        <div class="dropdown">
+                <span>
+                    <a class="dropbtn">사이트 안내</a>
+                </span>
+            <div class="dropdown-content">
+                <button class="button_menu" id="btn_owners">운영진</button>
+                <button class="button_menu" id="btn_intention">기획 의도</button>
+                <button class="button_menu" id="btn_plan">운영 계획</button>
+            </div>
+        </div>
+        <div class="dropdown">
+                <span>
+                    <a class="dropbtn">멤버십 안내</a>
+                </span>
+            <div class="dropdown-content">
+                <button class="button_menu" id="btn_membership_intro">소개</button>
+                <button class="button_menu" id="btn_membership_benefit">혜택</button>
+            </div>
+        </div>
+        <div class="dropdown">
+                <span>
+                    <a class="dropbtn">투자안내</a>
+                </span>
+            <div class="dropdown-content">
+                <button class="button_menu" id="btn_inv_log">투자 내역</button>
+                <button class="button_menu" id="btn_inv_list">주식 목록</button>
+            </div>
+        </div>
+        <div class="dropdown">
+                <span>
+                    <a class="dropbtn">공지사항</a>
+                </span>
+            <div class="dropdown-content">
+                <button class="button_menu" id="btn_announcement" onclick="location.href='/html/notice_board.html'">공지사항</button>
+            </div>
+        </div>
+        <div class="dropdown">
+                <span>
+                    <a class="dropbtn">게시판</a>
+                </span>
+            <div class="dropdown-content">
+                <button class="button_menu" id="btn_board_free" onclick="location.href='/html/free_board.html'">자유
+                    게시판
+                </button>
+                <button class="button_menu" id="btn_board_stock">투자 게시판</button>
+            </div>
+        </div>
+        <div class="dropdown">
+                <span>
+                    <a class="dropbtn">고객센터</a>
+                </span>
+            <div class="dropdown-content">
+                <button class="button_menu" id="btn_qna_direct">1:1 문의</button>
+                <button class="button_menu" id="btn_qna_log">내 문의 내역</button>
+            </div>
+        </div>
+
+    </div>
+
+</nav>
+<div style="height: 50px;margin-top: 40px;border-bottom: 1px rgba(144,144,144,0.5) solid;">
+    <div style="width: 20%;height: 100%;float: left;padding-left: 15%;">
+
+    </div>
+    <div style="height: 100%">
+        <a href="#"class="profile_nav">
+            내 정보
+        </a>
+        <a href="#"class="profile_nav">
+            알림
+        </a>
+        <a href="#"class="profile_nav">
+            내 등급
+        </a>
+    </div>
+</div>
+<main style="margin-left: auto;margin-right: auto;max-width: 1440px;">
+
+    <div style="width: auto;height: auto;max-width: 400px;">
+        <div style="height: 350px;width: 100%;">
+            <div style="border-radius: 10px;width: 70%;height: 70%;position: relative;margin: auto auto;top: -32px;">
+                <img src="/images/favicon_icon-removebg.png"
+                     style="display: block;width: auto; height: auto;border: 1px solid rgba(144,144,144,0.7);border-radius: 100%;background-color: white;max-height: 100%;max-width: 100%">
+                <span style="font-size: 32px;line-height: 1.25;font-weight: bold;">닉네임</span>
+                <button class="btn_black"
+                        style="display:block;height: 40px !important;border-radius: 20px;width: 90% !important;">
+                    프로필 수정
+                </button>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+</main>
 
 </body>
 </html>

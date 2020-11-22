@@ -1,6 +1,14 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
-/*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);*/
+
+button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .blind { /* 스크린 리더에는 안보이는 클래스*/
     position: absolute;
@@ -36,6 +44,8 @@ img#homelogo {
     font-size: 16px;
     color: #ffffff;
     background-color: #000000;
+    outline: none;
+    cursor: pointer;
 }
 
 html, body {
@@ -108,6 +118,7 @@ nav ul {
     font-weight: bolder;
     transition: 0.3s;
 }
+
 .homebutton:hover {
     opacity: 0.5;
 }
@@ -220,7 +231,72 @@ nav ul {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
+
 }
+
+.profile_nav {
+    padding: 13px 20px;
+    float: left;
+}
+
+.profile_nav:hover {
+    border-bottom: rgba(144, 144, 144, 1) solid 2px;
+
+}
+
+.board_boxpost {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 30%;
+    margin-top: 20px;
+}
+
+
+.post_title {
+    font-size: 26px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+.posting {
+    height: 70%;
+    width: 100%;
+    cursor: pointer;
+    transition:.5s;
+}
+.board_boxpost:hover > .posting{
+    opacity: 50%;
+}
+.newboard_boxpost:hover > .posting{
+    opacity: 50%;
+}
+.aboutpost {
+    position: relative;
+    top: -10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 0px !important;
+}
+.newaboutpost {
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    background-color: #f1f1f1;
+    margin-top: 0px !important;
+}
+.newpost_title {
+    font-size: 26px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+.newboard_boxpost {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 25%;
+    margin-top: 20px;
+}
+
 
 @media (max-width: 600px) {
     /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
@@ -288,6 +364,7 @@ nav ul {
     font-weight: normal;
     opacity: 0%;
 }
+
 @keyframes fadeout {
     0% {
         opacity: 0%;

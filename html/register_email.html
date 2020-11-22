@@ -66,6 +66,9 @@
                 event.preventDefault();
                 location.replace('/html/register_email_confirm.html');
             }
+            else{
+                alert("이메일을 다시 확인해주세요")
+            }
         });
         $('#loginemail').on('change keyup paste', function () {
             var value = $('#loginemail').val();

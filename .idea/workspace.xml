@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change afterPath="$PROJECT_DIR$/src/html/notice_board.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/notice_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/mem_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/mem_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_agreement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_agreement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/register_email_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/register_email_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/notice_board.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/notice_board.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +157,7 @@
       <workItem from="1605276499301" duration="1209000" />
       <workItem from="1605880154709" duration="3277000" />
       <workItem from="1605959700352" duration="15832000" />
-      <workItem from="1606023087331" duration="18098000" />
-    </task>
-    <task id="LOCAL-00058" summary="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ">
-      <created>1601301903301</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1601301903302</updated>
+      <workItem from="1606023087331" duration="18457000" />
     </task>
     <task id="LOCAL-00059" summary="로그인 ui 다시만듬&#10;디지는줄 ㅅㅂ">
       <created>1601302519253</created>
@@ -509,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604936377129</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="profile : 미완성&#10;board post : 90퍼&#10;board : feedback">
+      <created>1606064216836</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064216836</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="제발 돼라" />
     <MESSAGE value="ㄴㅇㅁㅇ" />
     <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ" />
     <MESSAGE value="ㄴㅇㅁㅇㅁㄴㄹ" />
@@ -553,7 +545,8 @@
     <MESSAGE value="회원가입 부분 수정" />
     <MESSAGE value="로고 수정" />
     <MESSAGE value="수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="수정" />
+    <MESSAGE value="profile : 미완성&#10;board post : 90퍼&#10;board : feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile : 미완성&#10;board post : 90퍼&#10;board : feedback" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600000059823">
@@ -596,10 +589,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604936378085">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606064218948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604936378085" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606064218948" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606062020390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -258,18 +258,22 @@ nav ul {
     display: block;
     cursor: pointer;
 }
+
 .posting {
     height: 70%;
     width: 100%;
     cursor: pointer;
-    transition:.5s;
+    transition: .5s;
 }
-.board_boxpost:hover > .posting{
+
+.board_boxpost:hover > .posting {
     opacity: 50%;
 }
-.newboard_boxpost:hover > .posting{
+
+.newboard_boxpost:hover > .posting {
     opacity: 50%;
 }
+
 .aboutpost {
     position: relative;
     top: -10px;
@@ -277,6 +281,7 @@ nav ul {
     background-color: #f1f1f1;
     margin-top: 0px !important;
 }
+
 .newaboutpost {
     padding: 10px;
     position: relative;
@@ -284,12 +289,14 @@ nav ul {
     background-color: #f1f1f1;
     margin-top: 0px !important;
 }
+
 .newpost_title {
     font-size: 26px;
     font-weight: bold;
     display: block;
     cursor: pointer;
 }
+
 .newboard_boxpost {
     margin-right: auto;
     margin-left: auto;
@@ -372,4 +379,91 @@ nav ul {
     100% {
         opacity: 100%;
     }
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    font-size: 18px;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #585858;
+    transition: all .2s ease-out;
+}
+.menu a:hover::after{
+    width: 100%;
+}
+.slide_container{
+    width: 300vw;
+    transition: transform 0.5s;
+}
+.slide_inner{
+    width: 100vw;
+    float: left;
+}
+.inner_img{
+    width: 100%;
+    height: auto;
+}
+.img_btn_container{
+    position: relative;
+    top: -30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.img_btn_container span{
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color: #909090;
+    cursor: pointer;
+    margin: 2px;
+
+}
+.img_btn{
+    font-size: 100px;
+    cursor: pointer;
+
+}
+.pnimg_btn_container span{
+    font-size: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pnimg_btn_container {
+    position: relative;
+    top: -400px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.img_btnpre{
+    float: left;
+    /*background-color: rgba(146, 146, 146,0.5);*/
+    vertical-align: middle;
+
+}
+.img_btnnext{
+    float: right;
+    /*background-color: rgba(146, 146, 146,0.5);*/
+    vertical-align: middle;
+
+
 }

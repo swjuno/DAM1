@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml" class="html">
+<html lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml" class="html"
+      xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
     <title id="titlelogo">DAM</title>
@@ -17,169 +18,67 @@
     <script src="/js/script.js"></script>
 </head>
 <body>
-
-<header>
-
-    <div style="background-color: black;height: 300px;margin: 0px;" id="logodiv">
-        <img src="/images/black_logo.png"
-             style="position: relative;left: -189px;margin-left: 50%;height: 300px;width: 350px;cursor: pointer;" id="logo">
-        <a href="/html/DAM.html" style="text-decoration: none;">
-        <span id="homespan_1" class="homespan" style="margin-left: 30px;">
-            DREAM ASSET MANAGEMENT
-        </span>
+<header style="background-color: #f6d34d;height: 85px;">
+    <div>
+        <a href="/html/DAM.html">
+            <img src="/images/mainlogo_DAM_resized.png" style="padding: 10px;padding-left: 60px !important;">
+            <span style="position: relative;left: -103px;font-size: 10px;font-weight: bold">Dream Asset Management</span>
         </a>
-        <div style="float: right;position: absolute;right: 10px;top: 30px;opacity: 0%;"id="loginbox">
-            <button class="homebutton" onclick="location.href='/html/login_demo.html' ">
-                로그인
-            </button>
-            <button class="homebutton" onclick="location.href='/html/register_agreement.html' ">
-                회원가입
-            </button>
-            <img src="/images/profile.png"style="border-radius:70%;border: 1px double black;position: relative;top: 10px;cursor: pointer;"id="profile"onclick="location.href='/html/mem_profile.html'">
-            <button class="homebutton" id="logout_btn">
-                로그아웃
-            </button>
-        </div>
-
     </div>
-
-
-
-    <!--D.A.M 은 미래를 향해 나아갑니다-->
-
+    <div>
+        <div style="margin-left: 100px;position: absolute;top: 30px;right: 150px;">
+            <div class="menu">
+                <a>
+                    내 투자
+                </a>
+                <a>
+                    종목검색
+                </a>
+                <a>
+                    계좌개설
+                </a>
+                <a>
+                    추천종목
+                </a>
+                <a>
+                    이벤트
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="position: absolute;right: 30px; top: 28px;">
+        <img src="/images/더보기.png" style="width: auto;height: 30px;cursor: pointer;" id="menu">
+        <img src="/images/search_img.png" style="width: auto;height: 30px;cursor: pointer;">
+    </div>
 </header>
-<nav>
-
-    <div class="nav_container" style="height: 60px;">
-        <div class="dropdown">
-                <span>
-                    <a class="dropbtn">사이트 안내</a>
-                </span>
-            <div class="dropdown-content">
-                <button class="button_menu" id="btn_owners">운영진</button>
-                <button class="button_menu" id="btn_intention">기획 의도</button>
-                <button class="button_menu" id="btn_plan">운영 계획</button>
+<main>
+    <div style="overflow: hidden;width: 70%;height: 600px;margin-right: 15%;margin-left: 15%">
+        <div class="slide_container">
+            <div class="slide_inner">
+                <img src="/images/isaac-smith-AT77Q0Njnt0-unsplash.jpg" class="inner_img">
             </div>
-        </div>
-        <div class="dropdown">
-                <span>
-                    <a class="dropbtn">멤버십 안내</a>
-                </span>
-            <div class="dropdown-content">
-                <button class="button_menu" id="btn_membership_intro">소개</button>
-                <button class="button_menu" id="btn_membership_benefit">혜택</button>
+            <div class="slide_inner">
+                <img src="/images/background.png" class="inner_img">
             </div>
-        </div>
-        <div class="dropdown">
-                <span>
-                    <a class="dropbtn">투자안내</a>
-                </span>
-            <div class="dropdown-content">
-                <button class="button_menu" id="btn_inv_log">투자 내역</button>
-                <button class="button_menu" id="btn_inv_list">주식 목록</button>
+            <div class="slide_inner">
+                <img src="/images/shapelined-_JBKdviweXI-unsplash.jpg" class="inner_img">
             </div>
-        </div>
-        <div class="dropdown">
-                <span>
-                    <a class="dropbtn">공지사항</a>
-                </span>
-            <div class="dropdown-content">
-                <button class="button_menu" id="btn_announcement" onclick="location.href='/html/notice_board.html'">공지사항</button>
-            </div>
-        </div>
-        <div class="dropdown">
-                <span>
-                    <a class="dropbtn">게시판</a>
-                </span>
-            <div class="dropdown-content">
-                <button class="button_menu" id="btn_board_free" onclick="location.href='/html/free_board.html'">자유
-                    게시판
-                </button>
-                <button class="button_menu" id="btn_board_stock">투자 게시판</button>
-            </div>
-        </div>
-        <div class="dropdown">
-                <span>
-                    <a class="dropbtn">고객센터</a>
-                </span>
-            <div class="dropdown-content">
-                <button class="button_menu" id="btn_qna_direct">1:1 문의</button>
-                <button class="button_menu" id="btn_qna_log">내 문의 내역</button>
-            </div>
-        </div>
-
-    </div>
-</nav>
-<main id=" r">
-    <div style="margin: 30px auto;position: relative;top: -30px;width: 100%;">
-        <div style="background-image: url(/images/background.png);background-size: cover;height: 920px;">
-            <!--첫번째 사진-->
-            <div style="width: 50%;height: 100%;background-color: rgba(0,0,0,0.4);float: right;">
-                <div style="margin-left: 50%;position: relative;left: -300px;margin-top: 50%;top: -200px;">
-                    <h1 style="color: white;font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';font-size: 50px;width: 600px;text-align: center;display: table;margin-left: auto;margin-right: auto;display: inline-block;"
-                        class="fadein3s">
-                        믿고 투자하는
-                        <p>
-                        <div style="margin-top: 10px; font-family: 'Noto Sans KR', sans-serif;font-size: 28px;text-decoration: none; color: black;font-weight: normal; ">
-                            <img src="/images/biglogo1-removebg-preview.png" style="height: 20%; width: 40%;"><br>
-                            DREAM ASSET MANAGEMENT
-                        </div>
-                        </p>
-                    </h1>
-                </div>
-
-            </div>
-
-        </div>
-        <div style="height: 200px;width: 100%;background-color: black">
-                    <span>
-                        <h1 style="position:absolute;font-size: 60px;color: white;margin-top: 0px;margin-bottom: 0px;padding: 60px;margin-left: 50%;left: -450px;"
-                            class="textcenter">
-                            어떤 말이든 써야지 느낌있지
-                        </h1>
-                    </span>
-        </div>
-        <div style="height: 500px;width: 50%;float: right;background-color: rgba(0,0,0,0.83);">
-            <p style="color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;">
-                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 하느님이 보우하사 우리나라 만세
-                남산 우헤 저 소나무 철갑을 두른 듯
-                바람이슬 불변함은 우리 기상일세
-                무궁화 삼천리 화려강산
-                대한사람 대한으로 길이 보전하세
-            </p>
-        </div>
-        <div style="height: 500px;width:50%;float: left;background-image: url(/images/background.png);">
-
-        </div>
-        <div style="height: 500px;width: 50%;float: right;background-image: url(/images/background.png);">
-
-        </div>
-        <div style="height: 500px;width:50%;float: left;background-color: rgba(0,0,0,0.83);">
-            <p style="color:white;font-size: 40px;font-weight: bold;margin: 30px;animation: fadeIn 5s;">
-                가을 하늘 공활한데 높고 구름 없이
-                밝은 달은 우리 가슴 일편단심일세
-                무궁화 삼천리 화려 강산
-                대한 사람 대한으로 길이 보전하세
-                이 기상과 이 맘으로 충성을 다하여
-                괴로우나 즐거우나 나라 사랑하세
-                무궁화 삼천리 화려 강산
-                대한 사람 대한으로 길이 보전하세
-            </p>
         </div>
     </div>
-
+    <div class="img_btn_container">
+        <span class="img1_btn"></span>
+        <span class="img2_btn"></span>
+        <span class="img3_btn"></span>
+    </div>
+    <div class="pnimg_btn_container">
+        <span class="img_btnpre">
+            <
+        </span>
+        <span class="img_btnnext">
+            >
+        </span>
+    </div>
 </main>
-<footer>
-    <ul class="ft_ct">
-
-        <li class="ft_it"> Copyright 2020. Dream Asset Management. All rights reserved.</li>
-        <li class="ft_it"> Email adress : dreamassetmanagement.dam@gmail.com</li>
-
-    </ul>
-    <button onclick="alert('테스트')">alert JS 테스트</button>
-
-</footer>
-</div>
 <script>
     window.fbAsyncInit = function () {
         FB.init({
@@ -192,7 +91,6 @@
         FB.AppEvents.logPageView();
 
     };
-
     (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) {
@@ -207,41 +105,19 @@
         location.href = '/html/mem_profile.html';
     });
 
-    function makelogosmaller() {
-        $('#logo').css("animation", "logodown 2s");
-        $('#logodiv').css("animation", "divdown 2s");
-        $('#logodiv').css("height", "100px");
-        $('#logo').css("width", "100px");
-        $('#logo').css("height", "100px");
-        $('#logo').css("margin-left", "0%");
-        $('#logo').css("left", "0px");//DREAM ASSET MANAGEMENT
-        $("#homespan_1").css("animation", "fadeout 1s");
-        $("#homespan_1").css("opacity", "100%");
-        $("#loginbox").css("animation", "fadeout 2s");
-        $("#loginbox").css("animation-delay", "2s");
-
-    }
-
-    $('.html').on("mousewheel", function (e) {
-        const wheel = e.originalEvent.wheelDelta;
-        if (wheel != 0) {
-            makelogosmaller();
-            setTimeout( function(){
-                $('#loginbox').css('opacity','1');
-            },2000);
-
-        }
+    document.querySelector('.img1_btn').addEventListener('click', function () {
+        document.querySelector('.slide_container').style.transform = 'translate(0vw)'
     });
-    $('.html').click(function () {
-        makelogosmaller();
-        setTimeout( function(){
-            $('#loginbox').css('opacity','1');
-        },2000);
-
+    document.querySelector('.img2_btn').addEventListener('click', function () {
+        document.querySelector('.slide_container').style.transform = 'translate(-100vw)'
     });
-    $('#logo').on("click",function (){
-        location.href= '/html/DAM.html';
-    })
+    document.querySelector('.img3_btn').addEventListener('click', function () {
+        document.querySelector('.slide_container').style.transform = 'translate(-200vw)'
+    });
+    $(".img_btnpre").click(function(){
+        $(".slide_container").css("translate")
+    // css 변수로 만들기
+    });
 </script>
 
 

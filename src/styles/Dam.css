@@ -464,6 +464,46 @@ nav ul {
     float: right;
     /*background-color: rgba(146, 146, 146,0.5);*/
     vertical-align: middle;
+}
+.prevent_drag{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.event_boxpost {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 270px;
+    height: 450px;
+    margin-top: 30px;
+}
 
 
+.event_title {
+    font-size: 26px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+.eventposting {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.evnet_boxpost:hover > .eventposting {
+    opacity: 50%;
+}
+
+.event_boxpost:hover > .eventposting {
+    opacity: 50%;
+}
+
+.eventaboutpost {
+    position: relative;
+    top: -10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 0px !important;
 }

@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change afterPath="$PROJECT_DIR$/src/images/search_img.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/더보기.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/mem_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/mem_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/notice_board.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/notice_board.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/notice_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/notice_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,13 +164,8 @@
       <workItem from="1606655874941" duration="638000" />
       <workItem from="1606803195146" duration="2783000" />
       <workItem from="1606990492087" duration="14257000" />
-    </task>
-    <task id="LOCAL-00061" summary="제발 돼라">
-      <created>1601303464475</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1601303464475</updated>
+      <workItem from="1607090988446" duration="3931000" />
+      <workItem from="1607094945079" duration="6716000" />
     </task>
     <task id="LOCAL-00062" summary="ㄴㅇㅁㅇ">
       <created>1601303571192</created>
@@ -513,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607023342342</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="수정">
+      <created>1607091004687</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1607091004687</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,10 +557,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="수정" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="828" y="178" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606573844805">
+    <state x="828" y="178" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607108873679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="178" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606573844805" />
+    <state x="828" y="178" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607108873679" />
     <state x="638" y="357" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604165714927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -600,10 +597,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606064524479">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607091006943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606064524479" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607091006943" />
     <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606062020390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
+      <change afterPath="$PROJECT_DIR$/src/images/search_img.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/더보기.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/mem_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/mem_profile.html" afterDir="false" />
@@ -166,14 +168,7 @@
       <workItem from="1606568504550" duration="5562000" />
       <workItem from="1606655874941" duration="638000" />
       <workItem from="1606803195146" duration="2783000" />
-      <workItem from="1606990492087" duration="14064000" />
-    </task>
-    <task id="LOCAL-00060" summary="왜 적용안되냐 십X">
-      <created>1601303051239</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1601303051239</updated>
+      <workItem from="1606990492087" duration="14257000" />
     </task>
     <task id="LOCAL-00061" summary="제발 돼라">
       <created>1601303464475</created>
@@ -511,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606064523485</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="수정">
+      <created>1607023342342</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1607023342342</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,10 +554,10 @@
     <MESSAGE value="웹호스팅되게 src안 파일들 DAM으로 복붙" />
     <MESSAGE value="회원가입 부분 수정" />
     <MESSAGE value="로고 수정" />
-    <MESSAGE value="수정" />
     <MESSAGE value="profile : 미완성&#10;board post : 90퍼&#10;board : feedback" />
     <MESSAGE value="juno commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="juno commit" />
+    <MESSAGE value="수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="178" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606573844805">

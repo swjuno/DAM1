@@ -47,9 +47,47 @@
         </div>
     </div>
     <div style="position: absolute;right: 30px; top: 28px;" class="prevent_drag">
-        <img src="/images/더보기.png" style="width: auto;height: 30px;cursor: pointer;" id="menu">
+        <div class="hamburger-icon">
+            <div class="hamburger-icon__middle"></div>
+        </div>
         <img src="/images/search_img.png" style="width: auto;height: 30px;cursor: pointer;">
     </div>
+<!--    <div style="position: absolute;width: 70%;height: 600px;background-color: #1c7430;top: 85px;left: 15%;z-index: 10;display: flex;"class="prevent_drag">-->
+<!--        <div style="width: 30%;height: 100%;">-->
+<!--            <a style="font-size: 50px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">-->
+<!--                메뉴 이름-->
+<!--            </a>-->
+<!--            <a style="font-size: 20px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">-->
+<!--                전체 메뉴 보기-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div style="width: 70%;height: 100%;display: flex">-->
+<!--            <ul style="font-size: 25px;font-weight: 800;width: 40%"class="menu1">-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--            </ul>-->
+<!--            <ul style="font-size: 25px;font-weight: 800;width: 60%"class="menu1">-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--                <li>메뉴1</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
 </header>
 <main>
     <div style="overflow: hidden;width: 70%;height: 600px;margin-right: 15%;margin-left: 15%">
@@ -80,7 +118,8 @@
     </div>
     <div style="display: block; background-color: #f6f6f6">
         <div style="padding: 15px;margin-top: -24px;">
-            <span style="font-weight: bold;font-size: 18px;">처음 방문하셨다면?<span style="color: #f6d34d;font-size: 20px;">>></span></span>
+            <span style="font-weight: bold;font-size: 18px;">처음 방문하셨다면?<span
+                    style="color: #f6d34d;font-size: 20px;">>></span></span>
             <button style="font-weight: bold;float:right;background-color: white;border: 3px #f6d34d solid;border-radius: 10px;cursor: pointer;margin-top: -24px;"
                     onclick="location.href='/html/register_agreement.html'">
                 회원가입
@@ -154,7 +193,7 @@
             </div>
         </div>
     </div>
-    <div style="background-color: #f6d34d;width: 100%;height: 400px;display: flex;"class="prevent_drag">
+    <div style="background-color: #f6d34d;width: 100%;height: 400px;display: flex;" class="prevent_drag">
         <div style="height: 100%;width: 10%;">
         </div>
         <div style="min-width: 300px;padding-top: 70px;margin-left: auto;margin-right: auto">
@@ -184,7 +223,8 @@
         <div style="height: 100%;width: 10%;">
         </div>
     </div>
-    <div style="height: 100%;width: 75%;padding: 5%;padding-left: 15% !important;padding-right: 10% !important;"class="prevent_drag">
+    <div style="height: 100%;width: 75%;padding: 5%;padding-left: 15% !important;padding-right: 10% !important;"
+         class="prevent_drag">
         <div style="display: flex">
             <div style="display: block;min-width:35%;">
                 <div style="border-bottom: 1px solid #b1b1b1">
@@ -193,15 +233,15 @@
                 </div>
                 <div style="border-bottom: 1px solid #b1b1b1">
                     <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
-                        <span>게시판 예시</span>
+                        <a style="cursor:pointer;">게시판 예시</a>
                         <span style="float:right;">2020.11.11</span>
                     </div>
                     <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
-                        <span>게시판 예시</span>
+                        <a style="cursor:pointer;">게시판 예시</a>
                         <span style="float:right;">2020.11.11</span>
                     </div>
                     <div style="padding: 20px;">
-                        <span>게시판 예시</span>
+                        <a style="cursor:pointer;">게시판 예시</a>
                         <span style="float:right;">2020.11.11</span>
                     </div>
                 </div>
@@ -213,10 +253,18 @@
             </div>
         </div>
     </div>
-    <div style="margin-left: 10% !important;margin-right: 10% !important;background-color: #ffdb6a;padding: 40px;padding-left: 50px !important;">
+    <div style="margin-left: 10% !important;margin-right: 10% !important;background-color: #ffdb6a;padding: 40px;padding-left: 50px !important;margin-bottom: 80px;">
         <span style="font-size: 30px;font-weight: 900">당신의 꿈의 자산 운용을 돕는 DAM 주식투자입니다!</span>
     </div>
 </main>
+<footer style="width: 100%;height: 300px;background-color: #fffcaa">
+    <div>
+        <a href="/html/DAM.html">
+            <img src="/images/mainlogo_DAM_resized.png" style="padding: 10px;padding-left: 60px !important;">
+            <span style="position: relative;left: -103px;font-size: 10px;font-weight: 900">Dream Asset Management</span>
+        </a>
+    </div>
+</footer>
 <script>
     window.fbAsyncInit = function () {
         FB.init({
@@ -307,6 +355,25 @@
         document.querySelector('.slide_container').style.transform = 'translate(' + String(slideshowcount) + 'vw)';
         slidebarcolor();
     });
+
+
+    class MobileMenu {
+        constructor() {
+            this.hamburgerIcon = document.querySelector(".hamburger-icon");
+            this.events();
+        }
+
+        events() {
+            this.hamburgerIcon.addEventListener("click", () => this.toggleTheMenu());
+        }
+
+        toggleTheMenu() {
+            console.log("hi");
+            this.hamburgerIcon.classList.toggle("hamburger-icon--close");
+        }
+    }
+
+    new MobileMenu();
 </script>
 
 

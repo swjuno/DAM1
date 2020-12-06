@@ -552,6 +552,7 @@ nav ul {
 }
 .hamburger-icon--close::before {
     transform: rotate(45deg) scaleX(1.5) translateY(-2px);
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
     width: 20px;
     background: #000000;
 }
@@ -562,6 +563,7 @@ nav ul {
 }
 .hamburger-icon--close::after {
     transform: rotate(-45deg) scaleX(1.5) translateY(2px);
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
     background: #000000;
     width: 20px;
 }

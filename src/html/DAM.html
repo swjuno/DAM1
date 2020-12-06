@@ -50,44 +50,117 @@
         <div class="hamburger-icon">
             <div class="hamburger-icon__middle"></div>
         </div>
-        <img src="/images/search_img.png" style="width: auto;height: 30px;cursor: pointer;">
+        <img src="/images/search_img.png" style="width: auto;height: 30px;cursor: pointer;" class="search_btn">
     </div>
-<!--    <div style="position: absolute;width: 70%;height: 600px;background-color: #1c7430;top: 85px;left: 15%;z-index: 10;display: flex;"class="prevent_drag">-->
-<!--        <div style="width: 30%;height: 100%;">-->
-<!--            <a style="font-size: 50px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">-->
-<!--                메뉴 이름-->
-<!--            </a>-->
-<!--            <a style="font-size: 20px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">-->
-<!--                전체 메뉴 보기-->
-<!--            </a>-->
-<!--        </div>-->
-<!--        <div style="width: 70%;height: 100%;display: flex">-->
-<!--            <ul style="font-size: 25px;font-weight: 800;width: 40%"class="menu1">-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--            </ul>-->
-<!--            <ul style="font-size: 25px;font-weight: 800;width: 60%"class="menu1">-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--                <li>메뉴1</li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none"
+         class="prevent_drag menulayout">
+        <div style="width: 30%;height: 100%;">
+            <a style="font-size: 50px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">
+                메뉴 이름
+            </a>
+            <a style="font-size: 20px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">
+                전체 메뉴 보기
+            </a>
+        </div>
+        <div style="width: 70%;height: 100%;display: flex">
+            <ul style="font-size: 25px;font-weight: 800;width: 40%" class="menu1">
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+            </ul>
+            <ul style="font-size: 25px;font-weight: 800;width: 60%" class="menu1">
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+                <li>메뉴1</li>
+            </ul>
+        </div>
+    </div>
+    <div style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none"
+         class="prevent_drag searchlayout">
+        <div style="margin-left: auto;margin-right: auto;max-width: 650px;margin-top: 80px;">
+            <img src="/images/search_coloredimg.jpg"
+                 style="width: 40px;height: 40px;margin-left: 600px;position: absolute;cursor: pointer">
+            <input type="text"
+                   style="border: 0px;border-bottom: 2px solid #f6d34d !important;outline: none;padding-right: 50px !important;height: 50px;width: 600px;padding: 0px;font-weight: 900;font-size: 30px;">
+            <div style="display: flex">
+                <span style="font-size: 20px;font-weight: 900;border-right: 2px solid black;padding: 30px;padding-top: 0px !important;padding-bottom: 0px !important;margin-top: 10px;margin-left: 10px;">추천 검색어</span>
+                <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#비X컴X터</span>
+                <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#엑X스X이X</span>
+                <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#신풍제약</span>
+            </div>
+        </div>
+        <div style="display: flex">
+            <div style="width: 50%;margin-left: auto;margin-right: auto;margin-top: 50px;">
+                <div style="border-bottom: 1px solid black;padding-bottom: 7px;margin-left: auto;margin-right: auto;max-width: 200px;">
+                    <span style="font-weight: 900;font-size: 20px;">이번 주 추천 종목</span>
+                    <span style="float: right;font-weight: 700;font-size: 35px;cursor: pointer;margin-top: -10px;">+</span>
+                </div>
+                <div style="margin-left: auto;margin-right: auto;max-width: 200px;">
+                    <ul style="width: 200px;padding-left: 0px;position: relative;left: -20px">
+                        <li>
+                            <ol>
+                                <li style="float: left">(1)OO제약</li>
+                                <li style="float:right;color: #f6d34d">7.58%</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <ol>
+                                <li style="float: left">(1)OO제약</li>
+                                <li style="float:right;color: #f6d34d">7.58%</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <ol>
+                                <li style="float: left">(1)OO제약</li>
+                                <li style="float:right;color: #f6d34d">7.58%</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <ol>
+                                <li style="float: left">(1)OO제약</li>
+                                <li style="float:right;color: #f6d34d">7.58%</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <ol>
+                                <li style="float: left">(1)OO제약</li>
+                                <li style="float:right;color: #f6d34d">7.58%</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="width: 50%;margin-left: auto;margin-right: auto;margin-top: 50px;">
+                <div style="border-bottom: 1px solid black;padding-bottom: 7px;margin-left: auto;margin-right: auto;max-width: 200px;">
+                    <span style="font-weight: 900;font-size: 20px;">이번 주 저녁 메뉴</span>
+                    <span style="float: right;font-weight: 700;font-size: 35px;cursor: pointer;margin-top: -10px;">+</span>
+                </div>
+                <div style="margin-left: auto;margin-right: auto;max-width: 200px;">
+                    <ul style="padding-left: 0px;">
+                        <li style="text-align: center">물회</li>
+                        <li style="text-align: center">사케동</li>
+                        <li style="text-align: center">황금올리브</li>
+                        <li style="text-align: center">채끝살 짜파구리</li>
+                        <li style="text-align: center">모둠초밥</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 <main>
     <div style="overflow: hidden;width: 70%;height: 600px;margin-right: 15%;margin-left: 15%">
@@ -368,14 +441,22 @@
         }
 
         toggleTheMenu() {
-            console.log("hi");
             this.hamburgerIcon.classList.toggle("hamburger-icon--close");
         }
     }
 
+    $(".hamburger-icon").click(function () {
+        $('.menulayout').slideToggle()
+        $('.menulayout').css('display', 'flex')
+    });
+
+    $(".search_btn").click(function () {
+        $('.searchlayout').slideToggle()
+    });
+
     new MobileMenu();
 </script>
 
-
+searchlayout
 </body>
 </html>

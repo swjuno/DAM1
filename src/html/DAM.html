@@ -31,7 +31,7 @@
                 <a>
                     내 투자
                 </a>
-                <a>
+                <a href="/html/stock_search.html">
                     종목검색
                 </a>
                 <a>
@@ -52,7 +52,7 @@
         </div>
         <img src="/images/search_img.png" style="width: auto;height: 30px;cursor: pointer;" class="search_btn">
     </div>
-    <div style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none"
+    <div style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none;border: 1px solid black; border-top: 0px !important;"
          class="prevent_drag menulayout">
         <div style="width: 30%;height: 100%;">
             <a style="font-size: 50px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">
@@ -89,9 +89,9 @@
             </ul>
         </div>
     </div>
-    <div style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none"
+    <div style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none;border: 1px solid black; border-top: 0px !important;"
          class="prevent_drag searchlayout">
-        <div style="margin-left: auto;margin-right: auto;max-width: 650px;margin-top: 80px;">
+        <div style="margin-left: auto;margin-right: auto;max-width: 650px;margin-top: 60px;">
             <img src="/images/search_coloredimg.jpg"
                  style="width: 40px;height: 40px;margin-left: 600px;position: absolute;cursor: pointer">
             <input type="text"
@@ -302,7 +302,7 @@
             <div style="display: block;min-width:35%;">
                 <div style="border-bottom: 1px solid #b1b1b1">
                     <span style="font-size: 30px;font-weight: 900;color: #393939">게시판</span>
-                    <span style="float:right;font-size: 18px;cursor: pointer">더보기></span>
+                    <a href="/html/notice_board.html" style="float:right;font-size: 18px;cursor: pointer">더보기></a>
                 </div>
                 <div style="border-bottom: 1px solid #b1b1b1">
                     <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
@@ -332,10 +332,21 @@
 </main>
 <footer style="width: 100%;height: 300px;background-color: #fffcaa">
     <div>
-        <a href="/html/DAM.html">
+        <span>
+            전화번호 1577-0000
+        </span>
+        <span>
+전화번호 1577-0000
+        </span>
+        <span>
+
+        </span>
+    </div>
+    <div>
+        <div>
             <img src="/images/mainlogo_DAM_resized.png" style="padding: 10px;padding-left: 60px !important;">
             <span style="position: relative;left: -103px;font-size: 10px;font-weight: 900">Dream Asset Management</span>
-        </a>
+        </div>
     </div>
 </footer>
 <script>
@@ -427,9 +438,7 @@
         }
         document.querySelector('.slide_container').style.transform = 'translate(' + String(slideshowcount) + 'vw)';
         slidebarcolor();
-    });
-
-
+    });//메인페이지 슬라이드 코드
     class MobileMenu {
         constructor() {
             this.hamburgerIcon = document.querySelector(".hamburger-icon");
@@ -456,7 +465,5 @@
 
     new MobileMenu();
 </script>
-
-searchlayout
 </body>
 </html>

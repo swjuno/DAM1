@@ -10,6 +10,6 @@ app.use(express.static(srcPath));
 app.get('/', function (req, res) {
     res.sendFile(path.join(htmlPath, 'DAM.html'));
 });
-app.listen(8080, function () {
-    console.log('Express App on port 8080!');
+app.listen(80, function () {
+    console.log('Express App on port 80!');
 });

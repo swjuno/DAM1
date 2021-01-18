@@ -168,21 +168,21 @@
 
 <div style="display: flex">
     <div id="curve_chart" style="width: 1200px; height: 500px"></div>
-    <!--    <div id="chart_div" style="width: 900px; height: 500px;"></div>-->
-<!--    <div style="margin-top: 80px;display: flex;position: absolute;right: 420px;">-->
-<!--        -->
-<!--    </div>-->
+    <!--    <div id="chart_div" style="width: 1200px; height: 500px"></div>-->
+    <!--    <div style="margin-top: 80px;display: flex;position: absolute;right: 420px;">-->
+    <!--        -->
+    <!--    </div>-->
     <div class="stock_info">
         <div style="display: flex">
-        <div style="display: block">
+            <div style="display: block">
             <span style="font-size: 35px;font-weight: 900;">
                 카카오<br>
             </span>
-            <span style="color: #909090;">
+                <span style="color: #909090;">
                 KRX: 035720
             </span>
-        </div>
-        <img src="/images/kakao_logo.png" style="margin-left: 50px;margin-top: 10px;width: 150px;height: 45px;"/>
+            </div>
+            <img src="/images/kakao_logo.png" style="margin-left: 50px;margin-top: 10px;width: 150px;height: 45px;"/>
         </div>
         <div>
             <div>
@@ -241,17 +241,19 @@
     </div>
 </div>
 <div style="display: flex;margin-bottom: 100px;">
-    <div style="border-radius: 10px;width: 35%;height: 700px;margin-left: auto;margin-right: 50px;"class="stock_news1">
-<!--        <iframe bottommargin="0" frameborder="0" height="480"-->
-<!--                id="news_frame" marginheight="0"-->
-<!--                name="news" scrolling="no"-->
-<!--                src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=title_entity_id.basic&amp;clusterId="-->
-<!--                title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>-->
+    <div class="stock_news1" style="border-radius: 10px;width: 35%;height: 700px;margin-left: auto;margin-right: 50px;">
+        <!--        <iframe bottommargin="0" frameborder="0" height="480"-->
+        <!--                id="news_frame" marginheight="0"-->
+        <!--                name="news" scrolling="no"-->
+        <!--                src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=title_entity_id.basic&amp;clusterId="-->
+        <!--                title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>-->
     </div>
     <div style="border-radius: 10px;width: 35%;height: 700px;margin-right: auto;margin-left: 50px;">
         <iframe bottommargin="0" frameborder="0" height="462"
-                 marginheight="0"
-                name="news" scrolling="no" src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=entity_id.basic&amp;clusterId=" title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>
+                marginheight="0"
+                name="news" scrolling="no"
+                src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=entity_id.basic&amp;clusterId="
+                title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>
     </div>
 </div>
 <footer style="width: 100%;height: 200px;background-color: #fffcaa">
@@ -277,38 +279,8 @@
     google.charts.setOnLoadCallback(drawChart);
 
     function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-            ['Day', '실 주가', '예측 주가'],
-            ['12/31', 1000, 400],
-            ['1/1', 1170, 460],
-            ['1/2', 660, 1120],
-            ['1/3', 1030, 540],
-            ['1/4', 1079, 888],
-            ['1/5', 895, 875],
-            ['1/6', 590, 284],
-            ['1/7', 861, 701],
-            ['1/8', 1176, 1644],
-            ['1/9', 1443, 1840],
-            ['1/10', 1455, 1560],
-            ['1/11', 1253, 1263],
-            ['1/12', 614, 662],
-            ['1/13', 742, 386],
-            ['1/14', 1180, 1358],
-            ['1/15', 1334, 1037],
-            ['1/16', 1108, 1074],
-            ['1/17', 654, 518],
-            ['1/18', 1315, 1813],
-            ['1/19', 767, 733],
-            ['1/20', 963, 871],
-            ['1/21', 736, 867],
-            ['1/22', 1044, 1498],
-            ['1/23', 727, 1224],
-            ['1/24', 763, 933],
-            ['1/25', 595, 320],
-            ['1/26', 900, 520],
-            ['1/27', 640, 1046],
-            ['1/28', 1143, 1115]
-        ]);
+        var data = google.visualization.arrayToDataTable([['Day', '실주가', '예측주가'], ['11/9', 0.09924550203134061, -0.14080284613055977], ['11/10', 0.28406779661016945, -0.07491409874224372], ['11/11', 0.40985691573926875, 0.06547608911485973], ['11/12', 0.31483437349976007, 0.18496313429296612], ['11/13', 0.055702917771883284, 0.18192975905669295], ['11/16', 0.0705281090289607, 0.19353189196966664], ['11/17', 0.14865962632006502, 0.12169548724829868], ['11/18', 0.13564620663362578, 0.03383036162920073], ['11/19', 0.08546886184681465, 0.11016483298785057], ['11/20', 0.02488103331067299, 0.05223266704323188], ['11/23', 0.05301767255751915, -0.20133892510032034], ['11/24', 0.057009966777408806, -0.2827193299782613], ['11/25', 0.023603305785123985, -0.2210350434843282], ['11/26', 0.020649726600193, -0.2264590532672338], ['11/27', 0.009236569274269524, -0.24373830231345606], ['11/30', 0.020418357789572406, -0.21920223698797758], ['12/1', 0.021088646967340557, -0.19169043332554292], ['12/2', 0.03861386138613866, -0.16831175101210946], ['12/3', 0.030924062214089665, -0.05803133978724143], ['12/4', 0.08612961841308311, 0.21036414550519505], ['12/7', 0.07531231409875062, 0.3622697605730956], ['12/8', 0.18512492736780928, 0.17020776327017512], ['12/9', 0.10074937552039977, 0.03807020894636353], ['12/10', 0.0829530201342284, 0.17647067667198826], ['12/11', 0.056079146055714846, 0.13267196859239883], ['12/14', 0.016101265822784663, -0.1223636731664721], ['12/15', -0.032629749192947505, -0.21517934775769207], ['12/16', -0.004715127701375152, -0.19273727988650527], ['12/17', -0.01768574908647995, -0.1457254771906691], ['12/18', -0.028184019370460292, -0.08640662158073897], ['12/21', -0.06075388026607538, -0.1339174847020961], ['12/22', -0.08859363248934558, -0.17467318522364927], ['12/23', -0.10937178166838309, -0.13767493866941322], ['12/24', -0.09392971246006383, -0.15451054224563215], ['12/28', -0.05876543209876581, -0.168586291581266], ['12/29', -0.04491620111731871, -0.09040196514689025], ['12/30', -0.03043852106620787, 0.04046117798044322], ['1/4', 0.008986784140969317, 0.03146204689440874], ['1/5', 0.03282511210762343, -0.1850404712122418], ['1/6', 0.038558558558558303, -0.15746482163124748], ['1/7', 0.040860215053763194, 0.1430263590460195], ['1/8', 0.04414361389052418, 0.17940734993974303], ['1/11', 0.01908617698091411, 0.1318819465452125], ['1/12', 0.0046378471228163964, 0.20720014451858432], ['1/13', 0.01926683716965044, 0.07552017696267913], ['1/14', 0.00151728013486907, -0.06648213151214366], ['1/15', -0.03845507976490298, -0.061422136135398625], ['1/18', -0.10697448102536133, -0.17352846896249183], ['1/19', 0.07784781355346754, -0.22950448064418535]]
+        );
 
         var options = {
             title: '삼성전자', //종목이름
@@ -400,7 +372,7 @@
             let ulList = [];
             const $ = cheerio.load(html.data);
             const bodyList = $("section.sc_new sp_nnews _prs_nws_all").children("div.api_subject_bx");
-            
+
         })
 
 </script>

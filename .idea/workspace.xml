@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="수정">
-      <change afterPath="$PROJECT_DIR$/src/html/stock_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/stocks_search.html" afterDir="false" />
+    <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/html/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/stocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DAM1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DAM1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/DAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/DAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/free_board.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/notice_board.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/notice_board.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/notice_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/notice_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Dam.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Dam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/DAM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/DAMcreatorsintro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/board.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/free_board.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/intro_membership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/intro_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/login_demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/mem_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/notice_board.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/notice_post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/privacy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/register_agreement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/register_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/register_email_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/register_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/register_phonenumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/Python/graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/searching.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/searching.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,42 +37,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
+        <option value="Flask Main" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/dev" />
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="dev" />
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
-  <component name="ProjectId" id="1hMyCtmS0IXctROUBo8Ica41waO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1mlEubKxJr8zRmBzYdR7AK7uRlK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,454 +88,153 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="C:\DAM1\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="D:\DAM1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wnsgh\WebstormProjects\DAM1\DAM-demo-version" />
-      <recent name="C:\Users\wnsgh\WebstormProjects\DAM1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\DAM1\styles" />
-      <recent name="C:\DAM1\src\js" />
-      <recent name="C:\DAM1\src\html" />
+      <recent name="D:\DAM1\src\html" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MySQL.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/MySQL.js" working-dir="$PROJECT_DIR$/src/js">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DAM1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.MySQL.js" />
-      </list>
-    </recent_temporary>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAM1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/html" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/html/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stocks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DAM1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/html" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/html/stocks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DAM1" type="Python.FlaskServer">
+      <module name="DAM1" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (src/html/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="DAM1" />
+      <option name="target" value="$PROJECT_DIR$/src/html/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="DAM1" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="223f79f7-94be-4c0a-af4a-f35b72aaa38f" name="Default Changelist" comment="" />
-      <created>1599835131501</created>
+      <changelist id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="" />
+      <created>1610060005062</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599835131501</updated>
-      <workItem from="1599835132552" duration="11752000" />
-      <workItem from="1599884444784" duration="30187000" />
-      <workItem from="1600052113265" duration="605000" />
-      <workItem from="1600088812105" duration="3529000" />
-      <workItem from="1600135545775" duration="5811000" />
-      <workItem from="1600348517044" duration="2655000" />
-      <workItem from="1600354474202" duration="2186000" />
-      <workItem from="1600434920248" duration="2235000" />
-      <workItem from="1600695471839" duration="3395000" />
-      <workItem from="1600930505114" duration="3034000" />
-      <workItem from="1600989415500" duration="2726000" />
-      <workItem from="1601025841859" duration="11409000" />
-      <workItem from="1601294919170" duration="12299000" />
-      <workItem from="1601446836699" duration="4221000" />
-      <workItem from="1602177240732" duration="608000" />
-      <workItem from="1602191816768" duration="6808000" />
-      <workItem from="1602221001583" duration="2299000" />
-      <workItem from="1602223517383" duration="63000" />
-      <workItem from="1602250548579" duration="3836000" />
-      <workItem from="1602437081140" duration="3000" />
-      <workItem from="1603401450514" duration="1288000" />
-      <workItem from="1603544790727" duration="7222000" />
-      <workItem from="1603608350060" duration="11766000" />
-      <workItem from="1603631163013" duration="3485000" />
-      <workItem from="1603634687116" duration="2267000" />
-      <workItem from="1603690542884" duration="12221000" />
-      <workItem from="1603725708476" duration="5381000" />
-      <workItem from="1603779252124" duration="1559000" />
-      <workItem from="1603785970724" duration="4153000" />
-      <workItem from="1604070644258" duration="1865000" />
-      <workItem from="1604161104650" duration="1765000" />
-      <workItem from="1604164114448" duration="1695000" />
-      <workItem from="1604165843915" duration="120000" />
-      <workItem from="1604231579251" duration="16422000" />
-      <workItem from="1604331059859" duration="1534000" />
-      <workItem from="1604411433722" duration="2987000" />
-      <workItem from="1604426195252" duration="2677000" />
-      <workItem from="1604471450897" duration="3208000" />
-      <workItem from="1604547269278" duration="2541000" />
-      <workItem from="1604557545086" duration="4764000" />
-      <workItem from="1604569898884" duration="887000" />
-      <workItem from="1604658592646" duration="6901000" />
-      <workItem from="1604751893023" duration="1079000" />
-      <workItem from="1604762226413" duration="10158000" />
-      <workItem from="1604812191077" duration="9615000" />
-      <workItem from="1604914663176" duration="7454000" />
-      <workItem from="1605015998910" duration="2466000" />
-      <workItem from="1605276499301" duration="1209000" />
-      <workItem from="1605880154709" duration="3277000" />
-      <workItem from="1605959700352" duration="15832000" />
-      <workItem from="1606023087331" duration="18532000" />
-      <workItem from="1606307108468" duration="930000" />
-      <workItem from="1606568504550" duration="5562000" />
-      <workItem from="1606655874941" duration="638000" />
-      <workItem from="1606803195146" duration="2783000" />
-      <workItem from="1606990492087" duration="14257000" />
-      <workItem from="1607090988446" duration="3931000" />
-      <workItem from="1607094945079" duration="6794000" />
-      <workItem from="1607166792748" duration="7253000" />
-      <workItem from="1607273008320" duration="6010000" />
-      <workItem from="1607615093967" duration="475000" />
-      <workItem from="1608714410061" duration="682000" />
-      <workItem from="1608905189815" duration="2098000" />
-      <workItem from="1609081154646" duration="4494000" />
-      <workItem from="1609415754346" duration="4720000" />
-      <workItem from="1609423501013" duration="683000" />
-      <workItem from="1609487859930" duration="9814000" />
-      <workItem from="1609765997993" duration="38000" />
-      <workItem from="1609766092533" duration="3080000" />
-      <workItem from="1609877623610" duration="587000" />
+      <updated>1610060005062</updated>
+      <workItem from="1610060035972" duration="17369000" />
+      <workItem from="1610104904485" duration="1213000" />
+      <workItem from="1610111264999" duration="105000" />
+      <workItem from="1610189190424" duration="2841000" />
+      <workItem from="1610198887945" duration="1601000" />
+      <workItem from="1610200578585" duration="596000" />
+      <workItem from="1610295720357" duration="645000" />
+      <workItem from="1610586603124" duration="1668000" />
+      <workItem from="1610605727063" duration="160000" />
+      <workItem from="1610605900968" duration="151000" />
+      <workItem from="1610675507050" duration="2451000" />
+      <workItem from="1610839649213" duration="4893000" />
+      <workItem from="1610855823511" duration="8018000" />
+      <workItem from="1610970280951" duration="319000" />
     </task>
-    <task id="LOCAL-00065" summary="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄻㄻㅇ">
-      <created>1601304321264</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
+    <task id="LOCAL-00001" summary=".">
+      <created>1610970400344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1601304321265</updated>
+      <updated>1610970400344</updated>
     </task>
-    <task id="LOCAL-00066" summary="login">
-      <created>1601447640454</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1601447640455</updated>
-    </task>
-    <task id="LOCAL-00067" summary="login">
-      <created>1601451021116</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1601451021116</updated>
-    </task>
-    <task id="LOCAL-00068" summary="nav hover">
-      <created>1602223556347</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1602223556347</updated>
-    </task>
-    <task id="LOCAL-00069" summary="facebookloginbuttton">
-      <created>1603401866370</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1603401866370</updated>
-    </task>
-    <task id="LOCAL-00070" summary="asdqwrqwr">
-      <created>1603401969005</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1603401969005</updated>
-    </task>
-    <task id="LOCAL-00071" summary="wqqr">
-      <created>1603402136922</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1603402136922</updated>
-    </task>
-    <task id="LOCAL-00072" summary="commit">
-      <created>1603548932063</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1603548932063</updated>
-    </task>
-    <task id="LOCAL-00073" summary="commit">
-      <created>1603549038673</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1603549038673</updated>
-    </task>
-    <task id="LOCAL-00074" summary="bogi chuga">
-      <created>1603553269157</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1603553269157</updated>
-    </task>
-    <task id="LOCAL-00075" summary="bogi chuga1">
-      <created>1603553912624</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1603553912624</updated>
-    </task>
-    <task id="LOCAL-00076" summary="asa">
-      <created>1603608411947</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1603608411947</updated>
-    </task>
-    <task id="LOCAL-00077" summary="asa">
-      <created>1603608472592</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1603608472592</updated>
-    </task>
-    <task id="LOCAL-00078" summary="asa">
-      <created>1603608616199</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1603608616199</updated>
-    </task>
-    <task id="LOCAL-00079" summary="bogi 3">
-      <created>1603608684762</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1603608684762</updated>
-    </task>
-    <task id="LOCAL-00080" summary="bogi 4">
-      <created>1603608745855</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1603608745855</updated>
-    </task>
-    <task id="LOCAL-00081" summary="bogi 4">
-      <created>1603609457704</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1603609457704</updated>
-    </task>
-    <task id="LOCAL-00082" summary="registration agreement page 정렬">
-      <created>1603615993621</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1603615993621</updated>
-    </task>
-    <task id="LOCAL-00083" summary="fix something">
-      <created>1603616199640</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1603616199640</updated>
-    </task>
-    <task id="LOCAL-00084" summary="fix something">
-      <created>1603616220436</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1603616220436</updated>
-    </task>
-    <task id="LOCAL-00085" summary="회원가입 완성">
-      <created>1603634481138</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1603634481138</updated>
-    </task>
-    <task id="LOCAL-00086" summary="asd">
-      <created>1603635086232</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1603635086232</updated>
-    </task>
-    <task id="LOCAL-00087" summary="asd">
-      <created>1603644860966</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1603644860966</updated>
-    </task>
-    <task id="LOCAL-00088" summary="회원가입 완성">
-      <created>1603716761985</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1603716761986</updated>
-    </task>
-    <task id="LOCAL-00089" summary="수정">
-      <created>1604073121560</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1604073121560</updated>
-    </task>
-    <task id="LOCAL-00090" summary="수정">
-      <created>1604162044077</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1604162044077</updated>
-    </task>
-    <task id="LOCAL-00091" summary="수정">
-      <created>1604164420493</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1604164420493</updated>
-    </task>
-    <task id="LOCAL-00092" summary="수정">
-      <created>1604165199831</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1604165199832</updated>
-    </task>
-    <task id="LOCAL-00093" summary="수정">
-      <created>1604165248550</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1604165248550</updated>
-    </task>
-    <task id="LOCAL-00094" summary="sujung">
-      <created>1604249192769</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1604249192769</updated>
-    </task>
-    <task id="LOCAL-00095" summary="sujung">
-      <created>1604249491015</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1604249491015</updated>
-    </task>
-    <task id="LOCAL-00096" summary="웹호스팅되게 src안 파일들 DAM으로 복붙">
-      <created>1604331126598</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1604331126598</updated>
-    </task>
-    <task id="LOCAL-00097" summary="웹호스팅되게 src안 파일들 DAM으로 복붙">
-      <created>1604331494211</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1604331494211</updated>
-    </task>
-    <task id="LOCAL-00098" summary="웹호스팅되게 src안 파일들 DAM으로 복붙">
-      <created>1604331768874</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1604331768874</updated>
-    </task>
-    <task id="LOCAL-00099" summary="회원가입 부분 수정">
-      <created>1604774608490</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1604774608490</updated>
-    </task>
-    <task id="LOCAL-00100" summary="회원가입 부분 수정">
-      <created>1604774654586</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1604774654586</updated>
-    </task>
-    <task id="LOCAL-00101" summary="로고 수정">
-      <created>1604841254833</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1604841254833</updated>
-    </task>
-    <task id="LOCAL-00102" summary="로고 수정">
-      <created>1604841259682</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1604841259682</updated>
-    </task>
-    <task id="LOCAL-00103" summary="수정">
-      <created>1604923532109</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1604923532109</updated>
-    </task>
-    <task id="LOCAL-00104" summary="수정">
-      <created>1604928483945</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1604928483945</updated>
-    </task>
-    <task id="LOCAL-00105" summary="수정">
-      <created>1604928967155</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1604928967155</updated>
-    </task>
-    <task id="LOCAL-00106" summary="수정">
-      <created>1604936377129</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1604936377129</updated>
-    </task>
-    <task id="LOCAL-00107" summary="profile : 미완성&#10;board post : 90퍼&#10;board : feedback">
-      <created>1606064216836</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1606064216836</updated>
-    </task>
-    <task id="LOCAL-00108" summary="juno commit">
-      <created>1606064523485</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1606064523485</updated>
-    </task>
-    <task id="LOCAL-00109" summary="수정">
-      <created>1607023342342</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1607023342342</updated>
-    </task>
-    <task id="LOCAL-00110" summary="수정">
-      <created>1607091004687</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1607091004687</updated>
-    </task>
-    <task id="LOCAL-00111" summary="수정">
-      <created>1607111445385</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1607111445385</updated>
-    </task>
-    <task id="LOCAL-00112" summary="수정">
-      <created>1607178219208</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1607178219208</updated>
-    </task>
-    <task id="LOCAL-00113" summary="수정">
-      <created>1607279005969</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1607279005969</updated>
-    </task>
-    <option name="localTasksCounter" value="114" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,97 +253,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ" />
-    <MESSAGE value="ㄴㅇㅁㅇㅁㄴㄹ" />
-    <MESSAGE value="ㄴㅇㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄻㄻㅇ" />
-    <MESSAGE value="login" />
-    <MESSAGE value="nav hover" />
-    <MESSAGE value="facebookloginbuttton" />
-    <MESSAGE value="asdqwrqwr" />
-    <MESSAGE value="wqqr" />
-    <MESSAGE value="commit" />
-    <MESSAGE value="bogi chuga" />
-    <MESSAGE value="bogi chuga1" />
-    <MESSAGE value="asa" />
-    <MESSAGE value="bogi 3" />
-    <MESSAGE value="bogi 4" />
-    <MESSAGE value="registration agreement page 정렬" />
-    <MESSAGE value="fix something" />
-    <MESSAGE value="asd" />
-    <MESSAGE value="회원가입 완성" />
-    <MESSAGE value="sujung" />
-    <MESSAGE value="웹호스팅되게 src안 파일들 DAM으로 복붙" />
-    <MESSAGE value="회원가입 부분 수정" />
-    <MESSAGE value="로고 수정" />
-    <MESSAGE value="profile : 미완성&#10;board post : 90퍼&#10;board : feedback" />
-    <MESSAGE value="juno commit" />
-    <MESSAGE value="수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="수정" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="828" y="178" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607108873679">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="828" y="178" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607108873679" />
-    <state x="638" y="357" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604165714927">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="638" y="357" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604165714927" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604753724110">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604753724110" />
-    <state width="938" height="278" key="GridCell.Tab.0.bottom" timestamp="1604562311182">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
-    <state width="938" height="278" key="GridCell.Tab.0.center" timestamp="1604562311182">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
-    <state width="938" height="278" key="GridCell.Tab.0.left" timestamp="1604562311182">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
-    <state width="938" height="278" key="GridCell.Tab.0.right" timestamp="1604562311182">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604562311182" />
-    <state x="598" y="280" key="MultipleFileMergeDialog" timestamp="1604165212202">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="598" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604165212202" />
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1604163075822">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604163075822" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1602193593154">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602193593154" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607279011560">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607279011560" />
-    <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606062020390">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="530" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606062020390" />
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604071059780">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604071059780" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1607022149309">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607022149309" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604918392497">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604918392497" />
-    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603632656693">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603632656693" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

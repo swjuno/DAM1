@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/swjuno/DAM1/issues"
   },
-  "homepage": "https://github.com/swjuno/DAM1#readme",
+  "homepage": "https://swjuno.github.io/DAM1",
   "dependencies": {
     "express": "^4.17.1",
     "jquery": "^3.5.1",

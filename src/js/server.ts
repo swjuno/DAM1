@@ -11,6 +11,6 @@ app.use(express.static(srcPath));
 app.get('/', (req : express.Request , res : express.Response) => {
     res.sendFile(path.join(htmlPath, 'DAM.html'));
 });
-app.listen(8080, () => {
-    console.log('Express App on port 8080!');
+app.listen(80, () => {
+    console.log('Express App on port 80!');
 });

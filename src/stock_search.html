@@ -1,379 +1,194 @@
 <!DOCTYPE html>
 <html class="html prevent_drag" lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml"
       xmlns:v-bind="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="UTF-8"/>
-    <title id="titlelogo">DAM</title>
-    <meta content="D.A.M과 함께 당신의 꿈을 이루세요" name="description">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="/images/favicon_icon-removebg.png" rel="shortcut icon" type="image/x-icon"/>
-    <link href="/styles/Dam.css" rel="stylesheet">
-    <style>
-        * {
-            font-family: 'Noto Sans KR';
-        }
-    </style>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>var exports = {};</script>
-    <script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
-    <script src="/js/script.js"></script>
-
-</head>
-<body>
-<header style="background-color: #f6d34d;height: 85px;">
-    <div>
-        <a href="/html/DAM.html">
-            <img src="/images/mainlogo_DAM_resized.png" style="padding: 10px;padding-left: 60px !important;">
-            <span style="position: relative;left: -103px;font-size: 10px;font-weight: bold">Dream Asset Management</span>
-        </a>
-    </div>
-    <div class="prevent_drag">
-        <div style="margin-left: 100px;position: absolute;top: 30px;right: 150px;">
-            <div class="menu">
-                <a>
-                    내 투자
-                </a>
-                <a>
-                    종목검색
-                </a>
-                <a>
-                    계좌개설
-                </a>
-                <a>
-                    추천종목
-                </a>
-                <a>
-                    이벤트
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="prevent_drag" style="position: absolute;right: 30px; top: 28px;">
-        <div class="hamburger-icon">
-            <div class="hamburger-icon__middle"></div>
-        </div>
-        <img class="search_btn" src="/images/search_img.png" style="width: auto;height: 30px;cursor: pointer;">
-    </div>
-    <div class="prevent_drag menulayout"
-         style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none;border: 1px solid black; border-top: 0px !important;">
-        <div style="width: 30%;height: 100%;">
-            <a style="font-size: 50px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">
-                메뉴 이름
-            </a>
-            <a style="font-size: 20px;font-weight: 900;text-align: center;position: relative;top: 100px;display: block">
-                전체 메뉴 보기
-            </a>
-        </div>
-        <div style="width: 70%;height: 100%;display: flex">
-            <ul class="menu1" style="font-size: 25px;font-weight: 800;width: 40%">
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-            </ul>
-            <ul class="menu1" style="font-size: 25px;font-weight: 800;width: 60%">
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-                <li>메뉴1</li>
-            </ul>
-        </div>
-    </div>
-    <div class="prevent_drag searchlayout"
-         style="position: absolute;width: 70%;height: 600px;background-color: #FFFFFF;top: 85px;left: 15%;z-index: 10;display: none;border: 1px solid black; border-top: 0px !important;">
-        <div style="margin-left: auto;margin-right: auto;max-width: 650px;margin-top: 60px;">
-            <img src="/images/search_coloredimg.jpg"
-                 style="width: 40px;height: 40px;margin-left: 600px;position: absolute;cursor: pointer">
-            <input style="border: 0px;border-bottom: 2px solid #f6d34d !important;outline: none;padding-right: 50px !important;height: 50px;width: 600px;padding: 0px;font-weight: 900;font-size: 30px;"
-                   type="text">
+    <head>
+        <meta charset="UTF-8"/>
+        <title id="titlelogo">DAM</title>
+        <meta content="D.A.M과 함께 당신의 꿈을 이루세요" name="description">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="/images/favicon_icon-removebg.png" rel="shortcut icon" type="image/x-icon"/>
+        <link href="/styles/Dam.css" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Noto Sans KR';
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="./js/js.cookie-2.2.1.min.js"></script>
+        <script>var exports = {};</script>
+        <script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
+        <script src="./js/common.js"></script>
+    </head>
+    <body>
+        <header class="header" style="background-color: #f6d34d;height: 85px;"></header>
+        <main>
             <div style="display: flex">
-                <span style="font-size: 20px;font-weight: 900;border-right: 2px solid black;padding: 30px;padding-top: 0px !important;padding-bottom: 0px !important;margin-top: 10px;margin-left: 10px;">추천 검색어</span>
-                <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#비X컴X터</span>
-                <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#엑X스X이X</span>
-                <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#신풍제약</span>
-            </div>
-        </div>
-        <div style="display: flex">
-            <div style="width: 50%;margin-left: auto;margin-right: auto;margin-top: 50px;">
-                <div style="border-bottom: 1px solid black;padding-bottom: 7px;margin-left: auto;margin-right: auto;max-width: 200px;">
-                    <span style="font-weight: 900;font-size: 20px;">이번 주 추천 종목</span>
-                    <span style="float: right;font-weight: 700;font-size: 35px;cursor: pointer;margin-top: -10px;">+</span>
+                <div id="curve_chart" style="width: 1200px; height: 500px"></div>
+                <!--    <div id="chart_div" style="width: 1200px; height: 500px"></div>-->
+                <!--    <div style="margin-top: 80px;display: flex;position: absolute;right: 420px;">-->
+                <!--        -->
+                <!--    </div>-->
+                <div class="stock_info">
+                    <div style="display: flex">
+                        <div style="display: block">
+                        <span style="font-size: 35px;font-weight: 900;">
+                            카카오<br>
+                        </span>
+                            <span style="color: #909090;">
+                            KRX: 035720
+                        </span>
+                        </div>
+                        <img src="/images/kakao_logo.png" style="margin-left: 50px;margin-top: 10px;width: 150px;height: 45px;"/>
+                    </div>
+                    <div>
+                        <div>
+                            <span style="font-weight: 700;font-size: 20px;display: block;width: 100px;padding-bottom: 10px;">
+                            시가 총액
+                            </span>
+                            <span>
+                                31조 7,250억
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-weight: 700;font-size: 20px;display: block;">
+                                기업순위
+                            </span>
+                            <span>
+                                코스피 9위
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <span style="font-weight: 700;font-size: 20px;display: block;">
+                                주식수
+                            </span>
+                            <span>
+                                88,247,819주
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-weight: 700;font-size: 20px;display: block;">
+                                외국인비중
+                            </span>
+                            <span>
+                                31.53%
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <span style="font-weight: 700;font-size: 20px;display: block;">
+                                52주 최저
+                            </span>
+                            <span style="color: blue">
+                                127,000
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-weight: 700;font-size: 20px;display: block;">
+                                52주 최고
+                            </span>
+                            <span style="color: red">
+                                420,500
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <div style="margin-left: auto;margin-right: auto;max-width: 200px;">
-                    <ul style="width: 200px;padding-left: 0px;position: relative;left: -20px">
-                        <li>
-                            <ol>
-                                <li style="float: left">(1)OO제약</li>
-                                <li style="float:right;color: #f6d34d">7.58%</li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol>
-                                <li style="float: left">(1)OO제약</li>
-                                <li style="float:right;color: #f6d34d">7.58%</li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol>
-                                <li style="float: left">(1)OO제약</li>
-                                <li style="float:right;color: #f6d34d">7.58%</li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol>
-                                <li style="float: left">(1)OO제약</li>
-                                <li style="float:right;color: #f6d34d">7.58%</li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol>
-                                <li style="float: left">(1)OO제약</li>
-                                <li style="float:right;color: #f6d34d">7.58%</li>
-                            </ol>
-                        </li>
-                    </ul>
+            </div>
+            <div style="display: flex;margin-bottom: 100px;">
+                <div class="stock_news1" style="border-radius: 10px;width: 35%;height: 700px;margin-left: auto;margin-right: 50px;">
+                    <!--        <iframe bottommargin="0" frameborder="0" height="480"-->
+                    <!--                id="news_frame" marginheight="0"-->
+                    <!--                name="news" scrolling="no"-->
+                    <!--                src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=title_entity_id.basic&amp;clusterId="-->
+                    <!--                title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>-->
+                </div>
+                <div style="border-radius: 10px;width: 35%;height: 700px;margin-right: auto;margin-left: 50px;">
+                    <iframe bottommargin="0" frameborder="0" height="462"
+                            marginheight="0"
+                            name="news" scrolling="no"
+                            src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=entity_id.basic&amp;clusterId="
+                            title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>
                 </div>
             </div>
-            <div style="width: 50%;margin-left: auto;margin-right: auto;margin-top: 50px;">
-                <div style="border-bottom: 1px solid black;padding-bottom: 7px;margin-left: auto;margin-right: auto;max-width: 200px;">
-                    <span style="font-weight: 900;font-size: 20px;">이번 주 저녁 메뉴</span>
-                    <span style="float: right;font-weight: 700;font-size: 35px;cursor: pointer;margin-top: -10px;">+</span>
-                </div>
-                <div style="margin-left: auto;margin-right: auto;max-width: 200px;">
-                    <ul style="padding-left: 0px;">
-                        <li style="text-align: center">물회</li>
-                        <li style="text-align: center">사케동</li>
-                        <li style="text-align: center">황금올리브</li>
-                        <li style="text-align: center">채끝살 짜파구리</li>
-                        <li style="text-align: center">모둠초밥</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages': ['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
 
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([['Day', '실주가', '예측주가'], ['11/9', 0.09924550203134061, -0.14080284613055977], ['11/10', 0.28406779661016945, -0.07491409874224372], ['11/11', 0.40985691573926875, 0.06547608911485973], ['11/12', 0.31483437349976007, 0.18496313429296612], ['11/13', 0.055702917771883284, 0.18192975905669295], ['11/16', 0.0705281090289607, 0.19353189196966664], ['11/17', 0.14865962632006502, 0.12169548724829868], ['11/18', 0.13564620663362578, 0.03383036162920073], ['11/19', 0.08546886184681465, 0.11016483298785057], ['11/20', 0.02488103331067299, 0.05223266704323188], ['11/23', 0.05301767255751915, -0.20133892510032034], ['11/24', 0.057009966777408806, -0.2827193299782613], ['11/25', 0.023603305785123985, -0.2210350434843282], ['11/26', 0.020649726600193, -0.2264590532672338], ['11/27', 0.009236569274269524, -0.24373830231345606], ['11/30', 0.020418357789572406, -0.21920223698797758], ['12/1', 0.021088646967340557, -0.19169043332554292], ['12/2', 0.03861386138613866, -0.16831175101210946], ['12/3', 0.030924062214089665, -0.05803133978724143], ['12/4', 0.08612961841308311, 0.21036414550519505], ['12/7', 0.07531231409875062, 0.3622697605730956], ['12/8', 0.18512492736780928, 0.17020776327017512], ['12/9', 0.10074937552039977, 0.03807020894636353], ['12/10', 0.0829530201342284, 0.17647067667198826], ['12/11', 0.056079146055714846, 0.13267196859239883], ['12/14', 0.016101265822784663, -0.1223636731664721], ['12/15', -0.032629749192947505, -0.21517934775769207], ['12/16', -0.004715127701375152, -0.19273727988650527], ['12/17', -0.01768574908647995, -0.1457254771906691], ['12/18', -0.028184019370460292, -0.08640662158073897], ['12/21', -0.06075388026607538, -0.1339174847020961], ['12/22', -0.08859363248934558, -0.17467318522364927], ['12/23', -0.10937178166838309, -0.13767493866941322], ['12/24', -0.09392971246006383, -0.15451054224563215], ['12/28', -0.05876543209876581, -0.168586291581266], ['12/29', -0.04491620111731871, -0.09040196514689025], ['12/30', -0.03043852106620787, 0.04046117798044322], ['1/4', 0.008986784140969317, 0.03146204689440874], ['1/5', 0.03282511210762343, -0.1850404712122418], ['1/6', 0.038558558558558303, -0.15746482163124748], ['1/7', 0.040860215053763194, 0.1430263590460195], ['1/8', 0.04414361389052418, 0.17940734993974303], ['1/11', 0.01908617698091411, 0.1318819465452125], ['1/12', 0.0046378471228163964, 0.20720014451858432], ['1/13', 0.01926683716965044, 0.07552017696267913], ['1/14', 0.00151728013486907, -0.06648213151214366], ['1/15', -0.03845507976490298, -0.061422136135398625], ['1/18', -0.10697448102536133, -0.17352846896249183], ['1/19', 0.07784781355346754, -0.22950448064418535]]
+            );
 
-<div style="display: flex">
-    <div id="curve_chart" style="width: 1200px; height: 500px"></div>
-    <!--    <div id="chart_div" style="width: 1200px; height: 500px"></div>-->
-    <!--    <div style="margin-top: 80px;display: flex;position: absolute;right: 420px;">-->
-    <!--        -->
-    <!--    </div>-->
-    <div class="stock_info">
-        <div style="display: flex">
-            <div style="display: block">
-            <span style="font-size: 35px;font-weight: 900;">
-                카카오<br>
-            </span>
-                <span style="color: #909090;">
-                KRX: 035720
-            </span>
-            </div>
-            <img src="/images/kakao_logo.png" style="margin-left: 50px;margin-top: 10px;width: 150px;height: 45px;"/>
-        </div>
-        <div>
-            <div>
-                <span style="font-weight: 700;font-size: 20px;display: block;width: 100px;padding-bottom: 10px;">
-                   시가 총액
-                </span>
-                <span>
-                    31조 7,250억
-                </span>
-            </div>
-            <div>
-                <span style="font-weight: 700;font-size: 20px;display: block;">
-                    기업순위
-                </span>
-                <span>
-                    코스피 9위
-                </span>
-            </div>
-        </div>
-        <div>
-            <div>
-                <span style="font-weight: 700;font-size: 20px;display: block;">
-                    주식수
-                </span>
-                <span>
-                    88,247,819주
-                </span>
-            </div>
-            <div>
-                <span style="font-weight: 700;font-size: 20px;display: block;">
-                    외국인비중
-                </span>
-                <span>
-                    31.53%
-                </span>
-            </div>
-        </div>
-        <div>
-            <div>
-                <span style="font-weight: 700;font-size: 20px;display: block;">
-                    52주 최저
-                </span>
-                <span style="color: blue">
-                    127,000
-                </span>
-            </div>
-            <div>
-                <span style="font-weight: 700;font-size: 20px;display: block;">
-                    52주 최고
-                </span>
-                <span style="color: red">
-                    420,500
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
-<div style="display: flex;margin-bottom: 100px;">
-    <div class="stock_news1" style="border-radius: 10px;width: 35%;height: 700px;margin-left: auto;margin-right: 50px;">
-        <!--        <iframe bottommargin="0" frameborder="0" height="480"-->
-        <!--                id="news_frame" marginheight="0"-->
-        <!--                name="news" scrolling="no"-->
-        <!--                src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=title_entity_id.basic&amp;clusterId="-->
-        <!--                title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>-->
-    </div>
-    <div style="border-radius: 10px;width: 35%;height: 700px;margin-right: auto;margin-left: 50px;">
-        <iframe bottommargin="0" frameborder="0" height="462"
-                marginheight="0"
-                name="news" scrolling="no"
-                src="https://finance.naver.com/item/news_news.nhn?code=035720&amp;page=&amp;sm=entity_id.basic&amp;clusterId="
-                title="뉴스 리스트영역" topmargin="0" width="100%"></iframe>
-    </div>
-</div>
-<footer style="width: 100%;height: 200px;background-color: #fffcaa">
-    <div>
-        <span>
-            전화번호 1577-0000
-        </span>
-        <span>
-            전화번호 1577-0000
-        </span>
-    </div>
-    <div>
-        <div>
-            <img src="/images/mainlogo_DAM_resized.png" style="padding: 10px;padding-left: 60px !important;">
-            <span style="position: relative;left: -103px;font-size: 10px;font-weight: 900">Dream Asset Management</span>
-        </div>
-    </div>
-</footer>
+            var options = {
+                title: '삼성전자', //종목이름
+                legend: {position: 'bottom'}
+            };
 
-</body>
-<script type="text/javascript">
-    google.charts.load('current', {'packages': ['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
+            var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 
-    function drawChart() {
-        var data = google.visualization.arrayToDataTable([['Day', '실주가', '예측주가'], ['11/9', 0.09924550203134061, -0.14080284613055977], ['11/10', 0.28406779661016945, -0.07491409874224372], ['11/11', 0.40985691573926875, 0.06547608911485973], ['11/12', 0.31483437349976007, 0.18496313429296612], ['11/13', 0.055702917771883284, 0.18192975905669295], ['11/16', 0.0705281090289607, 0.19353189196966664], ['11/17', 0.14865962632006502, 0.12169548724829868], ['11/18', 0.13564620663362578, 0.03383036162920073], ['11/19', 0.08546886184681465, 0.11016483298785057], ['11/20', 0.02488103331067299, 0.05223266704323188], ['11/23', 0.05301767255751915, -0.20133892510032034], ['11/24', 0.057009966777408806, -0.2827193299782613], ['11/25', 0.023603305785123985, -0.2210350434843282], ['11/26', 0.020649726600193, -0.2264590532672338], ['11/27', 0.009236569274269524, -0.24373830231345606], ['11/30', 0.020418357789572406, -0.21920223698797758], ['12/1', 0.021088646967340557, -0.19169043332554292], ['12/2', 0.03861386138613866, -0.16831175101210946], ['12/3', 0.030924062214089665, -0.05803133978724143], ['12/4', 0.08612961841308311, 0.21036414550519505], ['12/7', 0.07531231409875062, 0.3622697605730956], ['12/8', 0.18512492736780928, 0.17020776327017512], ['12/9', 0.10074937552039977, 0.03807020894636353], ['12/10', 0.0829530201342284, 0.17647067667198826], ['12/11', 0.056079146055714846, 0.13267196859239883], ['12/14', 0.016101265822784663, -0.1223636731664721], ['12/15', -0.032629749192947505, -0.21517934775769207], ['12/16', -0.004715127701375152, -0.19273727988650527], ['12/17', -0.01768574908647995, -0.1457254771906691], ['12/18', -0.028184019370460292, -0.08640662158073897], ['12/21', -0.06075388026607538, -0.1339174847020961], ['12/22', -0.08859363248934558, -0.17467318522364927], ['12/23', -0.10937178166838309, -0.13767493866941322], ['12/24', -0.09392971246006383, -0.15451054224563215], ['12/28', -0.05876543209876581, -0.168586291581266], ['12/29', -0.04491620111731871, -0.09040196514689025], ['12/30', -0.03043852106620787, 0.04046117798044322], ['1/4', 0.008986784140969317, 0.03146204689440874], ['1/5', 0.03282511210762343, -0.1850404712122418], ['1/6', 0.038558558558558303, -0.15746482163124748], ['1/7', 0.040860215053763194, 0.1430263590460195], ['1/8', 0.04414361389052418, 0.17940734993974303], ['1/11', 0.01908617698091411, 0.1318819465452125], ['1/12', 0.0046378471228163964, 0.20720014451858432], ['1/13', 0.01926683716965044, 0.07552017696267913], ['1/14', 0.00151728013486907, -0.06648213151214366], ['1/15', -0.03845507976490298, -0.061422136135398625], ['1/18', -0.10697448102536133, -0.17352846896249183], ['1/19', 0.07784781355346754, -0.22950448064418535]]
-        );
+            chart.draw(data, options);
+        }
+    </script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages': ['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
 
-        var options = {
-            title: '삼성전자', //종목이름
-            legend: {position: 'bottom'}
-        };
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['12/31', 20, 28, 38, 45],
+                ['1/1', 31, 38, 55, 66],
+                ['1/2', 50, 55, 77, 80],
+                ['1/3', 77, 77, 66, 50],
+                ['1/4', 68, 66, 22, 15],
+                ['1/5', 20, 28, 38, 45],
+                ['1/6', 31, 38, 55, 66],
+                ['1/7', 50, 55, 77, 80],
+                ['1/8', 77, 77, 66, 50],
+                ['1/9', 68, 66, 22, 15],
+                ['1/10', 20, 28, 38, 45],
+                ['1/11', 31, 38, 55, 66],
+                ['1/12', 50, 55, 77, 80],
+                ['1/13', 77, 77, 66, 50],
+                ['1/14', 68, 66, 22, 15]
+            ], true);
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+            var options = {
+                legend: 'none',
+                animation: {startup: 'True', duration: 400, easing: 'out'},
+                candlestick: {
+                    fallingColor: {strokeWidth: 0, fill: '#0048ff'},
+                    risingColor: {strokeWidth: 0, fill: '#ff0000'}
+                }
+            };
 
-        chart.draw(data, options);
-    }
+            var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
 
-    class MobileMenu {
-        constructor() {
-            this.hamburgerIcon = document.querySelector(".hamburger-icon");
-            this.events();
+            chart.draw(data, options);
         }
 
-        events() {
-            this.hamburgerIcon.addEventListener("click", () => this.toggleTheMenu());
-        }
+        const axios = require("axios");
+        const cheerio = require("cheerio");
+        const log = console.log;
 
-        toggleTheMenu() {
-            this.hamburgerIcon.classList.toggle("hamburger-icon--close");
-        }
-    }
-
-    $(".hamburger-icon").click(function () {
-        $('.menulayout').slideToggle()
-        $('.menulayout').css('display', 'flex')
-    });
-
-    $(".search_btn").click(function () {
-        $('.searchlayout').slideToggle()
-    });
-
-    new MobileMenu();
-</script>
-<script type="text/javascript">
-    google.charts.load('current', {'packages': ['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-            ['12/31', 20, 28, 38, 45],
-            ['1/1', 31, 38, 55, 66],
-            ['1/2', 50, 55, 77, 80],
-            ['1/3', 77, 77, 66, 50],
-            ['1/4', 68, 66, 22, 15],
-            ['1/5', 20, 28, 38, 45],
-            ['1/6', 31, 38, 55, 66],
-            ['1/7', 50, 55, 77, 80],
-            ['1/8', 77, 77, 66, 50],
-            ['1/9', 68, 66, 22, 15],
-            ['1/10', 20, 28, 38, 45],
-            ['1/11', 31, 38, 55, 66],
-            ['1/12', 50, 55, 77, 80],
-            ['1/13', 77, 77, 66, 50],
-            ['1/14', 68, 66, 22, 15]
-        ], true);
-
-        var options = {
-            legend: 'none',
-            animation: {startup: 'True', duration: 400, easing: 'out'},
-            candlestick: {
-                fallingColor: {strokeWidth: 0, fill: '#0048ff'},
-                risingColor: {strokeWidth: 0, fill: '#ff0000'}
+        const getHtml = async () => {
+            try {
+                return await axios.get("https://search.naver.com/search.naver?where=nexearch&sm=tab_jum&query=%EC%B9%B4%EC%B9%B4%EC%98%A4");
+            } catch (error) {
+                console.error(error);
             }
         };
 
-        var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+        getHtml()
+            .then(html => {
+                let ulList = [];
+                const $ = cheerio.load(html.data);
+                const bodyList = $("section.sc_new sp_nnews _prs_nws_all").children("div.api_subject_bx");
 
-        chart.draw(data, options);
-    }
+            })
 
-    const axios = require("axios");
-    const cheerio = require("cheerio");
-    const log = console.log;
-
-    const getHtml = async () => {
-        try {
-            return await axios.get("https://search.naver.com/search.naver?where=nexearch&sm=tab_jum&query=%EC%B9%B4%EC%B9%B4%EC%98%A4");
-        } catch (error) {
-            console.error(error);
-        }
-    };
-
-    getHtml()
-        .then(html => {
-            let ulList = [];
-            const $ = cheerio.load(html.data);
-            const bodyList = $("section.sc_new sp_nnews _prs_nws_all").children("div.api_subject_bx");
-
-        })
-
-</script>
+    </script>
 </html>

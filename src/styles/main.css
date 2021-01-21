@@ -305,24 +305,6 @@ nav ul {
     margin-top: 20px;
 }
 
-
-@media (max-width: 600px) {
-    /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
-    #main {
-        display: block;
-    }
-
-    #main #contents {
-        margin-bottom: 10px;
-        margin-right: 0px;
-    }
-
-    #main #sidebar {
-        min-height: 0;
-    }
-
-}
-
 .fadein3s {
     animation: fadeIn 2s;
 }
@@ -380,39 +362,6 @@ nav ul {
     100% {
         opacity: 100%;
     }
-}
-
-.menu {
-    display: flex;
-}
-
-.menu a {
-    font-size: 18px;
-    display: flex;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 7.5px;
-    margin-right: 7.5px;
-    padding-right: 7.5px;
-    padding-left: 7.5px;
-    padding-bottom: 10px;
-    position: relative;
-}
-
-.menu a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background-color: #585858;
-    transition: all .2s ease-out;
-}
-
-.menu a:hover::after {
-    width: 100%;
 }
 
 .slide_container {
@@ -479,13 +428,6 @@ nav ul {
     float: right;
     /*background-color: rgba(146, 146, 146,0.5);*/
     vertical-align: middle;
-}
-
-.prevent_drag {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .event_boxpost {

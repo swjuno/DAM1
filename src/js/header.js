@@ -1,19 +1,24 @@
-const ACCESS_TOKEN = "access_token";
-
 $(()=> {
     // ...header, footer 설정
     $('.header').load('./header.html',()=> { // 헤더 로딩 끝나면 관련 이벤트 리스너 설정
         new MobileMenu();
         $(".hamburger-icon").on('click',function () {
-            $('.menulayout').slideToggle()
-            $('.menulayout').css('display', 'flex')
+            if($('.searchlayout').isSlideDown()) {
+                $('.searchlayout').slideToggle();
+            }
+            $('.menulayout').slideToggle();
+            $('.menulayout').css('display', 'flex');
         });
         
         $(".search_btn").on('click',function () {
-            $('.searchlayout').slideToggle()
+            if($('.menulayout').isSlideDown()) {
+                $('.menulayout').slideToggle();
+                $('.hamburger-icon').removeClass('hamburger-icon--close')
+            }
+            $('.searchlayout').slideToggle();
         });
 
-        let accessToken = Cookies.get(ACCESS_TOKEN); // 로그인 확인
+        let accessToken = Cookies.get(ACCESS_TOKEN_KEY); // 로그인 확인
         if([undefined,null].includes(accessToken)) { // 로그인 토큰 미존재시
             $('.tab.login').css('display','block');
             $('.tab.logout').css('display','none');
@@ -22,7 +27,7 @@ $(()=> {
             $('.tab.logout').css('display','block');
         }
         $('.tab.logout').on('click',()=> {
-            let accessToken = Cookies.get(ACCESS_TOKEN);
+            let accessToken = Cookies.get(ACCESS_TOKEN_KEY);
             if([undefined,null].includes(accessToken)) { // sanityCheck
                 alert('유효하지 않은 요청입니다.');
                 return;
@@ -36,6 +41,10 @@ $(()=> {
     $('#logo').on("click",function (){
         location.href= './DAM.html';
     })
+
+    $.fn.isSlideDown = function() {
+        return $(this).css('display') != 'none';
+    }
 
     // ...메뉴
     class MobileMenu {

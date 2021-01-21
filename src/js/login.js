@@ -9,7 +9,7 @@ $(()=> {
     function login(id,pw) {
         showLoading();
         $.ajax({
-            url: 'http://localhost:8080/user/login',
+            url: SERVER_ADDR+'/user/login',
             async: true,
             type: 'POST',
             data: {
@@ -30,7 +30,7 @@ $(()=> {
                     showAlert();
                 } else {
                     let accessToken = xhr;
-                    Cookies.set('access_token',accessToken);
+                    Cookies.set(ACCESS_TOKEN_KEY,accessToken);
                     window.open('./DAM.html','_self');
                 }
             }

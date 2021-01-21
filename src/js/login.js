@@ -31,7 +31,7 @@ $(()=> {
                 } else {
                     let accessToken = xhr;
                     Cookies.set('access_token',accessToken);
-                    window.open('/DAM.html','_self');
+                    window.open('./DAM.html','_self');
                 }
             }
         });

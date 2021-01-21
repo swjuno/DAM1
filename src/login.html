@@ -13,28 +13,30 @@
     <body>
         <div class="wrapper fadeInDown">
             <div id="formContent">
-              <h2 class="active"> 로그인 </h2>
-              <h2 class="inactive underlineHover"> 회원가입 </h2>
+                <div class="overlay loading">
+                    <div class="loader"></div>
+                </div>
+                <h2 class="active"> 로그인 </h2>
+                <h2 class="inactive underlineHover"> 회원가입 </h2>
 
-              <div class="overlay error">
-                  ID나 비밀번호가 다릅니다.
-              </div>
+                <div class="overlay error">
+                    ID나 비밀번호가 다릅니다.
+                </div>
 
-              <div class="fadeIn first">
-                <img src="./images/biglogo1-removebg-preview.png" id="icon" alt="User Icon" />
-              </div>
-          
-              <form>
-                <input type="text" id="login" class="fadeIn second" name="id" placeholder="ID">
-                <input type="password" id="password" class="fadeIn third" name="pw" placeholder="비밀번호">
-                <input type="button" id="submit" class="fadeIn fourth" value="로그인">
-              </form>
+                <div class="fadeIn first">
+                    <img src="./images/biglogo1-removebg-preview.png" id="icon" alt="User Icon" />
+                </div>
+            
+                <form>
+                    <input type="text" id="login" class="fadeIn second" name="id" placeholder="ID">
+                    <input type="password" id="password" class="fadeIn third" name="pw" placeholder="비밀번호">
+                    <input type="button" id="submit" class="fadeIn fourth" value="로그인">
+                </form>
 
-              <div id="formFooter">
-                <a class="underlineHover" href="#">비밀번호 찾기</a>
-              </div>
-          
+                <div id="formFooter">
+                    <a class="underlineHover" href="#">비밀번호 찾기</a>
+                </div>
             </div>
-          </div>
+        </div>
     </body>
 </html>

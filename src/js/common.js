@@ -1,3 +1,5 @@
+const ACCESS_TOKEN = "access_token";
+
 $(()=> {
     // ...header, footer 설정
     $('.header').load('./header.html',()=> { // 헤더 로딩 끝나면 관련 이벤트 리스너 설정
@@ -11,7 +13,7 @@ $(()=> {
             $('.searchlayout').slideToggle()
         });
 
-        let accessToken = Cookies.get('access_token'); // 로그인 확인
+        let accessToken = Cookies.get(ACCESS_TOKEN); // 로그인 확인
         if([undefined,null].includes(accessToken)) { // 로그인 토큰 미존재시
             $('.tab.login').css('display','block');
             $('.tab.logout').css('display','none');
@@ -19,6 +21,15 @@ $(()=> {
             $('.tab.login').css('display','none');
             $('.tab.logout').css('display','block');
         }
+        $('.tab.logout').on('click',()=> {
+            let accessToken = Cookies.get(ACCESS_TOKEN);
+            if([undefined,null].includes(accessToken)) { // sanityCheck
+                alert('유효하지 않은 요청입니다.');
+                return;
+            }
+            Cookies.remove(ACCESS_TOKEN);
+            window.open('./DAM.html','_self');
+        });
     });
     $('.footer').load('./footer.html');
 

@@ -1,6 +1,10 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 button {
     outline: none;
 }
@@ -252,7 +256,6 @@ nav ul {
     margin-top: 20px;
 }
 
-
 .post_title {
     font-size: 26px;
     font-weight: bold;
@@ -303,6 +306,62 @@ nav ul {
     margin-left: auto;
     max-width: 25%;
     margin-top: 20px;
+}
+
+#help_list {
+    background-color: #f6d34d;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+#help_list > div {
+    min-width: 150px;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-flex-shrink: 1;
+	-webkit-flex-shrink: 1;
+	-ms-flex-shrink: 1;
+	flex-shrink: 1;
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+}
+
+#help_list > :first-child {
+    margin-left: 10%;
+}
+
+#help_list > :last-child {
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 700px) {
+    #help_list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    #help_list > div {
+        min-width: 100%;
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    #help_list > :first-child {
+        margin-left: 0%;
+    }
+    
+    #help_list > :last-child {
+        margin-right: 0%;
+    }
+
+    #help_list > :nth-child(1n) {
+        width: calc(100% + 1rem);
+    }
 }
 
 .fadein3s {
@@ -417,17 +476,18 @@ nav ul {
 
 }
 
-.img_btnpre {
-    float: left;
+.img_btnpre, .img_btnnext {
     /*background-color: rgba(146, 146, 146,0.5);*/
     vertical-align: middle;
+    width: 50px;
+}
 
+.img_btnpre {
+    float: left;
 }
 
 .img_btnnext {
     float: right;
-    /*background-color: rgba(146, 146, 146,0.5);*/
-    vertical-align: middle;
 }
 
 .event_boxpost {
@@ -481,4 +541,8 @@ li {
 .stock_info > div > div{
     margin: 15px;
     width: 100px;
+}
+
+@media (max-width: 600px) {
+
 }

@@ -20,6 +20,9 @@ $(()=> {
 
         let accessToken = Cookies.get(ACCESS_TOKEN_KEY); // 로그인 확인
         if([undefined,null].includes(accessToken)) { // 로그인 토큰 미존재시
+            if(![undefined,null].includes($('#welcome-new-user'))) {
+                $('#welcome-new-user').css('display','block');
+            }
             $('.tab.login').css('display','block');
             $('.tab.logout').css('display','none');
         } else { // 로그인 토큰 존재시

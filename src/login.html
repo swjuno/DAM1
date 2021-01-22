@@ -13,32 +13,95 @@
         </style>
     </head>
     <body>
+        <script type="text/javascript">  
+            let getParams = function(key){
+                var _parammap = {};
+                document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+                    function decode(s) {
+                        return decodeURIComponent(s.split("+").join(" "));
+                    }
+        
+                    _parammap[decode(arguments[1])] = decode(arguments[2]);
+                });
+        
+                return _parammap[key];
+            };
+        </script>  
         <div class="wrapper fadeInDown">
             <div id="formContent">
                 <div class="overlay loading">
                     <div class="loader"></div>
                 </div>
-                <h2 class="active"> 로그인 </h2>
-                <h2 class="inactive underlineHover"> 회원가입 </h2>
+                <h2 class="active login"> 로그인 </h2>
+                <h2 class="inactive underlineHover register"> 회원가입 </h2>
+                <div class="loginpage">
+                    <div class="overlay error">
+                        ID나 비밀번호가 다릅니다.
+                    </div>
 
-                <div class="overlay error">
-                    ID나 비밀번호가 다릅니다.
+                    <div class="fadeIn first">
+                        <img src="./images/biglogo1-removebg-preview.png" id="icon" alt="User Icon" />
+                    </div>
+
+                    <form>
+                        <input type="text" id="login" class="fadeIn second" name="id" placeholder="ID">
+                        <input type="password" id="password" class="fadeIn third" name="pw" placeholder="비밀번호">
+                        <input type="button" id="submit" class="fadeIn fourth" value="로그인">
+                    </form>
+
+                    <div id="formFooter">
+                        <a class="underlineHover" href="#">비밀번호 찾기</a>
+                    </div>
                 </div>
 
-                <div class="fadeIn first">
-                    <img src="./images/biglogo1-removebg-preview.png" id="icon" alt="User Icon" />
-                </div>
-            
-                <form>
-                    <input type="text" id="login" class="fadeIn second" name="id" placeholder="ID">
-                    <input type="password" id="password" class="fadeIn third" name="pw" placeholder="비밀번호">
-                    <input type="button" id="submit" class="fadeIn fourth" value="로그인">
-                </form>
-
-                <div id="formFooter">
-                    <a class="underlineHover" href="#">비밀번호 찾기</a>
+                <div class="hidden regispage">
+                    <form>
+                        <input type="text" id="nickname" name="nickname" placeholder="닉네임">
+                        <input type="text" id="regi_login" name="id" placeholder="ID">
+                        <div class="emailbox">
+                            <input type="text" id="email" class="inputemail" name="email" placeholder="e-mail">
+                            <input type="button" id="submit" class="authbtn" value="인증">
+                        </div>
+                        <input type="password" id="regi_password" name="pw" placeholder="비밀번호">
+                        <input type="password" id="password_comfirm" name="pwconfirm" placeholder="비밀번호 확인">
+                        <input type="button" id="submit" value="회원가입">
+                    </form>
                 </div>
             </div>
         </div>
     </body>
 </html>
+<script>
+   let page = true;
+    $(()=> {
+        //  true 일떄 로그인 false일때 회원가입
+        $('.login').on('click',()=> {
+            if(!page) {
+                toggle();
+            }
+        });
+
+        $('.register').on('click',()=> {
+            if(page) {
+                toggle();
+            }
+        });
+
+        function toggle() {
+            $(".login").addClass(page?"inactive underlineHover":"active").removeClass(!page?"inactive underlineHover":"active");
+            $(".register").addClass(!page?"inactive underlineHover":"active").removeClass(page?"inactive underlineHover":"active");
+            if(page) {
+                $(".loginpage").slideUp();
+                $(".regispage").slideDown();
+            } else {
+                $(".loginpage").slideDown();
+                $(".regispage").slideUp();
+            }
+            page = !page;
+        }
+        let reqVal = getParams('page');
+        console.log(reqVal)
+        if(reqVal == 'register') toggle();
+    })
+
+</script>

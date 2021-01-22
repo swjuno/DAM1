@@ -1,5 +1,6 @@
 $(()=> {
     let timeOut;
+    let isEmailConfirmDone = false;
 
     $("#submit").on ( 'click', function() {
         let id = $("#login").val();

@@ -23,6 +23,15 @@
     <body>
         <header class="header" style="background-color: #f6d34d;height: 85px;"></header>
         <main>
+            <div id="welcome-new-user" style="display: none; background-color: #f6f6f6">
+                <div style="padding: 15px;">
+                    <span style="font-weight: bold;font-size: 18px; margin-left: 30px;">처음 방문하셨다면?<span style="color: #f6d34d;font-size: 20px;">>></span></span>
+                    <button style="font-weight: bold;float:right;background-color: white;border: 2px #f6d34d solid;border-radius: 10px;cursor: pointer; margin-right: 30px; padding-top: 5px; padding-bottom: 5px;"
+                            onclick="location.href='./login.html?page=register'">
+                        회원가입
+                    </button>
+                </div>
+            </div>
             <div style="overflow: hidden;width: 70%;height: 600px;margin-right: 15%;margin-left: 15%">
                 <div class="slide_container prevent_drag">
                     <div class="slide_inner">
@@ -43,155 +52,136 @@
             </div>
             <div class="pnimg_btn_container">
                 <span class="img_btnpre prevent_drag">
-                    <
+                    <img src="./images/ic_arrow_left.svg">
                 </span>
                 <span class="img_btnnext prevent_drag">
-                    >
+                    <img src="./images/ic_arrow_right.svg">
                 </span>
             </div>
-            <div style="display: block; background-color: #f6f6f6">
-                <div style="padding: 15px;margin-top: -24px;">
-                    <span style="font-weight: bold;font-size: 18px;">처음 방문하셨다면?<span
-                            style="color: #f6d34d;font-size: 20px;">>></span></span>
-                    <button style="font-weight: bold;float:right;background-color: white;border: 3px #f6d34d solid;border-radius: 10px;cursor: pointer;margin-top: -24px;"
-                            onclick="location.href='./register_agreement.html'">
-                        회원가입
-                    </button>
-                </div>
-            </div>
             <div>
-                <div style="margin-bottom: 40px;">
-                    <div style="display:block;height: 30px;">
-                        <span style="font-weight: bold;cursor: pointer;float: right;padding: 10px;" onclick="location.href='#'">
-                            더보기 >
-                        </span>
+                <div style="height: 100%;width: 100%;min-width:35%;padding: 5%;padding-left: 15% !important;padding-right: 15% !important;">
+                    <div style="border-bottom: 1px solid #b1b1b1">
+                        <span style="font-size: 30px;font-weight: 900;color: #393939">게시판</span>
+                        <a href="./notice_board.html" style="float:right;font-size: 18px;cursor: pointer">더보기></a>
                     </div>
-                    <div style="display:flex;">
-                        <div class="event_boxpost" onclick="location.href='#'">
-                            <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
-                            <div class="eventaboutpost">
-                                <span class="event_title">
-                                    이벤트 이름
-                                </span>
-                                <span style="font-size: 18px;">
-                                    이벤트상세 설명
-                                </span>
-                                <span style="display: block;font-size: 14px;">
-                                    이벤트상세 설명
-                                </span>
-                            </div>
+                    <div style="border-bottom: 1px solid #b1b1b1">
+                        <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
+                            <a style="cursor:pointer;">게시판 예시</a>
+                            <span style="float:right;">2020.11.11</span>
                         </div>
-                        <div class="event_boxpost" onclick="location.href='#'">
-                            <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
-                            <div class="eventaboutpost">
-                                <span class="event_title">
-                                    이벤트 이름
-                                </span>
-                                <span style="font-size: 18px;">
-                                    이벤트상세 설명
-                                </span>
-                                <span style="display: block;font-size: 14px;">
-                                    이벤트상세 설명
-                                </span>
-                            </div>
+                        <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
+                            <a style="cursor:pointer;">게시판 예시</a>
+                            <span style="float:right;">2020.11.11</span>
                         </div>
-                        <div class="event_boxpost" onclick="location.href='#'">
-                            <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
-                            <div class="eventaboutpost">
-                                <span class="event_title">
-                                    이벤트 이름
-                                </span>
-                                <span style="font-size: 18px;">
-                                    이벤트상세 설명
-                                </span>
-                                <span style="display: block;font-size: 14px;">
-                                    이벤트상세 설명
-                                </span>
-                            </div>
+                        <div style="padding: 20px;">
+                            <a style="cursor:pointer;">게시판 예시</a>
+                            <span style="float:right;">2020.11.11</span>
                         </div>
-                        <div class="event_boxpost" onclick="location.href='#'">
-                            <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
-                            <div class="eventaboutpost">
-                                <span class="event_title">
-                                    이벤트 이름
-                                </span>
-                                <span style="font-size: 18px;">
-                                    이벤트상세 설명
-                                </span>
-                                <span style="display: block;font-size: 14px;">
-                                    이벤트상세 설명
-                                </span>
-                            </div>
+                    </div>
+                </div>
+
+                <div style="display:flex; width: 80%; margin-left: 10%; margin-right: 10%; height: 480px;">
+                    <div class="event_boxpost" onclick="location.href='#'">
+                        <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
+                        <div class="eventaboutpost">
+                            <span class="event_title">
+                                이벤트 이름
+                            </span>
+                            <span style="font-size: 18px;">
+                                이벤트상세 설명
+                            </span>
+                            <span style="display: block;font-size: 14px;">
+                                이벤트상세 설명
+                            </span>
+                        </div>
+                    </div>
+                    <div class="event_boxpost" onclick="location.href='#'">
+                        <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
+                        <div class="eventaboutpost">
+                            <span class="event_title">
+                                이벤트 이름
+                            </span>
+                            <span style="font-size: 18px;">
+                                이벤트상세 설명
+                            </span>
+                            <span style="display: block;font-size: 14px;">
+                                이벤트상세 설명
+                            </span>
+                        </div>
+                    </div>
+                    <div class="event_boxpost" onclick="location.href='#'">
+                        <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
+                        <div class="eventaboutpost">
+                            <span class="event_title">
+                                이벤트 이름
+                            </span>
+                            <span style="font-size: 18px;">
+                                이벤트상세 설명
+                            </span>
+                            <span style="display: block;font-size: 14px;">
+                                이벤트상세 설명
+                            </span>
+                        </div>
+                    </div>
+                    <div class="event_boxpost" onclick="location.href='#'">
+                        <img src="./images/shapelined-_JBKdviweXI-unsplash.jpg" sizes="cover" class="posting">
+                        <div class="eventaboutpost">
+                            <span class="event_title">
+                                이벤트 이름
+                            </span>
+                            <span style="font-size: 18px;">
+                                이벤트상세 설명
+                            </span>
+                            <span style="display: block;font-size: 14px;">
+                                이벤트상세 설명
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div style="background-color: #f6d34d;width: 100%;height: 400px;display: flex;" class="prevent_drag">
-                <div style="height: 100%;width: 10%;">
-                </div>
-                <div style="min-width: 150px;padding-top: 70px;margin-left: auto;margin-right: auto">
+
+            <div style="padding-right: 10%; padding-left: 10%; margin-bottom: 50px;">
+                <img src="./images/bottom_banner.png" style="width: 100%;">
+            </div>
+
+            <div id="help_list" class="prevent_drag">
+                <div>
                     <img src="./images/ic_chart_black.svg"
                         style="width: 100px;height: 100px;cursor: pointer;margin-left: 50%;position: relative;left: -50px;">
                     <span style="font-weight: 900;font-size: 30px;cursor: pointer;display: block;text-align: center;">차트 분석 ></span>
                     <span style="font-weight: 600;font-size: 20px;display: block;text-align: left;">DAM만의<br>주가분석을 경험하세요</span>
                 </div>
-                <div style="min-width: 150px;padding-top: 70px;margin-left: auto;margin-right: auto">
+
+                <div>
                     <img src="./images/ic_help_black.svg"
                         style="width: 100px;height: 100px;cursor: pointer;margin-left: 50%;position: relative;left: -50px;">
                     <span style="font-weight: 900;font-size: 30px;cursor: pointer;display: block;text-align: center;">고객 지원 ></span>
                     <span style="font-weight: 600;font-size: 20px;display: block;text-align: left;">불편 사항이나<br>이용중 궁금한 점을<br>질문해주세요</span>
                 </div>
-                <div style="min-width: 150px;padding-top: 70px;margin-left: auto;margin-right: auto">
+
+                <div>
                     <img src="./images/ic_info_black.svg"
                         style="width: 100px;height: 100px;cursor: pointer;margin-left: 50%;position: relative;left: -50px;">
                     <span style="font-weight: 900;font-size: 30px;cursor: pointer;display: block;text-align: center;">주요 공지 ></span>
                     <span style="font-weight: 600;font-size: 20px;display: block;text-align: left;">DAM에서<br>회원님들을 위한<br>업데이트 등을<br>공지합니다</span>
                 </div>
-                <div style="min-width: 150px;padding-top: 70px;margin-left: auto;margin-right: auto">
+
+                <div>
                     <img src="./images/ic_profile_black.svg"
                         style="width: 100px;height: 100px;cursor: pointer;margin-left: 50%;position: relative;left: -50px;">
                     <span style="font-weight: 900;font-size: 30px;cursor: pointer;display: block;text-align: center;">개인 정보 ></span>
                     <span style="font-weight: 600;font-size: 20px;display: block;text-align: left;">개인 정보의<br>추가 기입 및 수정<br>비밀번호 변경</span>
                 </div>
-                <div style="height: 100%;width: 10%;">
-                </div>
             </div>
-            <div style="height: 100%;width: 75%;padding: 5%;padding-left: 15% !important;padding-right: 10% !important;"
-                class="prevent_drag">
-                <div style="display: flex">
-                    <div style="display: block;min-width:35%;">
-                        <div style="border-bottom: 1px solid #b1b1b1">
-                            <span style="font-size: 30px;font-weight: 900;color: #393939">게시판</span>
-                            <a href="./notice_board.html" style="float:right;font-size: 18px;cursor: pointer">더보기></a>
-                        </div>
-                        <div style="border-bottom: 1px solid #b1b1b1">
-                            <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
-                                <a style="cursor:pointer;">게시판 예시</a>
-                                <span style="float:right;">2020.11.11</span>
-                            </div>
-                            <div style="padding: 20px;border-bottom: 1px solid #d0d0d0">
-                                <a style="cursor:pointer;">게시판 예시</a>
-                                <span style="float:right;">2020.11.11</span>
-                            </div>
-                            <div style="padding: 20px;">
-                                <a style="cursor:pointer;">게시판 예시</a>
-                                <span style="float:right;">2020.11.11</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="display: block;min-width:35%;margin-left: auto;margin-right: auto;border: 1px solid black">
-                        <span style="font-size: 40px;font-weight: bold;">
-                            뭔진 개발팀도 모르지만<br>암튼 나중에 채워 넣을곳<br>^^7
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div style="margin-left: 10% !important;margin-right: 10% !important;background-color: #ffdb6a;padding: 40px;padding-left: 50px !important;margin-bottom: 80px;">
-                <span style="font-size: 30px;font-weight: 900">당신의 꿈의 자산 운용을 돕는 DAM 주식투자입니다!</span>
-            </div>
+            <div style="height: 0.5px; width: 100%; background-color: black;"></div>
         </main>
         <footer class="footer"></footer>
         <script>
+            let slideCursor = 0;
+            let slideInterval;
+            const slideCount = 3
+
+            /* .. Unused Code
             window.fbAsyncInit = function () {
                 FB.init({
                     appId: 'DreamAssetManagement',
@@ -212,73 +202,70 @@
                 js.src = "https://connect.facebook.net/en_US/sdk.js";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
+            */
+
             $('#profile').on('click', function () {
                 location.href = './mem_profile.html';
             });
-            var slideshowcount = 0;
 
-            $(document).ready(function () {
-                setInterval(function () {
-                    if (slideshowcount == -200) {
-                        slideshowcount = 0;
-                    } else {
-                        slideshowcount = slideshowcount - 100;
-                    }
-                    document.querySelector('.slide_container').style.transform = 'translate(' + String(slideshowcount) + 'vw)';
-                    slidebarcolor()
+            $(()=> {
+                slideInterval = setInterval(function () {
+                    addCursor();
+                    slidebarColor();
                 }, 3000);
+
+                for(let i=1; i<=slideCount; i++) {
+                    $(`.img${i}_btn`).on('click',()=> {
+                        slideCursor = i-1;
+                        slidebarColor();
+                        resetInterval();
+                    });
+                }
             });
 
-            function slidebarcolor() {
-                if (slideshowcount == 0) {
-                    $('.img1_btn').css('background-color', '#f6d34d');
-                    $('.img2_btn').css('background-color', '#909090');
-                    $('.img3_btn').css('background-color', '#909090');
-                }
-                if (slideshowcount == -100) {
-                    $('.img1_btn').css('background-color', '#909090');
-                    $('.img2_btn').css('background-color', '#f6d34d');
-                    $('.img3_btn').css('background-color', '#909090');
-                }
-                if (slideshowcount == -200) {
-                    $('.img1_btn').css('background-color', '#909090');
-                    $('.img2_btn').css('background-color', '#909090');
-                    $('.img3_btn').css('background-color', '#f6d34d');
+            function resetInterval() {
+                clearInterval(slideInterval);
+                slideInterval = setInterval(function () {
+                    addCursor();
+                    slidebarColor();
+                }, 3000);
+            }
+
+            function addCursor() {
+                if(slideCursor == slideCount-1) {
+                    slideCursor = 0;
+                } else {
+                    slideCursor++;
                 }
             }
 
-            document.querySelector('.img1_btn').addEventListener('click', function () {
-                document.querySelector('.slide_container').style.transform = 'translate(0vw)';
-                slideshowcount = 0;
-                slidebarcolor();
-            });
-            document.querySelector('.img2_btn').addEventListener('click', function () {
-                document.querySelector('.slide_container').style.transform = 'translate(-100vw)';
-                slideshowcount = -100;
-                slidebarcolor();
-            });
-            document.querySelector('.img3_btn').addEventListener('click', function () {
-                document.querySelector('.slide_container').style.transform = 'translate(-200vw)';
-                slideshowcount = -200;
-                slidebarcolor();
-            });
-            $('.img_btnpre').click(function () {
-                if (slideshowcount == 0) {
-                    slideshowcount = -200;
+            function reduceCursor() {
+                if(slideCursor == 0) {
+                    slideCursor = slideCount-1;
                 } else {
-                    slideshowcount = slideshowcount + 100;
+                    slideCursor--;
                 }
-                document.querySelector('.slide_container').style.transform = 'translate(' + String(slideshowcount) + 'vw)';
-                slidebarcolor();
+            }
+
+            function slidebarColor() {
+                $('.slide_container').css('transform',`translate(-${slideCursor*100}vw)`);
+                const color_off = "#909090",
+                      color_cursor = "#f6d34d";
+
+                for(let i=1; i<=slideCount; i++) {
+                    $(`.img${i}_btn`).css('background-color', i-1==slideCursor?color_cursor:color_off);
+                }
+            }
+
+            $('.img_btnpre').click(function () {
+                reduceCursor();
+                slidebarColor();
+                resetInterval();
             });
             $('.img_btnnext').click(function () {
-                if (slideshowcount == -200) {
-                    slideshowcount = 0;
-                } else {
-                    slideshowcount = slideshowcount - 100;
-                }
-                document.querySelector('.slide_container').style.transform = 'translate(' + String(slideshowcount) + 'vw)';
-                slidebarcolor();
+                addCursor();
+                slidebarColor();
+                resetInterval();
             });
         </script>
     </body>

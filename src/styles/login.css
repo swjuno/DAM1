@@ -9,6 +9,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  margin: 0px;
 }
 
 a {
@@ -69,7 +70,6 @@ h2 {
   justify-content: center;
   width: 100%;
   min-height: 100%;
-  padding: 20px;
 }
 
 #formContent {
@@ -98,11 +98,13 @@ h2 {
 
 h2.inactive {
   color: #cccccc;
+  cursor: pointer;
 }
 
 h2.active {
   color: #0d0d0d;
   border-bottom: 2px solid #f6d34d;
+  cursor: pointer;
 }
 
 
@@ -379,4 +381,20 @@ input[type=text]:placeholder {
   40% {
     box-shadow: 0 2.5em 0 0;
   }
+}
+.hidden{
+  display: none;
+}
+.emailbox{
+  display: flex;
+  margin-left: 6.5%;
+}
+.authbtn{
+  margin: 5px !important;
+  padding: 20px !important;
+}
+.inputemail{
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  width: 70% !important;
 }

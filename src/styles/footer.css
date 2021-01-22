@@ -1,0 +1,14 @@
+.footer-wrapper {
+    height: 58px;
+    width: 58px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+.footer-icon {
+    font-size: 24px;
+    color: #f6d34d;
+}

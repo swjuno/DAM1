@@ -32,14 +32,14 @@ $(()=> {
                 alert('유효하지 않은 요청입니다.');
                 return;
             }
-            Cookies.remove(ACCESS_TOKEN);
-            window.open('./DAM.html','_self');
+            Cookies.remove(ACCESS_TOKEN_KEY);
+            window.open('./main.html','_self');
         });
     });
     $('.footer').load('./footer.html');
 
     $('#logo').on("click",function (){
-        location.href= './DAM.html';
+        location.href= './main.html';
     })
 
     $.fn.isSlideDown = function() {

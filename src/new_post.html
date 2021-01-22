@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:background-image="http://www.w3.org/1999/xhtml" class="html"
+      xmlns:v-bind="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8"/>
+        <title id="titlelogo">DAM</title>
+        <meta name="description" content="DAM과 함께 당신의 꿈을 이루세요">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon_icon-removebg.png"/>
+        <style>
+            * {
+                font-family: 'Noto Sans KR';
+            }
+        </style>
+        <link rel="stylesheet" href="/styles/new_post.css">
+        <script src="./js/jquery.js"></script>
+
+        <script src="./js/js.cookie-2.2.1.min.js"></script>
+        <script src="./js/ckeditor/ckeditor.js"></script>
+
+        <script src="./js/const.js"></script>
+        <script src="./js/header.js"></script>
+        <script src="./js/new_post.js"></script>
+    </head>
+    <body>
+        <header class="header" style="background-color: #f6d34d;height: 85px;"></header>
+        <main>
+            <form style="padding-left: 15%; padding-right: 15%;">
+                <div style="margin-top: 30px; font-size: 30px;margin-bottom: 15px;">새 글 쓰기</div>
+
+                <div style="display: flex;">
+                    <input type="text" id="title" name="title" placeholder="제목" style="width: 100%;">
+                </div>
+
+                <div style="height: 15px;"></div>
+
+                <textarea name="content" id="editor" style="min-height: 500px;"></textarea>
+
+                <div style="height: 15px;"></div>
+
+                <input type="button" value="글쓰기" id="button_write">
+
+                <div style="height: 30px;"></div>
+            </form>
+            <script>
+            ClassicEditor.create( document.querySelector( '#editor' ), {
+                        toolbar: {
+                            items: [
+                                'heading',
+                                '|',
+                                'bold',
+                                'fontFamily',
+                                'fontColor',
+                                'fontBackgroundColor',
+                                'fontSize',
+                                'italic',
+                                'underline',
+                                'link',
+                                'bulletedList',
+                                'numberedList',
+                                '|',
+                                'indent',
+                                'outdent',
+                                '|',
+                                'imageUpload',
+                                'blockQuote',
+                                'insertTable',
+                                'mediaEmbed',
+                                'undo',
+                                'redo',
+                                'codeBlock',
+                                'specialCharacters'
+                            ]
+                        },
+                        language: 'ko',
+                        image: {
+                            toolbar: [
+                                'imageTextAlternative',
+                                'imageStyle:full',
+                                'imageStyle:side'
+                            ]
+                        },
+                        table: {
+                            contentToolbar: [
+                                'tableColumn',
+                                'tableRow',
+                                'mergeTableCells'
+                            ]
+                        },
+                        licenseKey: '',  
+                    })
+                    .then( editor => {
+                        window.editor = editor;
+                        editor.plugins.get('FileRepository').createUploadAdapter = (loader) => {
+						    return new MyUploadAdapter(loader);
+					    };
+
+					    $('style').append('.ck-content { min-height: ' + $('textarea[name="content"]').height() + 'px !important; }');
+                    })
+                    .catch( error => {
+                        console.error( 'Oops, something went wrong!' );
+                        console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
+                        console.warn( 'Build id: d3pwvphy6dpd-r66wmqeza3w6' );
+                        console.error( error );
+                    } );
+            </script>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+</html>

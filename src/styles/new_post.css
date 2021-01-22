@@ -1,0 +1,54 @@
+
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #f6d34d;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #f6d34d;
+}
+  
+input[type=text], input[type=password] {
+    background-color: #ebebeb;
+    border: none;
+    border-width: 0px;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    outline-width: 0px;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+  
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #f6d34d;
+}
+  
+input[type=text]:placeholder {
+    color: #cccccc;
+}
+
+#button_write {
+    align-self: center;
+    text-align: center;
+    width: 130px;
+}

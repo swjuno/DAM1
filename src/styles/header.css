@@ -5,15 +5,120 @@
     right: 150px;
 }
 
+html, body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    z-index: 4;
+    right: 55px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hamburger-icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    transform-origin: 0 0;
+    transition: transform 0.3s ease-out;
+}
+
+.hamburger-icon__middle {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    transition: all 0.3s ease-out;
+    transform-origin: 0 50%;
+}
+
+.hamburger-icon::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    transform-origin: 0 100%;
+    transition: transform 0.3s ease-out;
+}
+
+.hamburger-icon--close::before {
+    transform: rotate(45deg) scaleX(1.5) translateY(-2px);
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    width: 20px;
+    background: #000000;
+}
+
+.hamburger-icon--close .hamburger-icon__middle {
+    opacity: 0;
+    transform: scaleX(0);
+    background: #000000;
+}
+
+.hamburger-icon--close::after {
+    transform: rotate(-45deg) scaleX(1.5) translateY(2px);
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    background: #000000;
+    width: 20px;
+}
+
 .prevent_drag {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+}
+
+.prevent_drag.menulayout, .prevent_drag.searchlayout {
     user-select: none;
+    position: absolute;
+    width: 70%;
+    height: 600px;
+    background-color: #FFFFFF;
+    top: 85px;
+    left: 15%;
+    z-index: 10;
+    border: 1px solid black;
+    border-top: 0px !important;
+    display: none;
 }
 
 .menu {
     display: flex;
+}
+
+.menu1 {
+    padding: 7%;
+    padding-left: 15% !important;
+}
+
+.menu1 li {
+    margin-bottom: 10px;
+}
+
+.menu1 li:hover {
+    color: #f6d34d;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
 }
 
 .menu a {

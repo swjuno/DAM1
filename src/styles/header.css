@@ -99,6 +99,13 @@ a {
     display: none;
 }
 
+.prevent_drag.prevent_drag.menulayout > div {
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    display: block
+}
+
 .menu {
     display: flex;
 }
@@ -110,11 +117,16 @@ a {
 
 .menu1 li {
     margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .menu1 li:hover {
     color: #f6d34d;
-    cursor: pointer;
 }
 
 li {

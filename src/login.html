@@ -55,16 +55,29 @@
                 </div>
 
                 <div class="hidden regispage">
+                    <div class="overlay error">
+                        ID나 비밀번호가 다릅니다.
+                    </div>
                     <form>
                         <input type="text" id="nickname" name="nickname" placeholder="닉네임">
-                        <input type="text" id="regi_login" name="id" placeholder="ID">
-                        <div class="emailbox">
-                            <input type="text" id="email" class="inputemail" name="email" placeholder="e-mail">
-                            <input type="button" id="submit" class="authbtn" value="인증">
+
+                        <input type="text" id="reg_id" name="id" placeholder="ID">
+
+                        <div class="email-wrapper" id="email-box">
+                            <input type="text" id="email" name="email" placeholder="e-mail">
+                            <input type="button" id="verify-email" value="인증">
                         </div>
-                        <input type="password" id="regi_password" name="pw" placeholder="비밀번호">
+
+                        <div class="email-wrapper hidden" id="code-box">
+                            <input type="text" id="code" name="code" placeholder="인증 코드">
+                            <input type="button" id="verify-code" value="확인">
+                        </div>
+
+                        <input type="password" id="reg_password" name="pw" placeholder="비밀번호">
+
                         <input type="password" id="password_comfirm" name="pwconfirm" placeholder="비밀번호 확인">
-                        <input type="button" id="submit" value="회원가입">
+
+                        <input type="button" id="submit_register" value="회원가입" disabled>
                     </form>
                 </div>
             </div>

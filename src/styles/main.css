@@ -397,6 +397,14 @@ nav ul {
     }
 }
 
+.slide_outer {
+    overflow: hidden;
+    width: 70%;
+    height: 600px;
+    margin: 20px 15% 0 15%;
+    border-radius: 25px;
+}
+
 .slide_container {
     width: 300vw;
     transition: transform 0.5s;
@@ -410,6 +418,10 @@ nav ul {
 .inner_img {
     width: 100%;
     height: auto;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img_btn_container {
@@ -435,17 +447,15 @@ nav ul {
     cursor: pointer;
 }
 
-.pnimg_btn_container span {
-    font-size: 100px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .pnimg_btn_container {
     position: relative;
-    top: -400px;
+    top: -350px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.pnimg_btn_container span {
+    cursor: pointer;
 }
 
 .img_btnpre, .img_btnnext {
@@ -466,6 +476,8 @@ nav ul {
 
 #event_container {
     display:flex;
+    align-items: stretch;
+    flex-wrap: wrap;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -473,6 +485,36 @@ nav ul {
     background-color: rgba(237, 237, 237, 0.9);
     border-radius: 25px;
     margin-bottom: 40px;
+}
+
+@media (max-width: 1350px) {
+    #event_container {
+        display:flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 940px;
+        background-color: rgba(237, 237, 237, 0.9);
+        border-radius: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 675px) {
+    #event_container {
+        display:flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 1880px;
+        background-color: rgba(237, 237, 237, 0.9);
+        border-radius: 25px;
+        margin-bottom: 40px;
+    }
 }
 
 .event_boxpost {
@@ -519,6 +561,7 @@ li {
     position: relative;
     top : 70px; right: 40px;
 }
+
 .stock_info > div > div{
     margin: 15px;
     width: 100px;
@@ -527,5 +570,65 @@ li {
 @media (max-width: 800px) {
     #bottom_banner_img {
         display: none;
+    }
+
+    .event_boxpost {
+        max-width: 270px;
+        height: 375px;
+        margin: 45px auto 0 auto;
+        border-radius: 25px;
+        display: block;
+    }
+
+    .slide_outer {
+        overflow: hidden;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .pnimg_btn_container {
+        position: relative;
+        top: -300px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .img_btnpre {
+        float: left;
+        margin-left: 2%;
+    }
+
+    .img_btnnext {
+        float: right;
+        margin-right: 2%;
+    }
+
+    .slide_container {
+        width: 300vw;
+        transition: transform 0.5s;
+    }
+
+    .slide_inner {
+        width: 100vw;
+        float: left;
+    }
+
+    .inner_img {
+        width: auto;
+        height: 400px;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img_btn_container {
+        position: relative;
+        top: -70px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
     }
 }

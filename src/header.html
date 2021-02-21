@@ -38,7 +38,7 @@
     <img src="./images/ic_search_black.svg" style="width: auto;height: 30px;cursor: pointer;" class="search_btn">
 </div>
 <div class="prevent_drag menulayout">
-    <div style="width: 30%;height: 100%; top: 200px;">
+    <div id="menu_profile">
         <img src="./images/guest_img.png" style="border-radius: 50%; height: 100px; width: 100px;">
         <div id="username" style="font-size: 40px;">
             GUEST
@@ -47,14 +47,14 @@
             프로필 보기
         </div>
     </div>
-    <div style="width: 70%;height: 100%;display: flex">
-        <div style="height: 80%; background-color: #888888; width: 0.5px; margin-top: 10%;"></div>
-        <div style="font-size: 25px;font-weight: 800;width: 40%" class="menu_content">
+    <div id="menu_list_wrapper">
+        <div id="menu_profile_divider"></div>
+        <div class="menu_content">
             <div>메뉴1</div>
             <div>메뉴1</div>
             <div>메뉴1</div>
         </div>
-        <div style="font-size: 25px;font-weight: 800;width: 60%" class="menu_content">
+        <div class="menu_content">
             <div>메뉴1</div>
             <div>메뉴1</div>
             <div>메뉴1</div>
@@ -63,17 +63,13 @@
 </div>
 <div class="prevent_drag searchlayout">
     <div style="margin-left: auto;margin-right: auto;max-width: 650px;margin-top: 60px;">
-        <img src="./images/search_coloredimg.jpg"
-            style="width: 40px;height: 40px;margin-left: 600px;position: absolute;cursor: pointer">
-        <label>
-            <input type="text"
-                style="border: 0;border-bottom: 2px solid #f6d34d !important;outline: none;height: 50px;width: 600px;padding: 0;font-weight: 900;font-size: 30px;">
-        </label>
+        <input type="text" id="search-input">
+        <button type="button" id="button-search">검색</button>
         <div style="display: flex">
             <span style="font-size: 20px;font-weight: 900;border-right: 2px solid black;padding: 30px;padding-top: 0 !important;padding-bottom: 0 !important;margin-top: 10px;margin-left: 10px;">추천 검색어</span>
-            <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#비X컴X터</span>
-            <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#엑X스X이X</span>
-            <span style="margin: 10px 30px 5px 30px;font-weight: 700;font-size: 20px;">#신풍제약</span>
+            <span class="text-recommendation">#비X컴X터</span>
+            <span class="text-recommendation">#엑X스X이X</span>
+            <span class="text-recommendation">#대한과학</span>
         </div>
     </div>
     <div style="display: flex">

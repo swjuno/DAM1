@@ -125,11 +125,13 @@ a {
 
 .menu_content {
     padding: 7%;
-    padding-left: 15% !important;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 25px;
+    font-weight: 800;
+    width: 50%;
 }
 
 .menu_content > div {
@@ -145,6 +147,63 @@ a {
 
 .menu_content div:hover {
     color: #f6d34d;
+}
+
+#menu_profile {
+    width: 30%;
+    height: 100%;
+    top: 200px;
+}
+
+#menu_list_wrapper {
+    width: 70%;
+    height: 100%;
+    display: flex
+}
+
+#menu_profile_divider {
+    height: 80%;
+    background-color: #888888;
+    width: 0.5px;
+    margin-top: 10%;
+}
+
+.text-recommendation {
+    margin: 10px 30px 5px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.searchlayout #search-input {
+    border: 0;
+    border-bottom: 2px solid #f6d34d !important;
+    outline: none;
+    height: 50px;
+    width: 570px;
+    display: inline-block;
+    background-color: transparent;
+    padding: 0;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#button-search {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    background-color: #FFEE95 !important;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#button-search:hover {
+    background-color: #ffe761 !important;
 }
 
 li {
@@ -181,17 +240,46 @@ li {
 }
 
 @media (max-width: 800px) {
-    /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
     #menu_wrapper {
         display: none;
     }
 
-    #main #contents {
-        margin-bottom: 10px;
-        margin-right: 0;
+    #menu_profile {
+        display: none;
     }
 
-    #main #sidebar {
-        min-height: 0;
+    #menu_profile_divider {
+        display: none;
+    }
+
+    .prevent_drag.menulayout, .prevent_drag.searchlayout {
+        user-select: none;
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: rgba(237, 237, 237, 0.9);
+        top: 85px;
+        left: 0;
+        z-index: 10;
+        border-radius: 0 0 0 0;
+        border-top: 0 !important;
+        display: none;
+    }
+
+    #menu_list_wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex
+    }
+
+    .menu_content {
+        padding: 7% 15% 7% 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: 800;
+        width: 50%;
     }
 }

@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(100,232,219,1) 0%, rgba(255,238,149,1) 50%);
+    height: 85px;
+}
+
 #menu_wrapper {
     margin-left: 100px;
     position: absolute;
@@ -90,12 +102,12 @@ a {
     user-select: none;
     position: absolute;
     width: 70%;
-    height: 600px;
-    background-color: #FFFFFF;
+    height: 620px;
+    background-color: rgba(238, 237, 237, 0.9);
     top: 85px;
     left: 15%;
     z-index: 10;
-    border: 1px solid black;
+    border-radius: 0 0 25px 25px;
     border-top: 0 !important;
     display: none;
 }
@@ -163,25 +175,10 @@ li {
     width: 100%;
 }
 
-.tab.login, .tab.logout {
-    border-radius: 17px;
-    border: 2px solid white;
-    width: 120px;
-    height: 34px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-top: 0;
-    text-align: center;
-}
-
-.tab.login, .tab.logout :hover {
-    background-color: white;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
-    #main {
-        display: block;
+    #menu_wrapper {
+        display: none;
     }
 
     #main #contents {
@@ -192,5 +189,4 @@ li {
     #main #sidebar {
         min-height: 0;
     }
-
 }

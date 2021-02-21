@@ -2,48 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/ara_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/jquery-3.5.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/wp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/wp2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ckeditor/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/boostrap/bootstrap.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/new_post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/new_post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +225,7 @@
       <workItem from="1611837740936" duration="153000" />
       <workItem from="1611925795365" duration="940000" />
       <workItem from="1613844079352" duration="6669000" />
-      <workItem from="1613891042481" duration="660000" />
+      <workItem from="1613891042481" duration="9058000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1610970400344</created>
@@ -263,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610970400344</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup bootstrap and update login page design">
+      <created>1613891762045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613891762045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

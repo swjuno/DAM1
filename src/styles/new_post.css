@@ -18,16 +18,13 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
   
 input[type=text], input[type=password] {
     background-color: #ebebeb;
-    border: none;
-    border-width: 0px;
     color: #0d0d0d;
     padding: 15px 32px;
     text-decoration: none;
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
-    outline: none;
-    outline-width: 0px;
+    outline: none 0;
     border: 2px solid #f6f6f6;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -43,7 +40,7 @@ input[type=text]:focus {
     border-bottom: 2px solid #f6d34d;
 }
   
-input[type=text]:placeholder {
+input[type=text]::placeholder {
     color: #cccccc;
 }
 

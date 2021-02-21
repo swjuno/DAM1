@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/wp1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/wp2.jpg" afterDir="false" />
+    <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="Redesign header/footer and main page">
+      <change afterPath="$PROJECT_DIR$/src/images/bottom_banner.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bottom_banner.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/new_post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/new_post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/@types/jquery/JQuery.d.ts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -225,7 +223,7 @@
       <workItem from="1611837740936" duration="153000" />
       <workItem from="1611925795365" duration="940000" />
       <workItem from="1613844079352" duration="6669000" />
-      <workItem from="1613891042481" duration="9058000" />
+      <workItem from="1613891042481" duration="15991000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1610970400344</created>
@@ -241,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613891762045</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Redesign header/footer and main page">
+      <created>1613903707181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613903707181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +268,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="." />
     <MESSAGE value="Setup bootstrap and update login page design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup bootstrap and update login page design" />
+    <MESSAGE value="Redesign header/footer and main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesign header/footer and main page" />
   </component>
 </project>

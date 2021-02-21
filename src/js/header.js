@@ -7,18 +7,18 @@ $(()=> {
         const menuLayout =  $(`.menulayout`)
         $(".hamburger-icon").on('click',function () {
             if(searchLayout.isSlideDown()) {
-                searchLayout.slideToggle();
+                searchLayout.slideToggle(200);
             }
-            menuLayout.slideToggle();
+            menuLayout.slideToggle(200);
             menuLayout.css('display', 'flex');
         });
         
         $(".search_btn").on('click',function () {
             if(menuLayout.isSlideDown()) {
-                menuLayout.slideToggle();
+                menuLayout.slideToggle(200);
                 $('.hamburger-icon').removeClass('hamburger-icon--close')
             }
-            searchLayout.slideToggle();
+            searchLayout.slideToggle(200);
         });
 
         let accessToken = Cookies.get(ACCESS_TOKEN_KEY); // 로그인 확인

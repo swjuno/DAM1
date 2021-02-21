@@ -1,6 +1,5 @@
 $(()=> {
     let timeOut;
-    let isEmailConfirmDone = false;
     let email = '';
     let id = '';
     let isEmailConfirmed = false;
@@ -8,11 +7,12 @@ $(()=> {
     $("#submit").on ( 'click', function() {
         let id = $("#login").val();
         let pw = $("#password").val();
+        console.log("id= "+id+" pw= "+pw);
         login(id,pw);
     });
 
     $('#verify-email').on('click',()=> {
-        if(email!='') return;
+        if(email!=='') return;
 
         showLoading();
         let _id = $("#reg_id").val();
@@ -30,17 +30,17 @@ $(()=> {
                 beforeSend : function(xhr){
                     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
                 },
-                error: (xhr) => {
+                error: () => {
                     showAlert("서버와의 통신에 실패했습니다", false);
                     hideLoading();
                 },
                 success: function(xhr) {
                     console.log(xhr);
-                    if(xhr == 'id_duplicated') {
+                    if(xhr === 'id_duplicated') {
                         showAlert("이미 사용 중인 아이디입니다");
-                    } else if(xhr == 'email_duplicated') {
+                    } else if(xhr === 'email_duplicated') {
                         showAlert("이미 사용 중인 이메일입니다");
-                    } else if(xhr == 'success') {
+                    } else if(xhr === 'success') {
                         showAlert("인증 코드가 이메일로 전송되었습니다", true);
                         $('#code-box').removeClass('hidden');
                         $('#verify-email').attr("disabled", true); 
@@ -59,7 +59,7 @@ $(()=> {
     });
 
     $('#verify-code').on('click',()=> {
-        if(email=='') return;
+        if(email==='') return;
         
         let code = $('#code').val();
         if (code.length < 6) {
@@ -79,15 +79,15 @@ $(()=> {
             beforeSend : function(xhr){
                 xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
             },
-            error: (xhr) => {
+            error: () => {
                 showAlert("서버와의 통신에 실패했습니다", false);
                 hideLoading();
             },
             success: function(xhr) {
                 console.log(xhr);
-                if(xhr == 'failure') {
+                if(xhr === 'failure') {
                     showAlert("인증 코드가 올바르지 않습니다", false);
-                } else if(xhr == 'ok') {
+                } else if(xhr === 'ok') {
                     showAlert("이메일 인증이 완료되었습니다",true);
                     $('#verify-code').attr("disabled",true);
                     $('#code').attr("readonly",true); 
@@ -99,7 +99,7 @@ $(()=> {
     });
 
     $('#password_comfirm').on('change keyup paste',()=> {
-        if(isEmailConfirmed && $('#password_comfirm').val().length>=8) {
+        if(isEmailConfirmed && $('#password_confirm').val().length>=8) {
             $('#submit_register').attr("disabled",false);
         } else {
             $('#submit_register').attr("disabled",true);
@@ -111,11 +111,11 @@ $(()=> {
         let pw = $('#reg_password').val();
         let pwConfirm = $('#password_comfirm').val();
 
-        if (userName=='') {
+        if (userName==='') {
             showAlert("닉네임을 입력해주세요", false);
             return;
         }
-        if ((pw=='' && pwConfirm=='') || (pw != pwConfirm)) {
+        if ((pw==='' && pwConfirm==='') || (pw !== pwConfirm)) {
             showAlert("비밀번호가 일치하지 않습니다", false);
             return;
         }
@@ -134,7 +134,7 @@ $(()=> {
             beforeSend : function(xhr){
                 xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
             },
-            error: (xhr) => {
+            error: () => {
                 showAlert("서버와의 통신에 실패했습니다", false);
                 hideLoading();
             },
@@ -142,7 +142,7 @@ $(()=> {
                 console.log(xhr);
                 if(['email_verification_not_completed','id_or_email_duplicated'].includes(xhr)) {
                     showAlert("잘못된 요청입니다", false);
-                } else if(xhr == 'success') {
+                } else if(xhr === 'success') {
                     alert('회원가입이 완료되었습니다.');
                     window.open('./login.html','_self');
                 }
@@ -164,18 +164,17 @@ $(()=> {
             beforeSend : function(xhr){
                 xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
             },
-            error: (xhr) => {
+            error: () => {
                 showAlert("서버와의 통신에 실패했습니다.");
                 hideLoading();
             },
             success: function(xhr) {
                 hideLoading();
                 console.log(xhr);
-                if(xhr=='failure') {
+                if(xhr==='failure') {
                     showAlert();
                 } else {
-                    let accessToken = xhr;
-                    Cookies.set(ACCESS_TOKEN_KEY,accessToken);
+                    Cookies.set(ACCESS_TOKEN_KEY,xhr);
                     window.open('./main.html','_self');
                 }
             }
@@ -183,7 +182,7 @@ $(()=> {
     }
 
     function validateEmail(email) {
-        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(String(email).toLowerCase());
     }
 
@@ -203,7 +202,7 @@ $(()=> {
 
     function showAlert(alertText="ID나 비밀번호가 다릅니다.",isSuccess=false) {
         let overlay = $('.overlay.error');
-        if(overlay.css('display')!='none') { // 초기화
+        if(overlay.css('display')!=='none') { // 초기화
             overlay.css("display", "none").removeClass('slideAnimDown').removeClass('slideAnimUp');
             clearTimeout(timeOut);
         }

@@ -6,7 +6,7 @@
 }
 
 html, body {
-    margin: 0px;
+    margin: 0;
 }
 
 a {
@@ -83,6 +83,7 @@ a {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    user-select: none;
 }
 
 .prevent_drag.menulayout, .prevent_drag.searchlayout {
@@ -95,7 +96,7 @@ a {
     left: 15%;
     z-index: 10;
     border: 1px solid black;
-    border-top: 0px !important;
+    border-top: 0 !important;
     display: none;
 }
 
@@ -162,6 +163,21 @@ li {
     width: 100%;
 }
 
+.tab.login, .tab.logout {
+    border-radius: 17px;
+    border: 2px solid white;
+    width: 120px;
+    height: 34px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.tab.login, .tab.logout :hover {
+    background-color: white;
+}
+
 @media (max-width: 600px) {
     /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
     #main {
@@ -170,7 +186,7 @@ li {
 
     #main #contents {
         margin-bottom: 10px;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     #main #sidebar {

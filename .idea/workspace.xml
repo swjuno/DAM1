@@ -2,32 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/stocks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DAM1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DAM1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ara_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/bootstrap.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/DAM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/DAMcreatorsintro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/board.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/free_board.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/intro_membership.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/intro_site.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/login_demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mem_profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/notice_board.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/notice_post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/privacy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/register_agreement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/register_email.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/register_email_confirm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/register_password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/register_phonenumber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/Python/graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/searching.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/searching.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/boostrap/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ckeditor/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/boostrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/boostrap/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +104,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="ts.external.directory.path" value="D:\DAM1\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="ts.external.directory.path" value="C:\Users\moonm\GithubProjects\DAM1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -203,6 +219,13 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -226,6 +249,12 @@
       <workItem from="1610839649213" duration="4893000" />
       <workItem from="1610855823511" duration="8018000" />
       <workItem from="1610970280951" duration="319000" />
+      <workItem from="1611837398903" duration="195000" />
+      <workItem from="1611837605276" duration="124000" />
+      <workItem from="1611837740936" duration="153000" />
+      <workItem from="1611925795365" duration="940000" />
+      <workItem from="1613844079352" duration="6669000" />
+      <workItem from="1613891042481" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1610970400344</created>
@@ -255,6 +284,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Setup bootstrap and update login page design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup bootstrap and update login page design" />
   </component>
 </project>

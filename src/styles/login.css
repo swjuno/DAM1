@@ -3,17 +3,17 @@
 /* BASIC */
 
 html {
-  background-color: #f5e9ba;
+  background-color: #dddddd;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  margin: 0px;
+  margin: 0;
 }
 
 a {
-  color: #f6d34d;
+  color: #0d0d0d;
   display:inline-block;
   text-decoration: none;
   font-weight: 400;
@@ -48,7 +48,7 @@ h2 {
 
 .overlay.loading {
     background-color: #00000060;
-    border-radius: 1%;
+    border-radius: 25px;
     justify-content: center;
     flex-direction: column;
 }
@@ -74,13 +74,12 @@ h2 {
 
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 25px;
   background: #fff;
-  padding: 30px;
   width: 90%;
   max-width: 450px;
   position: relative;
-  padding: 0px;
+  padding: 0;
   -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   text-align: center;
@@ -92,7 +91,7 @@ h2 {
   padding: 25px;
   text-align: center;
   -webkit-border-radius: 0 0 10px 10px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 25px 25px;
 }
 
 .email-wrapper{
@@ -122,13 +121,13 @@ h2.inactive {
 
 h2.active {
   color: #0d0d0d;
-  border-bottom: 2px solid #f6d34d;
+  border-bottom: 2px solid #92fdfa;
   cursor: default;
 }
 
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #f6d34d;
+  background-color: #5ac6bc;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -159,7 +158,7 @@ input[type=button]:disabled:hover, input[type=submit]:disabled:hover, input[type
 }
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-  background-color: #f6d34d;
+  background-color: #64E8DB;
 }
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
@@ -172,7 +171,6 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
 
 input[type=text], input[type=password] {
   background-color: #ebebeb;
-  border: none;
   color: #0d0d0d;
   padding: 15px 32px;
   text-align: center;
@@ -191,12 +189,13 @@ input[type=text], input[type=password] {
   border-radius: 5px 5px 5px 5px;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus {
+  color: #0d0d0d;
   background-color: #fff;
   border-bottom: 2px solid #f6d34d;
 }
 
-input[type=text]:placeholder {
+input[type=text]::placeholder, input[type=password]::placeholder {
   color: #cccccc;
 }
 
@@ -211,13 +210,13 @@ input[type=text]:placeholder {
 }
 
 @keyframes slideDown {
-    from { margin-top: -50px; opacity: 0%;}
-    to { margin-top: 0px;opacity: 100%;}   
+    from { margin-top: -50px; opacity: 0;}
+    to { margin-top: 0;opacity: 100%;}
 }
 
 @keyframes slideUp {
-    from { margin-top: 0px;opacity: 100%;}
-    to { margin-top: -50px;opacity: 0%;}   
+    from { margin-top: 0;opacity: 100%;}
+    to { margin-top: -50px;opacity: 0;}
 }
 
 @-webkit-keyframes fadeInDown {
@@ -326,7 +325,7 @@ input[type=text]:placeholder {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #caae3b;
+  background-color: #FFEE95;
   content: "";
   transition: width 0.2s;
 }

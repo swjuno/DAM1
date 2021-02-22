@@ -39,13 +39,15 @@
 </div>
 <div class="prevent_drag menulayout">
     <div id="menu_profile">
-        <img src="./images/guest_img.png" style="border-radius: 50%; height: 100px; width: 100px;">
-        <div id="username" style="font-size: 40px;">
+        <div id="image-wrapper">
+            <img src="./images/guest_img.png">
+        </div>
+        <div id="username">
             GUEST
         </div>
-        <div style="font-size: 20px;">
-            프로필 보기
-        </div>
+        <a id="button-profile" href="./profile.html">
+            프로필 수정
+        </a>
     </div>
     <div id="menu_list_wrapper">
         <div id="menu_profile_divider"></div>
@@ -63,10 +65,12 @@
 </div>
 <div class="prevent_drag searchlayout">
     <div style="margin-left: auto;margin-right: auto;max-width: 650px;margin-top: 60px;">
-        <input type="text" id="search-input">
-        <button type="button" id="button-search">검색</button>
-        <div style="display: flex">
-            <span style="font-size: 20px;font-weight: 900;border-right: 2px solid black;padding: 30px;padding-top: 0 !important;padding-bottom: 0 !important;margin-top: 10px;margin-left: 10px;">추천 검색어</span>
+        <div id="search-wrapper">
+            <input type="text" id="search-input">
+            <button type="button" id="button-search">검색</button>
+        </div>
+        <div style="display: flex; justify-content: center">
+            <span style="font-size: 20px;white-space:nowrap;font-weight: 900;border-right: 2px solid black;padding: 30px;padding-top: 0 !important;padding-bottom: 0 !important;margin-top: 10px;margin-left: 10px;">추천</span>
             <span class="text-recommendation">#비X컴X터</span>
             <span class="text-recommendation">#엑X스X이X</span>
             <span class="text-recommendation">#대한과학</span>
@@ -75,7 +79,7 @@
     <div style="display: flex">
         <div style="width: 50%;margin-left: auto;margin-right: auto;margin-top: 50px;">
             <div style="border-bottom: 1px solid black;padding-bottom: 7px;margin-left: auto;margin-right: auto;max-width: 200px;">
-                <span style="font-weight: 900;font-size: 20px;">이번 주 추천 종목</span>
+                <span style="font-weight: 900;font-size: 20px;white-space:nowrap;">이번 주 추천 종목</span>
                 <span style="float: right;font-weight: 700;font-size: 35px;cursor: pointer;margin-top: -10px;">+</span>
             </div>
             <div style="margin-left: auto;margin-right: auto;max-width: 200px;">

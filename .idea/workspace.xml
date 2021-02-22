@@ -1,17 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="Update header/footer and main page">
-      <change afterPath="$PROJECT_DIR$/src/images/ic_search_yellow.svg" afterDir="false" />
+    <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="Make header/footer and main page responsive">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAMcreatorsintro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/ic_search_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/ic_search_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/search_coloredimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/search_img.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intro_membership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intro_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login_demo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mem_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register_agreement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register_email_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register_phonenumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stocks_search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/new_post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/new_post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +75,7 @@
       <list>
         <option value="Flask Main" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,11 +114,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/@types/jquery/JQuery.d.ts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +128,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="ts.external.directory.path" value="C:\Users\moonm\GithubProjects\DAM1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -82,7 +137,7 @@
       <recent name="D:\DAM1\src\html" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Live Edit">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="DAM1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +158,9 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Live Edit" type="JavascriptDebugType" uri="http://localhost:63342/DAM1/src/main.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -195,6 +253,9 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Live Edit" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -223,7 +284,8 @@
       <workItem from="1611837740936" duration="153000" />
       <workItem from="1611925795365" duration="940000" />
       <workItem from="1613844079352" duration="6669000" />
-      <workItem from="1613891042481" duration="25614000" />
+      <workItem from="1613891042481" duration="26238000" />
+      <workItem from="1613974115090" duration="12445000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1610970400344</created>
@@ -253,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613910673382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Make header/footer and main page responsive">
+      <created>1613926150880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613926150880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +346,7 @@
     <MESSAGE value="Setup bootstrap and update login page design" />
     <MESSAGE value="Redesign header/footer and main page" />
     <MESSAGE value="Update header/footer and main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update header/footer and main page" />
+    <MESSAGE value="Make header/footer and main page responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make header/footer and main page responsive" />
   </component>
 </project>

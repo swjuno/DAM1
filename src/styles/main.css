@@ -83,16 +83,6 @@ nav ul {
     color: white;
 }
 
-.dropbtn {
-    padding: 15px;
-    cursor: pointer;
-    position: relative;
-    top: 18px;
-    text-align: right;
-    text-decoration: none;
-    color: white;
-}
-
 .button:hover {
     opacity: 0.5;
 }
@@ -100,57 +90,6 @@ nav ul {
 .button:active {
     box-shadow: 0 3px #dfdf;
     transform: translateY(4px);
-}
-
-.button {
-    background-color: black;
-    display: inline-block;
-    height: 32px;
-    width: 120px;
-    padding: 1px 15px;
-    margin: 1px;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0 4px #dfdfdf;
-    color: white;
-    font-size: 15px;
-    font-family: 'Noto Sans KR', serif;
-    font-weight: bolder;
-    transition: 0.3s;
-}
-
-.homebutton:hover {
-    opacity: 0.5;
-}
-
-.homebutton:active {
-    box-shadow: 0 3px #dfdf;
-    transform: translateY(4px);
-}
-
-.homebutton {
-    background-color: white;
-    display: inline-block;
-    height: 32px;
-    width: 120px;
-    padding: 1px 15px;
-    margin: 1px;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0 4px #dfdfdf;
-    color: black;
-    font-size: 15px;
-    font-family: 'Noto Sans KR', serif;
-    font-weight: bolder;
-    transition: 0.3s;
 }
 
 /* 드롭다운 메뉴... */

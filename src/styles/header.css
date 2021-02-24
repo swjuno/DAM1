@@ -1,3 +1,6 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 @font-face {
     font-family: 'MaruBuri-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
@@ -190,6 +193,41 @@ a {
     display: flex
 }
 
+#hidden-profile {
+    display: none;
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#hidden-profile > div {
+    height: 50px;
+    margin: auto;
+    padding-right: 10px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(100,232,219,1) 0%, rgba(255,238,149,1) 65%);
+    display: inline-table;
+    text-align: center;
+    font-weight: 300;
+}
+
+#hidden-profile > div > img {
+    width: 44px;
+    height: 44px;
+    margin: 3px 3px 0 3px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(100,232,219,1) 0%, rgba(255,238,149,1) 65%);
+    display: inline-block;
+}
+
+#hidden-profile > div > span {
+    top: 0;
+    display: inline;
+    margin-top: 15px;
+    margin-left: 5px;
+    float: right;
+}
+
 #menu_profile_divider {
     height: 80%;
     background-color: #888888;
@@ -315,6 +353,10 @@ li {
         display: flex
     }
 
+    #hidden-profile {
+        display: flex;
+    }
+
     .menu_content {
         padding: 7% 15% 7% 15%;
         display: flex;
@@ -322,7 +364,7 @@ li {
         justify-content: center;
         flex-direction: column;
         font-size: 25px;
-        font-weight: 800;
+        font-weight: 300;
         width: 50%;
     }
 }

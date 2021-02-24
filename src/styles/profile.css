@@ -59,13 +59,18 @@ body > .content {
     margin-top: 30px;
     padding-left: 90px;
     padding-right: 90px;
+    margin-bottom: 200px;
     height: 500px;
 }
 
 #info-table {
-    width: 100%;
-    margin-top: 10px;
+    width: 70%;
+    margin: 10px 15% 0;
     border-spacing: 5px 15px;
+}
+
+#info-table > tr > td {
+    text-align: left;
 }
 
 .button-regular {
@@ -90,7 +95,7 @@ body > .content {
     width: 100px;
     float: right;
     margin-right: 5px;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 #button-change-pw:hover {
@@ -100,6 +105,7 @@ body > .content {
 .title {
     font-size: 25px;
     font-weight: 450;
+    margin-left: 15%;
 }
 
 @media (max-width: 650px) {
@@ -111,8 +117,43 @@ body > .content {
         z-index: -1;
         margin-right: 0;
         margin-left: 0;
-        margin-top: 250px;
+        margin-top: 200px;
         border-radius: 25px;
         position: absolute;
+    }
+
+    #profile-wrapper > #image {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        margin: 50px auto 0;
+        background: linear-gradient(90deg, rgba(100,232,219,1) 0%, rgba(255,238,149,1) 65%);
+    }
+
+    #profile-wrapper > #image > img {
+        width: 93%;
+        height: 93%;
+        margin-top: 5px;
+        border-radius: 100px;
+    }
+
+    #info {
+        width: 100%;
+        margin: 30px 0 200px;
+        padding-left: 0;
+        padding-right: 0;
+        height: 350px;
+    }
+}
+
+@media (max-width: 830px) and (min-width: 650px) {
+    #info {
+        width: calc(90% - 180px);
+        margin-left: 5%;
+        margin-top: 30px;
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-bottom: 200px;
+        height: 500px;
     }
 }

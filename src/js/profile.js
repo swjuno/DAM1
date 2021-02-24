@@ -4,7 +4,9 @@ $(()=>{
     /*
      * 유저 정보 쿠키로부터 로드 후 적용
      */
-    $("#name").text(parseJwt(accessToken).name)
+    const userName = parseJwt(accessToken).name
+    $("#name").text(userName)
+    $("#t-name").text(userName)
     $("#userid").text(parseJwt(accessToken).id)
     
     /*

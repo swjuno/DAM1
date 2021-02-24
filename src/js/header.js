@@ -41,7 +41,12 @@ $(()=> {
             $('.tab.login').css('display','none');
             $('.tab.logout').css('display','block');
 
-            $('#username').text(parseJwt(accessToken).name); // 토큰 복호화 & 유저 이름 불러오기
+            /*
+             * 토큰 복호화 & 유저 이름 불러오기
+             */
+            const userName = parseJwt(accessToken).name
+            $('#username')                   .text(userName); // pc 화면
+            $('#hidden-profile > div > span').text(userName); // 모바일 화면
         }
         $(`.tab.logout`).on('click',()=> {
             let accessToken = Cookies.get(ACCESS_TOKEN_KEY);

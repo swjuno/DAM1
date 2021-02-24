@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="Make header/footer and main page responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +237,6 @@
       <workItem from="1613891042481" duration="26238000" />
       <workItem from="1613974115090" duration="20557000" />
       <workItem from="1614061302657" duration="10545000" />
-      <workItem from="1614146739354" duration="6063000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1610970400344</created>

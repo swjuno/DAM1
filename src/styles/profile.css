@@ -53,21 +53,48 @@ body > .content {
     text-align: center;
 }
 
-#activity {
-    display: inline-block;
-    width: calc(35% - 30px);
+#info {
+    width: calc(70% - 180px);
     margin-left: 15%;
     margin-top: 30px;
-    padding-left: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
     height: 500px;
 }
 
-#info {
+#info-table {
+    width: 100%;
+    margin-top: 10px;
+    border-spacing: 5px 15px;
+}
+
+.button-regular {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
     display: inline-block;
-    width: calc(35% - 30px);
-    margin-top: 30px;
-    padding-left: 30px;
-    height: 500px;
+    background-color: #FFEE95 !important;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#button-change-pw {
+    width: 100px;
+}
+
+#button-apply {
+    width: 100px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 150px;
+}
+
+#button-change-pw:hover {
+    background-color: #ffe761 !important;
 }
 
 .title {

@@ -5,65 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0768e6-76c7-441f-b407-869a0ed7c47e" name="Default Changelist" comment="Make header/footer and main page responsive">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/stock_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/stock_search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DAM1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DAM1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAMcreatorsintro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intro_membership.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intro_site.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login_demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mem_profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register_agreement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register_email.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register_email_confirm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register_password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register_phonenumber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stocks_search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/new_post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/new_post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/profile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +30,7 @@
       <list>
         <option value="Flask Main" />
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -117,10 +73,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/@types/jquery/JQuery.d.ts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -285,7 +241,8 @@
       <workItem from="1611925795365" duration="940000" />
       <workItem from="1613844079352" duration="6669000" />
       <workItem from="1613891042481" duration="26238000" />
-      <workItem from="1613974115090" duration="12445000" />
+      <workItem from="1613974115090" duration="20557000" />
+      <workItem from="1614061302657" duration="10545000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1610970400344</created>
@@ -322,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613926150880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Drop unused files">
+      <created>1613999283621</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613999283621</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +311,7 @@
     <MESSAGE value="Redesign header/footer and main page" />
     <MESSAGE value="Update header/footer and main page" />
     <MESSAGE value="Make header/footer and main page responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make header/footer and main page responsive" />
+    <MESSAGE value="Drop unused files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drop unused files" />
   </component>
 </project>

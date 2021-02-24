@@ -7,6 +7,7 @@
         
         <script src="./js/const.js"></script>
         <script src="./js/login.js"></script>
+        <script src="./js/params.js"></script>
         <style>
             * {
                 font-family: 'Noto Sans KR';
@@ -15,20 +16,6 @@
         <title>ARA 아라 - 로그인</title>
     </head>
     <body>
-        <script type="text/javascript">  
-            let getParams = function(key){
-                const params = {};
-                document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
-                    function decode(s) {
-                        return decodeURIComponent(s.split("+").join(" "));
-                    }
-
-                    params[decode(arguments[1])] = decode(arguments[2]);
-                });
-        
-                return params[key];
-            };
-        </script>  
         <div class="wrapper fadeInDown">
             <div id="formContent">
                 <div class="overlay loading">

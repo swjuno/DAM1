@@ -21,6 +21,15 @@ $(()=> {
             searchLayout.slideToggle(200);
         });
 
+        $("#button-search").on('click',()=> {
+            console.log("click");
+            const searchName = $("#search-input").val();
+            console.log(searchName);
+            if (searchName.replace(/\s/g,"") === "") return
+
+            window.open('./stock_search.html?corpname='+encodeURI(searchName),'_self');
+        })
+
         let accessToken = Cookies.get(ACCESS_TOKEN_KEY); // 로그인 확인
         if([undefined,null].includes(accessToken)) { // 로그인 토큰 미존재시
             if(![undefined,null].includes($('#welcome-new-user'))) {
@@ -69,14 +78,14 @@ $(()=> {
             this.hamburgerIcon.classList.toggle("hamburger-icon--close");
         }
     }
-
-    function parseJwt (token) {
-        let base64Url = token.split('.')[1];
-        let base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-        let jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
-            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-        }).join(''));
-    
-        return JSON.parse(jsonPayload);
-    }
 });
+
+function parseJwt (token) {
+    let base64Url = token.split('.')[1];
+    let base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    let jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+    }).join(''));
+
+    return JSON.parse(jsonPayload);
+}

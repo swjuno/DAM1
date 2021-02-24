@@ -8,7 +8,6 @@ xmlns:v-bind="http://www.w3.org/1999/xhtml">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="shortcut icon" type="image/x-icon" href="./images/favicon_icon-removebg.png"/>
      <link href="./styles/profile.css" rel="stylesheet" type="text/css" />
-     <script src="./js/profile.js" type="text/javascript" defer></script>
      <style>
           * {
                font-family: 'Noto Sans KR';
@@ -20,11 +19,12 @@ xmlns:v-bind="http://www.w3.org/1999/xhtml">
 
      <script src="./js/const.js"></script>
      <script src="./js/header.js"></script>
+     <script src="./js/profile.js" type="text/javascript"></script>
 </head>
       <body>
            <header class="header"></header>
-
            <div class="content">
+                <div id="background"></div>
                 <div id="profile-wrapper">
                      <div id="image">
                           <img src="./images/guest_img.png">
@@ -32,9 +32,15 @@ xmlns:v-bind="http://www.w3.org/1999/xhtml">
                      <div id="name">
                           GUEST
                      </div>
-                     <div id="email">
-                          moonmk10221@gmail.com
+                     <div id="userid">
+                          moonmk1022
                      </div>
+                </div>
+                <div id="activity">
+                     <div class="title">내 활동</div>
+                </div>
+                <div id="info">
+                     <div class="title">내 정보</div>
                 </div>
            </div>
 

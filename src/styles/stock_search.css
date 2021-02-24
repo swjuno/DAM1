@@ -1,0 +1,55 @@
+#info-wrapper {
+    display: flex;
+    height: 500px;
+}
+
+#curve_chart {
+    width: 60%;
+    height: 100%
+}
+
+#stock_info > div {
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    top : 70px; right: 40px;
+}
+
+#stock_info > div > div {
+    margin: 15px;
+    width: 100px;
+}
+
+#corp {
+    display: flex;
+}
+
+#corp > div > #name {
+    font-size: 35px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+#corp > div > #krx {
+    color: #909090;
+}
+
+#corp > #logo {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+}
+
+#news {
+    border-radius: 10px;
+    width: 35%;
+    height: 700px;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+#news > iframe {
+    border: none;
+}

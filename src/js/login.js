@@ -98,7 +98,7 @@ $(()=> {
         });
     });
 
-    $('#password_comfirm').on('change keyup paste',()=> {
+    $('#password_confirm').on('change keyup paste',()=> {
         if(isEmailConfirmed && $('#password_confirm').val().length>=8) {
             $('#submit_register').attr("disabled",false);
         } else {
@@ -109,7 +109,7 @@ $(()=> {
     $('#submit_register').on('click',()=> {
         let userName = $('#nickname').val();
         let pw = $('#reg_password').val();
-        let pwConfirm = $('#password_comfirm').val();
+        let pwConfirm = $('#password_confirm').val();
 
         if (userName==='') {
             showAlert("닉네임을 입력해주세요", false);
